@@ -1,0 +1,67 @@
+Internet, AI product writing, and large language model vocabulary practice.
+
+Listen first. Then repeat after each expression and sentence.
+
+1. Reason.
+Reason means to analyze information through logical steps before reaching a conclusion.
+Advanced models can reason through complex tasks instead of only matching patterns.
+
+2. Infer.
+Infer means to reach a conclusion from limited evidence or indirect clues.
+The system can infer user intent from previous messages and task context.
+
+3. Detect.
+Detect means to identify whether an object, signal, or pattern is present.
+The classifier can detect unsafe content before the response is shown to users.
+
+4. Deliver.
+Deliver means to produce, achieve, or bring a measurable result.
+The new model delivers stronger coding performance on long-horizon tasks.
+
+5. Coupled with.
+Coupled with means used together with another component to create a stronger overall system.
+Coupled with a retrieval layer, the model can answer domain-specific questions more reliably.
+
+6. Integrated with.
+Integrated with means deeply built into another system or workflow.
+The assistant is integrated with the company's internal search and documentation tools.
+
+7. Demanding.
+Demanding means requiring high performance, reliability, resources, or effort.
+Enterprise AI systems must handle demanding workloads with stable latency.
+
+8. On the fly.
+On the fly means generated or changed immediately during runtime.
+The application builds custom summaries on the fly based on each user's query.
+
+9. Claim.
+A claim is a statement, hypothesis, or conclusion that an evaluation is designed to test.
+The evaluation setup should clearly specify which claim it is testing.
+
+10. Valid evidence.
+Valid evidence is evidence that meaningfully supports a conclusion or evaluation result.
+Useful reports explain why the available evidence is valid for the claim being tested.
+
+11. Regression.
+A regression is a new failure or performance drop introduced by a recent change.
+The team ran evaluation tests to detect regressions before releasing the model.
+
+12. Mitigation.
+Mitigation refers to actions that reduce risk, harm, or failure impact.
+The paper proposes several mitigation strategies for hallucination in generated answers.
+
+13. Compliance.
+Compliance means following legal, security, privacy, or organizational requirements.
+AI systems in regulated industries must support compliance audits.
+
+14. Redaction.
+Redaction removes or masks sensitive information from text or documents.
+The pipeline applies redaction before sending user data to the model.
+
+15. Deduplication.
+Deduplication removes duplicate records, documents, or examples from a dataset.
+Dataset deduplication can reduce memorization and improve training efficiency.
+
+Practice task.
+Translate five Chinese sentences into English.
+Use deliver, coupled with, integrated with, compliance, and deduplication.

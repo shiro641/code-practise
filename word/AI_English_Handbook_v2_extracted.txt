@@ -1,0 +1,142 @@
+
+
+--- Page 1 ---
+AI 英语核心词汇手册 v2
+面向 AI、Agent、Infrastructure、产品与商业阅读
+
+
+
+--- Page 2 ---
+AI & LLM
+semantic
+中文释义：语义的
+英文例句：Semantic search understands meaning rather than keywords.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+personalized
+中文释义：个性化的
+英文例句：The assistant provides personalized recommendations.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+ultimately
+中文释义：归根结底
+英文例句：Ultimately, user value determines product success.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+precisely
+中文释义：精确地
+英文例句：The response is precisely tailored to the user.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+obeys
+中文释义：遵循
+英文例句：The model obeys system instructions.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+
+
+
+--- Page 3 ---
+Agent & Harness
+proactive
+中文释义：主动的
+英文例句：A proactive agent identifies problems early.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+acceptance criteria
+中文释义：验收标准
+英文例句：The task is complete when all acceptance criteria are met.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+preserve
+中文释义：保持
+英文例句：Preserve existing behavior during refactoring.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+staleness
+中文释义：陈旧性
+英文例句：Memory staleness may cause incorrect decisions.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+implementation-specific
+中文释义：由实现决定
+英文例句：Behavior may be implementation-specific.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+
+
+
+--- Page 4 ---
+Infrastructure & Cloud
+infrastructure
+中文释义：基础设施
+英文例句：AI infrastructure requires GPUs, storage and networking.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+at infrastructure scale
+中文释义：基础设施级规模
+英文例句：Operate reliably at infrastructure scale.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+gigawatt
+中文释义：吉瓦
+英文例句：Large AI datacenters may require gigawatts of power.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+energy
+中文释义：能源
+英文例句：Energy is a major constraint for AI growth.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+quantum
+中文释义：量子
+英文例句：Researchers are exploring quantum computing.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+
+
+
+--- Page 5 ---
+Business & Product
+revenue
+中文释义：营收
+英文例句：The company's revenue is growing rapidly.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+startups
+中文释义：创业公司
+英文例句：Many AI startups are building agents.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+critical
+中文释义：关键的
+英文例句：Reliability is critical for enterprise adoption.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+dedicated
+中文释义：专用的；专注的
+英文例句：A dedicated team maintains the platform.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+climate
+中文释义：气候
+英文例句：Climate technology is becoming increasingly important.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+
+
+
+--- Page 6 ---
+Product UI
+widgets
+中文释义：小组件
+英文例句：Search can generate interactive widgets.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+debuting
+中文释义：首次发布
+英文例句：The feature is debuting this year.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+unveiled
+中文释义：正式发布
+英文例句：Google unveiled new AI capabilities.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+leverages
+中文释义：利用
+英文例句：The platform leverages existing infrastructure.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+pulse
+中文释义：动态；状态
+英文例句：Keep a pulse on system health.
+阅读提示：关注其在 OpenAI、Google、Anthropic 技术文章中的实际语境。
+
+
+
+--- Page 7 ---
+高频对比总结
+Ultimately = 归根结底；In conclusion = 总结一下
+Revenue = 营收；Profit = 利润
+Prioritize = 决定优先级；Optimize = 优化
+Semantic = 含义；Syntax = 形式
+Personalized = 自动个性化；Customized = 用户定制
+Reactive = 被动响应；Proactive = 主动行动
+Debut = 首次亮相；Launch = 上线；Unveil = 公布

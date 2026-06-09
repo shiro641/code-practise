@@ -1,0 +1,67 @@
+Internet and large language model vocabulary practice.
+
+Listen first. Then repeat after each word and sentence.
+
+1. Orchestration.
+Orchestration coordinates multiple tools, models, and services in a complex AI workflow.
+Agent orchestration is important when a system needs planning, retrieval, and tool use.
+
+2. Observability.
+Observability helps engineers understand what happens inside a production system.
+Good observability includes logs, traces, metrics, and model output monitoring.
+
+3. Telemetry.
+Telemetry collects runtime data from systems so teams can monitor behavior and performance.
+Model telemetry can reveal latency spikes, failure patterns, and unusual user requests.
+
+4. Drift.
+Drift occurs when production data changes over time and no longer matches training data.
+Data drift can reduce model accuracy after deployment.
+
+5. Regression.
+A regression is a new failure or performance drop introduced by a recent change.
+The team ran evaluation tests to detect regressions before releasing the model.
+
+6. Mitigation.
+Mitigation refers to actions that reduce risk, harm, or failure impact.
+The paper proposes several mitigation strategies for hallucination in generated answers.
+
+7. Compliance.
+Compliance means following legal, security, privacy, or organizational requirements.
+AI systems in regulated industries must support compliance audits.
+
+8. Redaction.
+Redaction removes or masks sensitive information from text or documents.
+The pipeline applies redaction before sending user data to the model.
+
+9. Deduplication.
+Deduplication removes duplicate records, documents, or examples from a dataset.
+Dataset deduplication can reduce memorization and improve training efficiency.
+
+10. Normalization.
+Normalization converts data into a consistent format before processing or training.
+Text normalization can improve search quality and reduce noisy variations.
+
+11. Ablation.
+An ablation study removes or changes one component to measure its contribution.
+The paper includes an ablation analysis of the retrieval module.
+
+12. Objective.
+The training objective defines what the model is optimized to learn.
+Researchers modified the objective to improve instruction following.
+
+13. Grounding.
+Grounding connects a model's output to reliable sources or observable evidence.
+Retrieval can improve grounding by supplying relevant documents before generation.
+
+14. Calibration.
+Calibration measures whether predicted confidence matches actual correctness.
+Well-calibrated models are important in high-risk decision systems.
+
+15. Hallucination.
+Hallucination occurs when a model generates information that is unsupported or false.
+Evaluation should measure hallucination rates in open-ended generation tasks.
+
+Practice task.
+Write five short sentences about monitoring a production large language model system.
+Use observability, telemetry, drift, mitigation, and grounding.

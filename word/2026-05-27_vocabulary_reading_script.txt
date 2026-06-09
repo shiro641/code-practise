@@ -1,0 +1,66 @@
+Internet and large language model vocabulary practice.
+
+Listen first. Then repeat after each word and sentence.
+
+1. Tokenization.
+Tokenization converts raw text into smaller units that a language model can process.
+Different tokenization strategies can affect model performance and cost.
+
+2. Embedding.
+An embedding represents text as a dense vector in a high-dimensional space.
+Semantic search often relies on embeddings to compare the meaning of documents.
+
+3. Context window.
+The context window limits how much text a model can consider at one time.
+A larger context window allows the model to process longer documents.
+
+4. Retrieval.
+Retrieval improves answers by finding relevant external information before generation.
+The system uses retrieval to ground responses in trusted documentation.
+
+5. Augmentation.
+Data augmentation can improve robustness by creating varied training examples.
+Retrieval augmentation helps the model use fresh or domain-specific knowledge.
+
+6. Pretraining.
+Pretraining exposes a model to large amounts of general text before task-specific adaptation.
+The paper describes a new pretraining method for multilingual language models.
+
+7. Supervision.
+Human supervision is used to label examples and evaluate model outputs.
+Weak supervision can reduce the cost of building large training datasets.
+
+8. Distillation.
+Distillation transfers knowledge from a larger model to a smaller model.
+Model distillation can reduce inference latency while preserving accuracy.
+
+9. Calibration.
+Calibration measures whether predicted confidence matches actual correctness.
+Well-calibrated models are important in high-risk decision systems.
+
+10. Hallucination.
+Hallucination occurs when a model generates information that is unsupported or false.
+Evaluation should measure hallucination rates in open-ended generation tasks.
+
+11. Latency.
+Reducing latency is critical for real-time inference.
+The new cache layer significantly improves latency.
+
+12. Inference.
+Inference costs become substantial at production scale.
+The model performs inference on edge devices.
+
+13. Benchmark.
+The model outperforms previous systems on several benchmarks.
+Benchmarks help evaluate progress in large language models.
+
+14. Alignment.
+Model alignment remains a central challenge in AI safety.
+Human feedback is often used to improve alignment.
+
+15. Deployment.
+Deployment requires monitoring, rollback, and security controls.
+The team simplified model deployment with containerization.
+
+Practice task.
+Use tokenization, embedding, retrieval, hallucination, and calibration to explain one large language model workflow in five sentences.

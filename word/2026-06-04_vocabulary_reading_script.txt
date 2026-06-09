@@ -1,0 +1,80 @@
+Internet, AI evaluation, and long-sentence translation practice.
+
+Vocabulary and expression practice.
+
+1. Evaluation content.
+Evaluation content refers to the tasks, task distribution, skills, behaviors, and failure modes included in an evaluation.
+Reports should describe evaluation content so readers can judge whether the tasks support the claim.
+
+2. Budget.
+Budget refers to the resources allowed during evaluation, such as tokens, turns, retries, time, and inference cost.
+The measured result can change substantially when the evaluation budget increases.
+
+3. Maximum elicitation.
+Maximum elicitation means using the strongest credible setup within a defined budget to draw out a capability or failure mode.
+Maximum elicitation is useful when the goal is to estimate what a system can plausibly do.
+
+4. Safeguard.
+A safeguard is a protective mechanism such as a filter, monitor, blocker, or policy layer around a model.
+Safeguards should be tested against realistic attacks rather than only simple prompts.
+
+5. Threat model.
+A threat model defines the attacker, resources, goals, and constraints assumed in a security analysis.
+Without a clear threat model, it is hard to interpret the severity of a successful attack.
+
+6. Adversary model.
+An adversary model describes the capabilities and resources of the attacker being considered.
+Safeguard testing should match the relevant adversary model.
+
+7. Exploit.
+Exploit means to take advantage of a weakness, shortcut, or vulnerability.
+A model may exploit a scoring rule without demonstrating the intended behavior.
+
+8. Shortcut.
+A shortcut is an unintended path that allows a system to get credit without solving the real task.
+Reward hacking often happens when a model finds a shortcut in the task or scorer.
+
+9. Disqualify.
+Disqualify means to exclude a result or apparent success because it does not meet the evaluation criteria.
+Evaluators may disqualify apparent successes that rely on reward hacking.
+
+10. Subject to security or confidentiality concerns.
+Subject to security or confidentiality concerns means limited by safety or privacy restrictions.
+Reports should provide useful detail, subject to security or confidentiality concerns.
+
+11. Go beyond the available evidence.
+Go beyond the available evidence means to make a claim that is stronger than the evidence can support.
+Trustworthy reports avoid conclusions that go beyond the available evidence.
+
+12. Overinterpret benchmark results.
+Overinterpret benchmark results means to draw conclusions that are broader than the benchmark supports.
+Readers may overinterpret benchmark results when the tested system is not clearly described.
+
+13. Lower-bound estimate.
+A lower-bound estimate is a conservative estimate that may be below the system's true capability.
+If performance improves with more budget, the result may only be a lower-bound estimate.
+
+14. Account for data contamination.
+Account for data contamination means to include contamination as a factor when interpreting results.
+Evaluators should account for data contamination before interpreting high scores.
+
+15. Measured success rate.
+Measured success rate is the observed percentage of tasks completed successfully under a specific setup.
+Changing the harness may materially affect the measured success rate.
+
+Long sentence translation practice.
+
+1. Independent third-party evaluations can provide additional evidence for claims about frontier-model capabilities and safety mitigations, but the report still needs to explain what those results validly support.
+
+2. If performance continues to improve as budget increases, the score should be interpreted as performance under that setup rather than as a measured capability ceiling.
+
+3. Safeguard testing can understate whether an attack can succeed when it fails to account for the resources and custom harnesses available to realistic attackers.
+
+4. Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior or are distorted by known hazards.
+
+5. A model that is less likely to make unsupported claims can be more useful in professional workflows where users need uncertainty to be surfaced rather than hidden.
+
+Chinese to English practice target.
+
+Use the expression: go beyond the available evidence.
+Translate this sentence: 可信的评测报告不应该得出超出现有证据支持范围的结论。

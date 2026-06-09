@@ -1,0 +1,50 @@
+{
+  "updatedAt": "2026-06-09",
+  "level": {
+    "label": "初级偏上",
+    "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
+  },
+  "dailyPractice": {
+    "time": "06:00",
+    "timezone": "Asia/Shanghai",
+    "rule": "上一题未完成则继续上一题；上一题完成后再推新题。"
+  },
+  "problems": [
+    {
+      "id": "001",
+      "title": "编辑距离",
+      "type": "序列 DP",
+      "status": "completed",
+      "source": "https://chatgpt.com/share/6a275743-0134-8325-9914-d8eaeeb00b5e",
+      "solutionFile": null,
+      "notes": "分享页只显示“昨日题目：编辑距离，状态：已完成”，未显示题面或你的解答。"
+    },
+    {
+      "id": "002",
+      "title": "分割等和子集",
+      "type": "0-1 背包 / 子集和",
+      "status": "completed",
+      "source": "https://chatgpt.com/share/6a275743-0134-8325-9914-d8eaeeb00b5e",
+      "solutionFile": null,
+      "notes": "你回复“这个题目我做过了”，因此标记为历史已完成；分享页未显示本次解答。"
+    },
+    {
+      "id": "003",
+      "title": "最后一块石头的重量 II",
+      "type": "0-1 背包识别 / 最小差值划分",
+      "status": "completed",
+      "source": "https://chatgpt.com/share/6a275743-0134-8325-9914-d8eaeeb00b5e",
+      "solutionFile": "problems/003-last-stone-weight-ii/solution.ts",
+      "notes": "解法正确；建议把容量从 Math.ceil(sum / 2) 调整为 Math.floor(sum / 2)，语义更准确。"
+    },
+    {
+      "id": "004",
+      "title": "最长回文子序列",
+      "type": "区间 DP",
+      "status": "completed",
+      "source": "https://chatgpt.com/share/6a275751-1d40-8330-a581-b7cc82cf0756",
+      "solutionFile": "problems/004-longest-palindromic-subsequence/solution.ts",
+      "notes": "状态定义、遍历顺序和转移正确；额外处理长度为 2 的区间是安全写法。"
+    }
+  ]
+}

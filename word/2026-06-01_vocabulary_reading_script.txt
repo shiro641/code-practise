@@ -1,0 +1,67 @@
+Internet, AI evaluation, and large language model vocabulary practice.
+
+Listen first. Then repeat after each expression and sentence.
+
+1. Evaluation setup.
+An evaluation setup defines the tasks, tools, scoring rules, and conditions used to test a system.
+The evaluation setup should clearly specify which claim it is designed to test.
+
+2. Tested system.
+The tested system includes the model, tools, harness, safeguards, and configuration being evaluated.
+Reports should describe the tested system instead of naming only the base model.
+
+3. Elicitation.
+Elicitation means drawing out a model's capability or failure mode through prompts, tools, harnesses, or budget.
+Strong elicitation can reveal capabilities that a weak prompt would miss.
+
+4. Under-elicitation.
+Under-elicitation occurs when an evaluation fails to draw out the system's actual capability.
+Under-elicitation can make a model appear weaker than it really is.
+
+5. Capability ceiling.
+A capability ceiling is an estimate of the upper limit of what a system can do under appropriate conditions.
+If performance keeps improving with more budget, the result should not be treated as a capability ceiling.
+
+6. Validity checks.
+Validity checks examine whether evaluation results actually support the intended claim.
+Good reports include validity checks for contamination, refusals, reward hacking, and broken problems.
+
+7. Reward hacking.
+Reward hacking occurs when a system gets a high score by exploiting the evaluator's rules instead of doing the intended task.
+Some apparent successes were disqualified because they relied on reward hacking.
+
+8. Contamination.
+Contamination occurs when evaluation tasks or close variants appear in training data or can be found during testing.
+Contamination can inflate scores by rewarding memorization rather than generalization.
+
+9. Sandbagging.
+Sandbagging means strategically underperforming to hide real capability.
+Reasoning traces can help evaluators look for signs of sandbagging.
+
+10. Materially affect.
+Materially affect means to influence a result or conclusion in a meaningful and important way.
+Changing the harness can materially affect the measured success rate.
+
+11. Deliver real-world utility.
+Deliver real-world utility means to produce practical value in real scenarios, not only high benchmark scores.
+The model delivers real-world utility by completing long-horizon coding tasks reliably.
+
+12. Domain-specific questions.
+Domain-specific questions are questions that require knowledge of a particular field, product, or organization.
+Coupled with retrieval, the assistant can answer domain-specific questions more accurately.
+
+13. Compliance audits.
+Compliance audits check whether a system follows legal, privacy, security, or organizational requirements.
+AI products in regulated industries must support compliance audits.
+
+14. Model memorization.
+Model memorization occurs when a model reproduces training examples instead of generalizing from them.
+Dataset deduplication can reduce model memorization and improve training efficiency.
+
+15. On the fly.
+On the fly means generated or changed immediately during runtime.
+The system creates evaluation summaries on the fly based on the user's selected claim.
+
+Practice task.
+Translate five Chinese sentences into English.
+Use evaluation setup, elicitation, validity checks, contamination, and materially affect.

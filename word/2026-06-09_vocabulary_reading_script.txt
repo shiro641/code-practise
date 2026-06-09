@@ -1,0 +1,79 @@
+2026-06-09 AI English Reading Practice
+
+semantic.
+Semantic search retrieves documents based on meaning rather than exact keywords.
+The model learned a semantic representation that groups similar concepts together.
+
+personalized.
+Personalized assistants can adapt responses to a user's preferences and working style.
+The system provides personalized recommendations without requiring manual configuration.
+
+proactive.
+A proactive agent identifies potential failures before they affect the user.
+Proactive monitoring helps teams respond before a service outage becomes severe.
+
+acceptance criteria.
+The task is complete only when all acceptance criteria are satisfied.
+Clear acceptance criteria help an agent verify its own output.
+
+preserve.
+The refactor should preserve existing behavior while improving maintainability.
+Memory systems should preserve useful context without keeping irrelevant details.
+
+staleness.
+Memory staleness can cause a model to rely on outdated assumptions.
+Teams monitor data staleness to decide when a pipeline needs to refresh its inputs.
+
+implementation-specific.
+Some model behaviors are implementation-specific and may vary across providers.
+The benchmark should avoid depending on implementation-specific details of the harness.
+
+at infrastructure scale.
+AI services must operate reliably at infrastructure scale.
+Energy efficiency becomes critical when systems run at infrastructure scale.
+
+leverages.
+The platform leverages existing infrastructure to reduce deployment cost.
+The assistant leverages user context to produce more relevant answers.
+
+unveiled.
+The company unveiled a new set of agentic coding capabilities.
+Google unveiled features that make search more interactive and personalized.
+
+strategic partnership.
+The strategic partnership will expand the compute capacity available for model training.
+A strategic partnership can help companies build infrastructure faster than working alone.
+
+gigawatt.
+Large AI data centers may require gigawatts of power.
+The report describes a ten-gigawatt deployment plan for next-generation AI infrastructure.
+
+letter of intent.
+The companies signed a letter of intent before finalizing the commercial agreement.
+A letter of intent can outline the scope of a future strategic partnership.
+
+action-taking capabilities.
+Action-taking capabilities allow an assistant to execute tasks across tools.
+Stronger action-taking capabilities make agents more useful in multi-step workflows.
+
+integrated into workflows.
+AI systems become more valuable when they are deeply integrated into workflows.
+Models integrated into workflows can reduce context switching for users.
+
+Long sentence translation practice.
+
+Strategic partnership enables OpenAI to build and deploy at least 10 gigawatts of AI data centers with NVIDIA systems representing millions of GPUs for OpenAI's next-generation AI infrastructure.
+
+OpenAI and NVIDIA today announced a letter of intent for a landmark strategic partnership to deploy at least 10 gigawatts of NVIDIA systems for OpenAI's next-generation AI infrastructure to train and run its next generation of models on the path to deploying superintelligence.
+
+A proactive agent should identify problems early, preserve existing behavior during refactoring, and check whether all acceptance criteria are met before reporting that a task is complete.
+
+Memory staleness can lead to incorrect decisions when a system continues to rely on outdated context even after the user's preferences or project constraints have changed.
+
+AI infrastructure must operate reliably at infrastructure scale, where energy constraints, networking capacity, and dedicated hardware can become critical limits on growth.
+
+Chinese to English target expression.
+
+personalized versus customized.
+
+Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings.

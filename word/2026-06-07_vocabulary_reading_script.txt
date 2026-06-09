@@ -1,0 +1,80 @@
+Internet, AI memory, and long-sentence translation practice.
+
+Vocabulary and expression practice.
+
+1. Scalable memory system.
+A scalable memory system can manage useful information across many conversations without overwhelming the model.
+A scalable memory system needs to prioritize relevant, current, and reliable context.
+
+2. Synthesize context.
+Synthesize context means combining information from multiple interactions into a coherent understanding.
+The assistant can synthesize context from past conversations to provide more helpful responses.
+
+3. Stale information.
+Stale information is outdated information that may no longer be accurate or useful.
+Memory systems should avoid relying on stale information when user preferences change.
+
+4. Irrelevant information.
+Irrelevant information is information that does not help with the current task or decision.
+Good memory retrieval should filter out irrelevant information before generating a response.
+
+5. Shared context.
+Shared context is background information already known by both the user and the system.
+Memory allows future conversations to begin from shared context rather than from scratch.
+
+6. From scratch.
+From scratch means starting again without using previous work, context, or progress.
+Without memory, each conversation may feel like starting from scratch.
+
+7. Background process.
+A background process runs without requiring direct user interaction.
+Dreaming can use a background process to curate memory from chat history.
+
+8. Curate memory.
+Curate memory means selecting, organizing, and updating stored information so it remains useful.
+The system should curate memory instead of storing every detail permanently.
+
+9. Carry forward relevant facts.
+Carry forward relevant facts means preserving useful facts from earlier interactions for future use.
+A memory evaluation should test whether the model can carry forward relevant facts.
+
+10. Stay current.
+Stay current means remain up to date as facts, preferences, or circumstances change.
+Memory must stay current when recommendations depend on the passage of time.
+
+11. Explicit reminders.
+Explicit reminders are direct prompts from the user to repeat or restate important context.
+Personalized responses are more useful when they do not require explicit reminders.
+
+12. Stale assumptions.
+Stale assumptions are outdated beliefs that continue to influence a response.
+The model should update old context rather than rely on stale assumptions.
+
+13. Materially affect the correct recommendation.
+Materially affect the correct recommendation means to change which recommendation is appropriate in an important way.
+The passage of time can materially affect the correct recommendation.
+
+14. Surface uncertainty.
+Surface uncertainty means to make uncertainty visible instead of hiding it.
+Professional users often need models to surface uncertainty rather than hide it.
+
+15. Unsupported claim.
+An unsupported claim is a statement that is not backed by sufficient evidence.
+Models that avoid unsupported claims are more useful in professional workflows.
+
+Long sentence translation practice.
+
+1. A scalable memory system needs to synthesize context across many conversations while avoiding stale, incorrect, or irrelevant information.
+
+2. Memory allows future conversations to start from shared context rather than from scratch, which is especially useful for long-running projects.
+
+3. A useful memory evaluation should test whether the model can carry forward relevant facts, follow preferences, and stay current as time passes.
+
+4. When the passage of time materially affects the correct recommendation, memory must update old context rather than continue relying on stale assumptions.
+
+5. Personalized responses become more useful when the model can apply relevant preferences from past conversations without requiring explicit reminders.
+
+Chinese to English practice target.
+
+Use the expression: stale assumptions.
+Translate this sentence: 当用户的偏好发生变化时，模型不应该继续依赖过时的假设。

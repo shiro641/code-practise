@@ -1,0 +1,80 @@
+Internet, AI infrastructure, agentic workflows, and long-sentence translation practice.
+
+Vocabulary and expression practice.
+
+1. Strategic partnership.
+A strategic partnership is a long-term collaboration designed to support important business or technical goals.
+The strategic partnership will support the deployment of large-scale AI infrastructure.
+
+2. Letter of intent.
+A letter of intent is a document that states the parties' intention to pursue a future agreement.
+The companies announced a letter of intent for a landmark strategic partnership.
+
+3. Landmark.
+Landmark means highly important or historically significant.
+The agreement was described as a landmark partnership for next-generation AI infrastructure.
+
+4. Compute infrastructure.
+Compute infrastructure refers to the hardware, networking, power, and systems needed to train and run AI models.
+Compute infrastructure will be central to building future AI systems at scale.
+
+5. Next-generation AI infrastructure.
+Next-generation AI infrastructure means advanced systems designed to support future models and workloads.
+OpenAI plans to use NVIDIA systems for next-generation AI infrastructure.
+
+6. AI data centers.
+AI data centers are facilities designed to provide the compute, power, cooling, and networking needed for AI workloads.
+Large AI data centers may contain millions of GPUs.
+
+7. Gigawatt.
+A gigawatt is a unit of power equal to one billion watts.
+The partnership targets at least 10 gigawatts of NVIDIA systems.
+
+8. At scale.
+At scale means operating at a large or production-level size.
+The infrastructure is intended to empower people and businesses with AI breakthroughs at scale.
+
+9. Preferred strategic partner.
+A preferred strategic partner is a partner chosen for a central or prioritized role in future plans.
+NVIDIA will serve as a preferred strategic compute and networking partner.
+
+10. Co-optimize.
+Co-optimize means to improve two or more systems together so they work better as a combined whole.
+The companies will co-optimize model software, infrastructure software, hardware, and networking.
+
+11. Agentic era.
+An agentic era is a stage where AI systems can reason, use tools, and take action across workflows.
+Google's AI updates point toward a more agentic era.
+
+12. Frontier intelligence with action.
+Frontier intelligence with action means combining advanced model reasoning with the ability to execute tasks.
+Agentic systems combine frontier intelligence with action.
+
+13. Action-taking capabilities.
+Action-taking capabilities are abilities that let a model operate tools, execute steps, or complete tasks.
+Powerful action-taking capabilities help models execute multi-step workflows.
+
+14. Multi-step agentic workflows.
+Multi-step agentic workflows are task flows where an AI system plans and executes several actions across tools or apps.
+Gemini 3.5 is positioned to help users execute complex multi-step agentic workflows.
+
+15. Integrated into workflows.
+Integrated into workflows means deeply embedded into the way users complete tasks.
+AI models become more useful when they are integrated into everyday workflows.
+
+Long sentence translation practice.
+
+1. Strategic partnership enables OpenAI to build and deploy at least 10 gigawatts of AI data centers with NVIDIA systems representing millions of GPUs for OpenAI's next-generation AI infrastructure.
+
+2. OpenAI and NVIDIA today announced a letter of intent for a landmark strategic partnership to deploy at least 10 gigawatts of NVIDIA systems for OpenAI's next-generation AI infrastructure to train and run its next generation of models on the path to deploying superintelligence.
+
+3. Compute infrastructure will be the basis for the economy of the future, and we will utilize what we're building with NVIDIA to both create new AI breakthroughs and empower people and businesses with them at scale.
+
+4. Google's May updates centered on a more agentic era, where models combine frontier intelligence with action and become more deeply integrated into everyday workflows.
+
+5. With powerful action-taking capabilities, Gemini 3.5 is positioned to help users execute complex, multi-step agentic workflows across their apps.
+
+Chinese to English practice target.
+
+Use the expression: integrated into workflows.
+Translate this sentence: 当 AI 模型被深度集成到日常工作流中时，它们会变得更有用。

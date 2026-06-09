@@ -1,0 +1,80 @@
+Internet, AI product writing, and long-sentence translation practice.
+
+Vocabulary and expression practice.
+
+1. Scaffolding.
+Scaffolding refers to support structures around a model, such as planning, memory, retries, and verification.
+Good scaffolding can help an agent recover from mistakes during long tasks.
+
+2. Tool access.
+Tool access means the external tools a model can use during a task or evaluation.
+Tool access can materially affect the performance of an agentic system.
+
+3. Interface.
+An interface is the way users, evaluators, or systems interact with a model.
+A stripped-down interface may hide capabilities that appear in an agentic workflow.
+
+4. Trajectory.
+A trajectory is the sequence of steps a system takes while completing a task.
+Longer trajectories make error recovery and state management more important.
+
+5. Intermediate artifacts.
+Intermediate artifacts are outputs produced during a task, such as plans, tool logs, traces, and drafts.
+Evaluators can inspect intermediate artifacts to better interpret model behavior.
+
+6. Harness artifact.
+A harness artifact is a bias or misleading signal introduced by the evaluation harness itself.
+Reports should check whether results reflect model behavior or harness artifacts.
+
+7. Dynamic workflow.
+A dynamic workflow adapts its steps, tools, or structure while the task is running.
+Dynamic workflows are useful when the system must respond to changing user needs.
+
+8. Cost profile.
+A cost profile describes how cost changes with speed, model choice, tool use, or workload.
+Faster modes can change the cost profile for high-speed production work.
+
+9. Unsupported claim.
+An unsupported claim is a statement that is not backed by sufficient evidence.
+Models that avoid unsupported claims are more useful in professional workflows.
+
+10. Surface uncertainty.
+Surface uncertainty means to make uncertainty visible instead of hiding it.
+In high-stakes workflows, users need uncertainty to be surfaced rather than hidden.
+
+11. Validly support a claim.
+Validly support a claim means to provide evidence that legitimately supports a specific conclusion.
+Evaluation reports should explain what their results validly support.
+
+12. Intended behavior.
+Intended behavior is the behavior an evaluation is designed to measure.
+Validity checks help determine whether scores reflect intended behavior.
+
+13. Distorted by known hazards.
+Distorted by known hazards means affected by known problems that make results misleading.
+Scores may be distorted by known hazards such as reward hacking or contamination.
+
+14. Account for realistic attacker resources.
+Account for realistic attacker resources means to include real attacker capabilities and resources in security analysis.
+Safeguard testing can understate risk if it fails to account for realistic attacker resources.
+
+15. Surface rather than hide.
+Surface rather than hide means to make something visible instead of concealing it.
+Professional users often need models to surface uncertainty rather than hide it.
+
+Long sentence translation practice.
+
+1. When an agentic system can use tools, maintain state, and recover from mistakes across many steps, the harness can materially change the observed level of performance.
+
+2. Opus 4.8 launches alongside features that let users control effort, run dynamic workflows, and use a faster mode that changes the cost profile for high-speed work.
+
+3. For agentic tasks, early testers reported that the model asks better questions, catches its own mistakes, and builds confidence before making large changes.
+
+4. In long-running evaluations, the biggest differentiator was the model's tendency to flag issues with both the inputs and outputs of an analysis.
+
+5. Dynamic workflows allow Claude Code to plan large tasks, run many parallel subagents, verify outputs, and report results back to the user.
+
+Chinese to English practice target.
+
+Use the expression: surface uncertainty rather than hide it.
+Translate this sentence: 在专业工作流中，用户通常需要模型呈现不确定性，而不是把它隐藏起来。

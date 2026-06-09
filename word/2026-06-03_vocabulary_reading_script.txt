@@ -1,0 +1,67 @@
+Internet, AI evaluation, and large language model vocabulary practice.
+
+Listen first. Then repeat after each expression and sentence.
+
+1. Trustworthy interpretation.
+Trustworthy interpretation means explaining evaluation results in a way that is supported by the available evidence.
+A trustworthy interpretation avoids making claims that go beyond what the evaluation can justify.
+
+2. Overinterpret.
+Overinterpret means to draw a conclusion that is stronger than the evidence supports.
+Readers may overinterpret a benchmark score if the report does not explain the tested system.
+
+3. Lower-bound estimate.
+A lower-bound estimate is an estimate that shows at least what a system can do, but not necessarily its full capability.
+If performance improves with more budget, the result may be only a lower-bound estimate.
+
+4. Credible.
+Credible means realistic, believable, and supported by reasonable evidence.
+Evaluations should use the strongest credible elicitation setup for the tested system.
+
+5. Plausibly.
+Plausibly means reasonably possibly, based on available evidence or context.
+Capability elicitation asks whether a model can plausibly produce the capability being evaluated.
+
+6. Threat model.
+A threat model describes the assumed attacker capabilities, resources, goals, and constraints.
+Safeguard testing should match the relevant threat model.
+
+7. Adversary model.
+An adversary model describes the type of attacker or misuse actor considered in a safety evaluation.
+The evaluation used a stronger adversary model to test expert-level misuse risks.
+
+8. Safeguard testing.
+Safeguard testing evaluates whether filters, monitors, or blocking systems can resist target attacks or behaviors.
+Weak safeguard testing can understate risk by ignoring realistic attacker resources.
+
+9. Refusal.
+Refusal occurs when a model declines to answer or perform a requested task.
+Refusals can distort capability evaluations if they hide whether the model could perform the task.
+
+10. Broken problems.
+Broken problems are invalid or flawed evaluation tasks, such as tasks with wrong answers, missing files, or ambiguous prompts.
+Broken problems can distort evaluation results and should be identified during validity checks.
+
+11. Overinterpret narrow evaluation results.
+Overinterpret narrow evaluation results means to treat limited evidence as if it supported a much broader claim.
+Careful interpretation can prevent us from overinterpreting narrow evaluation results.
+
+12. Account for data contamination.
+Account for data contamination means to include contamination as a factor when interpreting model scores.
+Evaluators should account for data contamination before interpreting high scores.
+
+13. Distort evaluation results.
+Distort evaluation results means to make evaluation results misleading or unreliable.
+Reward hacking and broken problems may distort evaluation results.
+
+14. Ignore realistic attacker resources.
+Ignore realistic attacker resources means to leave out the tools, time, budget, or expertise a real attacker might have.
+Safeguard testing can understate risk if it ignores realistic attacker resources.
+
+15. Detect signs of evaluation awareness.
+Detect signs of evaluation awareness means to identify evidence that a model may recognize it is being evaluated.
+Reasoning traces can help evaluators detect signs of evaluation awareness.
+
+Practice task.
+Translate five Chinese sentences into English.
+Use trustworthy interpretation, overinterpret, lower-bound estimate, threat model, and refusal.

@@ -1,0 +1,542 @@
+--- Page 1 ---
+AI 英文表达学习笔记 - 完整版
+第 1 页
+ AI 英文表达学习笔记
+ 完整版 - 无乱码版｜覆盖对话中的英文句子、翻译、词义辨析、语境说明和例句
+使用说明
+这份 PDF 将前面对话中讨论过的 AI 产品文案表达整理为学习手册。每一节包含原句、自然翻译、核心词
+义、为什么不用近义词，以及适合记忆的例句。为避免中文乱码，文档使用支持中文的 PDF 字体生成。
+速查表
+表达
+核心理解
+reason
+推理、逻辑分析；AI reasoning 常指多步思考。
+infer
+根据线索推断，不一定有复杂逻辑链。
+detect
+检测、识别某个对象或模式。
+deliver
+带来、实现、兑现结果。
+excel at
+在某个具体任务上表现卓越。
+rival
+作动词时表示与……媲美。
+coupled with
+组合、搭配使用，强调 A+B 的增强效果。
+integrated with
+深度整合，成为系统的一部分。
+demanding
+对能力、资源、性能要求高。
+on the fly
+即时、动态、运行时生成。
+tailored to your needs
+根据你的需求量身定制。
+on your behalf
+代表你、代你执行。
+while
+除了“当……时”，也可表示“而、与此同时”。
+bucket
+类别、分组。
+
+
+--- Page 2 ---
+AI 英文表达学习笔记 - 完整版
+第 2 页
+1. reason / infer / detect：为什么 AI 推理用 reason
+原句：With Gemini Omni, Gemini’s ability to reason meets the ability to create, while Gemini 3.5 is built to
+help you execute complex, agentic workflows.
+自然翻译：借助 Gemini Omni，Gemini 的推理能力与创作能力相融合；而 Gemini 3.5
+则专为帮助你执行复杂的 Agent 式工作流而打造。
+reason 的核心含义
+reason 指根据已有信息，通过逻辑步骤进行分析并得出结论。AI 语境中的 reasoning
+通常包含多步思考、数学解题、任务规划、因果分析和方案权衡。它强调的是“思考过程”。
+infer 的核心含义
+infer 更强调“根据有限证据推断出未被直接说明的结论”。例如看到地面湿了，推断刚下过雨。它可以是
+推断，但不一定包含复杂逻辑链条。
+detect 的核心含义
+detect 是检测、发现、识别某个目标是否存在。比如 detect faces 是检测人脸，detect spam
+是识别垃圾邮件。它不等于推理。
+为什么宣传文案选 reason
+大模型厂商强调模型不仅能分类、识别或补全，而是能像人一样进行多步骤分析。因此“ability to
+reason”比“ability to infer”层级更高，也比“ability to detect”更符合 AI 推理模型的定位。
+例句 / 对比
+reason
+推理、分析、思考。强调逻辑过程。
+infer
+推断、推知。强调从线索得出结论。
+detect
+检测、识别。强调发现某物是否存在。
+2. combine frontier intelligence with action
+原句：combine frontier intelligence with action
+自然翻译：将前沿智能与行动能力结合起来。
+frontier intelligence
+frontier intelligence 字面是“前沿智能”，在 AI
+圈常指最先进模型具备的认知能力，包括理解、推理、规划、学习等。它接近 state-of-the-art intelligence。
+action
+action 在 Agent 语境下不是简单的“动作”，而是调用工具、操作软件、执行任务、与外部系统交互。
+整句话的潜台词
+
+
+--- Page 3 ---
+AI 英文表达学习笔记 - 完整版
+第 3 页
+这句话想表达的是“不仅会思考，还能真正去做事”。传统模型会告诉你怎么做，Agent
+式系统则能搜索、填写、调用工具、执行流程。
+例句 / 对比
+普通说法
+AI can answer questions. AI 能回答问题。
+Agent 说法
+AI can take action. AI 能采取行动并完成任务。
+3. deliver frontier performance / long-horizon tasks / real-world utility
+原句：It delivers frontier performance for agents and coding, excelling at complex long-horizon tasks that
+deliver real-world utility.
+自然翻译：它在 Agent 和编程能力上达到业界领先水平，尤其擅长处理需要长期规划与多步骤执行的复杂
+任务，并能创造现实价值。
+frontier performance
+frontier performance 表示前沿水平、顶尖水平、接近或达到 state-of-the-art 的性能。
+long-horizon tasks
+long-horizon task 字面是“长视距任务”，实际指需要很多步骤、较长时间规划和持续执行才能完成的任
+务。例如从需求文档生成完整应用、规划旅行、自动化市场调研等。
+real-world utility
+utility 是效用、实用价值。real-world utility 强调不只是 benchmark
+分数好看，而是能在真实场景中解决问题。
+例句 / 对比
+simple task
+回答一个问题、翻译一句话。
+long-horizon task
+分析需求、写代码、测试、调试、部署完整应用。
+4. deliver 为什么不是 offer / provide / supply
+原句：It delivers frontier performance for agents and coding.
+自然翻译：它为 Agent 和编程任务带来 / 实现前沿性能。
+deliver 的产品语感
+deliver 在商业和科技文案中常表示“带来、实现、达成某种结果”。deliver value、deliver results、deliver
+performance 都强调最终结果真的被兑现。
+offer / provide / supply 的差别
+offer 更像提供选项或功能；provide 是普通的提供；supply 常用于供应商品、材料、电力等资源。AI
+性能宣传里说 supply performance 会很奇怪。
+
+
+--- Page 4 ---
+AI 英文表达学习笔记 - 完整版
+第 4 页
+为什么 deliver performance 自然
+performance 是结果指标，因此 deliver performance 表示“实现这样的性能表现”。它比 provide performance
+更有结果导向和承诺感。
+例句 / 对比
+provide a search tool
+提供一个搜索工具。强调功能存在。
+deliver better search results
+带来更好的搜索结果。强调实际效果。
+5. excel / excel at / excel in
+原句：excelling at complex long-horizon tasks
+自然翻译：在复杂长程任务上表现出色。
+excel 的意思
+excel 是动词，意思是擅长、表现卓越、胜过同类。它和微软 Excel 没关系。
+excel at 与 excel in
+excel at 后面常接具体事情或任务，如 excel at coding、excel at chess。excel in 后面常接领域，如 excel in
+science、excel in research。
+为什么不用 good at
+good at 是普通描述；excel at 更正式、更有宣传语气，表示表现特别突出。
+例句 / 对比
+The model is good at coding.
+模型擅长编程。普通说法。
+The model excels at coding.
+模型在编程方面表现卓越。更强、更宣传。
+6. rivals large flagship models on multiple dimensions...
+原句：rivals large flagship models on multiple dimensions, at the speeds you have come to expect from the
+Flash series
+自然翻译：它在多个维度上可与大型旗舰模型媲美，同时保持 Flash 系列一贯的高速体验。
+rival 作动词
+rival 不只是“竞争对手”的名词，也可以作动词，表示“与……匹敌、可与……媲美”。
+flagship model
+flagship 是旗舰。flagship model 指最高端、主力、能力最强的一类模型。large flagship models
+通常指大型高性能模型。
+multiple dimensions
+
+
+--- Page 5 ---
+AI 英文表达学习笔记 - 完整版
+第 5 页
+dimension 在这里不是数学维度，而是能力维度或评价指标，如推理、编程、数学、长上下文、Agent
+能力等。
+you have come to expect
+have come to expect 表示“过去一直如此，所以你已经习惯并默认期待它”。不是简单的未来期待，而是
+一贯体验形成的预期。
+例句 / 对比
+rivals flagship models
+可与旗舰模型媲美。
+the quality we have come to expect
+我们已经习惯并期待的那种品质。
+7. executes multi-step workflows / unstructured assets / dynamic criteria
+原句：3.5 Flash executes multi-step workflows to automatically rename and categorize unstructured assets
+based on dynamic criteria.
+自然翻译：3.5 Flash
+能够执行多步骤工作流，根据动态变化的条件，自动对非结构化资产进行重命名和分类。
+multi-step workflows
+multi-step workflow 指不是一次性完成一个动作，而是连续执行多个步骤。例如扫描目录、读取文件、理
+解内容、生成名称、移动到目录。
+unstructured assets
+asset 在企业软件和 AI
+语境里常指数字资源或内容资产，如图片、视频、PDF、Word、邮件、音频等。unstructured assets
+是没有固定表结构的内容资源。
+dynamic criteria
+criteria 是 criterion 的复数，表示标准。dynamic criteria
+是动态标准或可变化规则，比如按项目分类、按客户分类、按金额分类等。
+例句 / 对比
+structured data
+数据库表格：姓名、年龄、金额等固定字段。
+unstructured assets
+图片、PDF、视频、邮件正文等无固定表结构内容。
+8. coupled with / harness / subagents / at scale / demanding use cases
+原句：When coupled with the updated Antigravity harness, 3.5 Flash becomes a powerful engine for
+deploying collaborative subagents to tackle problems at scale for the most demanding use cases.
+自然翻译：配合更新后的 Antigravity 框架，3.5 Flash
+能够作为强大的执行引擎，调度多个协作式子智能体，以可扩展的方式处理最复杂、最严苛的应用场景。
+
+
+--- Page 6 ---
+AI 英文表达学习笔记 - 完整版
+第 6 页
+coupled with
+couple with 在这里不是情侣，也不是简单合作，而是“搭配使用、结合使用”。它常用于两个系统或组件
+组合后产生更强效果。
+harness
+harness 字面是马具或安全带，但软件领域常指测试框架、执行框架、编排环境。Antigravity harness
+可以理解为 Antigravity 执行或编排框架。
+engine
+engine 在 AI 和软件语境中常指“核心驱动力、核心引擎”，不是字面发动机。
+collaborative subagents
+subagent 是子智能体。collaborative subagents 是多个协作式子智能体，例如研究 Agent、编码 Agent、测试
+Agent、写作 Agent 共同完成任务。
+at scale
+at scale 表示大规模地、可扩展地。不是只处理几个任务，而是面向大量任务、复杂流程或企业级场景。
+demanding use cases
+demanding use cases 是对性能、可靠性、资源、执行能力要求很高的应用场景。
+例句 / 对比
+coupled with GPUs
+与 GPU 搭配使用。强调组合增强。
+deploy subagents
+调度多个子智能体执行不同任务。
+9. 为什么 coupled with 不是 work with / cooperate / collaborate
+原句：When coupled with the updated Antigravity harness...
+自然翻译：当与升级后的 Antigravity 框架配合使用时……
+coupled with 的重点
+coupled with 强调两个系统或组件连接、组合、配套使用，形成更强的整体效果。它适合“模型 +
+框架”这类非人的技术对象。
+work with 的语感
+work with 更像“兼容、可以一起用”。例如 Photoshop works with Windows。它不一定表示深度组合。
+cooperate / collaborate 的限制
+cooperate 和 collaborate 多用于人、团队、组织之间。Agent 之间可以 collaborate，因为被拟人化；但 model
+collaborates with framework 听起来不自然。
+例句 / 对比
+
+
+--- Page 7 ---
+AI 英文表达学习笔记 - 完整版
+第 7 页
+3.5 Flash works with Antigravity.
+表示能兼容、能一起用。
+3.5 Flash is coupled with Antigravity.
+表示二者组合成更强系统。
+10. demanding 为什么不是 challengable
+原句：the most demanding use cases
+自然翻译：最严苛、最高要求的应用场景。
+challengable 不是常用表达
+challengable 即使出现，也多表示“可以被挑战、可以被质疑、可以申诉”，不是“有挑战性”。真正表示
+有挑战性应使用 challenging。
+challenging vs demanding
+challenging 强调任务本身难；demanding 强调对能力、资源、性能、精力要求高。AI 企业级场景里常说
+demanding workloads、demanding applications、demanding use cases。
+为什么这里用 demanding
+这句话想表达的是企业级、规模化、高负载、高复杂度场景，而不只是“难题”。因此 demanding 比
+challenging 更贴切。
+例句 / 对比
+a challenging problem
+一道有挑战性的难题。
+a demanding workload
+对系统和资源要求很高的工作负载。
+11. enhanced agentic coding capabilities / information agents
+原句：The enhanced agentic coding capabilities of 3.5 Flash are delivering even more intelligent experiences
+in Search, like our new information agents.
+自然翻译：3.5 Flash 增强后的 Agent 式编程能力，正在为 Search
+带来更智能的体验，例如全新的信息智能体。
+enhanced
+enhanced 表示增强后的、提升后的。例如 enhanced security 是增强安全性。
+agentic coding capabilities
+agentic 来自 agent，表示具备自主规划、自主决策、自主执行能力。agentic coding
+不只是写代码，而是理解需求、拆解任务、编写、运行、测试、修复。capabilities
+用复数表示一整套能力体系。
+intelligent experiences
+intelligent experiences 是产品文案常见说法，表示更智能的用户体验。
+
+
+--- Page 8 ---
+AI 英文表达学习笔记 - 完整版
+第 8 页
+information agents
+information agents 可以译为信息智能体，指能够搜索、整理、筛选、分析信息，并生成有用结果的 Agent。
+例句 / 对比
+ordinary coding
+用户要求写代码，模型输出代码。
+agentic coding
+理解需求、拆解任务、写代码、运行测试、修复问题。
+12. comprehensive update / links to the web / dive deeper / take action
+原句：They will send a comprehensive update along with links to the web to dive deeper, so you can take
+action.
+自然翻译：它们会发送一份全面的更新报告，并附上网页链接供你进一步深入了解，从而帮助你采取后续
+行动。
+comprehensive update
+comprehensive 表示全面的、详尽的。comprehensive update 不是简单更新，而是一份完整的情况汇报。
+along with
+along with 表示连同、以及、附带。a report along with links 就是报告加相关链接。
+links to the web
+links to the web 指指向网页的链接、来源链接、参考链接。
+dive deeper
+dive deeper 字面是潜得更深，实际是深入研究、进一步了解。科技文案常说 dive deeper into
+data、findings、research。
+take action
+take action 是采取行动、落实下一步。Agent 产品强调从获取信息走向帮助用户决策和行动。
+例句 / 对比
+understand more
+了解更多，比较普通。
+dive deeper
+深入挖掘、进一步研究，更有探索感。
+13. completely on the fly
+原句：Now that we’re bringing the power of Google Antigravity and agentic coding capabilities of Gemini
+3.5 Flash right into Search, Search can build the ideal response, in the right format for your question —
+completely on the fly.
+
+
+--- Page 9 ---
+AI 英文表达学习笔记 - 完整版
+第 9 页
+自然翻译：现在我们将 Google Antigravity 的能力和 Gemini 3.5 Flash 的 Agent 编程能力直接引入
+Search，Search
+可以针对你的问题，以最合适的格式实时构建理想回答，而且这一切都是完全动态生成的。
+on the fly 的基本意思
+on the fly 是固定习语，表示在运行过程中、当场、即时、不事先准备。例如 make a decision on the fly
+是临场做决定。
+AI 语境中的含义
+在 AI 搜索或生成式 UI 语境中，on the fly 表示不是预先写好的模板，也不是缓存页面，而是根据用户问题
+实时判断需要什么结构、格式、工具和内容。
+completely 的加强作用
+completely on the fly 强调从头到尾完全动态构建，整个过程实时完成。
+整句潜台词
+Search
+不只是返回结果，而是根据问题即时生成最合适的回答形式：表格、行程、模拟器、图表、解释文章等。
+例句 / 对比
+The system generates reports on the fly.
+系统实时生成报告。
+completely on the fly
+完全实时、动态生成，不依赖预制模板。
+14. custom generative UI / visual tools / simulations / tailored precisely to
+your needs
+原句：So you can get custom generative UI, including visual tools and simulations, tailored precisely to your
+needs.
+自然翻译：这样你就能获得精准匹配你需求的定制化生成式 UI，包括可视化工具和模拟功能。
+custom generative UI
+custom generative UI 指不是固定界面，而是根据当前任务动态生成的界面。
+visual tools and simulations
+visual tools 是可视化工具，如图表、滑块、地图、时间轴；simulations
+是模拟器，例如房贷模拟、预算模拟、场景推演。
+tailor 的本义和引申义
+tailor 本义是裁缝做衣服，引申为根据某人的需求量身定制。tailored to your needs
+就是“为你的需求量身定制”。
+precisely 的作用
+
+
+--- Page 10 ---
+AI 英文表达学习笔记 - 完整版
+第 10 页
+precisely 强调精准地、恰好匹配。tailored precisely to your needs 比 tailored to your needs 更强调高度个性化。
+tailored vs customized
+customized 偏“用户可自定义”；tailored 偏“系统理解你的情况后主动为你设计”。AI 文案更喜欢
+tailored，因为听起来更智能。
+例句 / 对比
+customized dashboard
+用户自己调整组件和颜色。
+tailored UI
+系统根据任务自动生成最适合的界面。
+15. taking action on your behalf while under your direction
+原句：taking action on your behalf while under your direction
+自然翻译：在你的指导下代表你采取行动。
+on your behalf
+on your behalf 是固定短语，表示代表你、代替你、以你的名义。例如 My lawyer spoke on my behalf。
+under your direction
+under your direction 表示在你的指导和控制下。这里的 under
+不是“在下面”，而是“受……指导/管理”。
+Agent 语境中的重点
+这句话强调 AI 可以替你执行操作，但不会越权。人决定方向，Agent 执行任务。
+为什么不用 for you
+do something for you 比较泛；act on your behalf 更正式，也更符合 agent 作为“代理人”的概念。
+例句 / 对比
+send an email for you
+帮你发邮件。普通说法。
+send an email on your behalf
+代表你发送邮件，更正式、更有代理含义。
+16. integrated with
+原句：integrated with
+自然翻译：与……集成 / 与……深度整合。
+integrate 的基本含义
+integrate 表示使成为一个整体、整合。integrated with 表示已经和某个系统连接并协同工作。
+connect with vs integrated with
+
+
+--- Page 11 ---
+AI 英文表达学习笔记 - 完整版
+第 11 页
+connect with 只强调连接；integrated with 强调不只是连上，而是数据共享、功能联动、统一工作流。
+AI 产品中的用法
+Gemini integrated with Gmail 通常不只是能访问 Gmail，而是可以在 Gmail
+内部总结邮件、写回复、创建草稿等。
+seamlessly / deeply integrated
+科技公司常说 seamlessly integrated 或 deeply integrated，强调用户几乎感觉不到系统边界。
+例句 / 对比
+connected to Wi-Fi
+连接到 Wi-Fi，只强调连上。
+integrated with Gmail
+深度融入 Gmail 工作流。
+17. integrated with 和 coupled with 的区别
+原句：coupled with vs integrated with
+自然翻译：coupled with 强调组合使用；integrated with 强调深度整合成为系统的一部分。
+coupled with
+coupled with 像“笔记本电脑 +
+外接显示器”，两个东西搭配使用，组合后更强，但仍然是两个独立组件。
+integrated with
+integrated with 像“笔记本内置显示器”，已经成为一个系统的一部分，用户感受到的是一体化体验。
+为什么 Antigravity 句子用 coupled with
+When coupled with the updated Antigravity harness 强调 Flash 与 Antigravity 组合成更强系统。这里不一定说
+Flash 已经嵌入 Antigravity 内部。
+为什么 Search/Gmail 常用 integrated with
+Gemini integrated with Search/Gmail 强调 Gemini 已经进入产品内部，成为用户工作流的一部分。
+例句 / 对比
+ChatGPT coupled with a database
+ChatGPT + 数据库，两个组件配合。
+ChatGPT integrated with a database
+数据库能力已融入应用系统流程。
+18. reason meets create：为什么用 meet 连接两种能力
+原句：Gemini’s ability to reason meets the ability to create
+自然翻译：Gemini 的推理能力与创作能力相遇、融合。
+
+
+--- Page 12 ---
+AI 英文表达学习笔记 - 完整版
+第 12 页
+meet 的营销文案用法
+meet 不只是“见面”。在文案中，A meets B 表示两种东西汇聚、融合、相互成就。例如 East meets
+West、Art meets technology、Design meets performance。
+为什么不用 combine
+combine 语法可以，但更像工程说明，缺少文案感。meet
+更有画面感，暗示两种能力在同一个产品中相遇并产生协同效应。
+为什么不用 integrate
+integrate 更常用于系统、软件、产品之间，不太自然地用于两个抽象能力之间。
+真正想表达什么
+不是“推理 + 创作”简单并列，而是“会思考地创作、会创作地推理”。
+例句 / 对比
+Art meets technology.
+艺术与科技交汇。
+Reason meets creation.
+推理与创作融合。
+19. while：为什么两句话用 while 衔接
+原句：With Gemini Omni, ... while Gemini 3.5 is built to help you execute complex, agentic workflows.
+自然翻译：Gemini Omni 强调推理与创作，而 Gemini 3.5 则强调复杂 Agent 工作流的执行。
+while 不只是“当……时”
+while 除了表示时间，也常表示“而、与此同时、相比之下”。例如 Some people like tea, while others prefer
+coffee。
+这里的逻辑关系
+这句话用 while 对照两个产品定位：Gemini Omni = Reason + Creation；Gemini 3.5 = Execution + Workflow。
+为什么不用 and
+and 只是并列两个事实，无法突出两者定位不同但互补。while 能表达“另一方面”。
+为什么不用 whereas
+whereas 也表示对照，但更正式、更像论文或法律文本；while 更适合产品发布和商业宣传。
+例句 / 对比
+A, and B
+简单并列。
+A, while B
+对照但不一定对立，强调不同定位。
+
+
+--- Page 13 ---
+AI 英文表达学习笔记 - 完整版
+第 13 页
+20. Braintrust / observability / eval / shipping quality AI products
+原句：Braintrust is the observability and eval platform for shipping quality AI products.
+自然翻译：Braintrust 是一个面向高质量 AI 产品交付的可观测性与评测平台。
+observability
+observability 是可观测性。monitoring 告诉你系统是否出问题；observability
+进一步帮助你知道为什么出问题。在 AI 中包括 prompt 跟踪、Agent 执行轨迹、工具调用、token
+消耗、用户反馈和失败分析。
+eval
+eval 是 evaluation 的缩写，表示评测，不是编程里的 eval() 函数。AI eval 用于衡量回答准确率、Agent
+成功率、RAG 命中率、用户满意度等。
+the platform
+the platform 在营销文案里常表示“这就是首选平台、行业标杆”，不一定是字面唯一。
+shipping
+软件行业里 ship software 表示发布、上线、交付产品，不是物流发货。shipping quality AI products
+就是把高质量 AI 产品成功上线。
+例句 / 对比
+We shipped a new feature.
+我们上线了一个新功能。
+observability and eval platform
+用于观察 AI 行为并评估效果的平台。
+21. 有用的评测报告：claim 与 valid evidence
+原句：In our view, the most useful reports explicitly describe two things beyond the result itself: First, they
+specify what claim the evaluation setup was designed to test, and second, they share the available evidence that
+the evaluation result is valid.
+自然翻译：我们认为，最有价值的评测报告除了结果本身，还应明确说明两点：第一，评测方案要验证什
+么主张；第二，提供能够支持评测结果有效性的现有证据。
+beyond the result itself
+意思是“不只是结果本身”。作者反对只给出分数或胜负，而不解释分数究竟证明了什么。
+claim
+claim 在评测和科研语境中不是普通“声明”，而是要验证的主张、假设或结论。例如 Model A is better
+than Model B at coding。
+evaluation setup
+evaluation setup 是评测设置或实验方案，包括任务、数据集、评分方式、样本选择和对比方法。
+
+
+--- Page 14 ---
+AI 英文表达学习笔记 - 完整版
+第 14 页
+valid
+valid 不是简单“正确”，而是“有效、有测量意义、能支持结论”。一个结果可能是 correct，但不一定
+valid。例如三道简单加法全对，不能有效证明模型数学能力强。
+available evidence
+作者用 evidence 而非 proof，是因为现实中很难绝对证明，只能提供支持性证据，如样本代表性、重复实
+验一致性、人工复核、线上表现相关性等。
+例句 / 对比
+Result only
+模型 A 得分 89%。信息不够。
+Useful report
+模型 A 得分 89%，该评测旨在验证编码可靠性，证据包括样
+本量、人工复核和线上相关性。
+22. claims tested in evaluations / fall into buckets
+原句：Claims tested in evaluations typically fall into one of three buckets.
+自然翻译：评测中所验证的主张通常可以归为三大类。
+claims tested in evaluations
+指评测想要验证的主张、假设或结论。评测不是孤立的分数，而是服务于某个需要被验证的 claim。
+fall into
+fall into 是高频表达，表示属于、归入、被划分到。These issues fall into two categories = 这些问题分为两类。
+bucket
+bucket 字面是桶，但在商业、产品、数据分析和工程语境里表示类别、分组。one of three buckets
+就是“三大类之一”。
+为什么不用 category
+category 更正式、书面；bucket 更口语、更硅谷、更像产品经理或工程团队在讨论分类。
+例句 / 对比
+These requests fall into three buckets.
+这些需求可以分成三类。
+bucket
+这里不是水桶，而是类别、分组。
+
+
+--- Page 15 ---
+AI 英文表达学习笔记 - 完整版
+第 15 页
+结尾总结：如何读 AI 产品文案
+AI 产品文案常把“能力”拆成几层：intelligence 表示认知能力，reasoning 表示多步推理，creation
+表示生成内容，action 表示调用工具和执行任务。
+当文案说 coupled with、integrated with、powered by、built to execute
+等表达时，它往往不只是语法连接，而是在暗示产品架构和定位。
+读这类英文时，不要只找中文直译，更要判断它属于哪个语境：科研评测、企业软件、Agent
+工作流、营销发布会，还是工程基础设施。
+最实用的记忆方法是把近义词放在一起比较：deliver vs provide，coupled with vs integrated with，challenging
+vs demanding，tailored vs customized。这样才能抓住母语者的语感差别。

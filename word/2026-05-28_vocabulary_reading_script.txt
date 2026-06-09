@@ -1,0 +1,67 @@
+Internet and large language model vocabulary practice.
+
+Listen first. Then repeat after each word and sentence.
+
+1. Modality.
+Modality refers to the type of data a model can process, such as text, images, audio, or video.
+Multimodal models combine information from more than one modality.
+
+2. Multimodal.
+A multimodal system can reason over both images and text.
+Recent multimodal models are increasingly used for document understanding and visual question answering.
+
+3. Grounding.
+Grounding connects a model's output to reliable sources or observable evidence.
+Retrieval can improve grounding by supplying relevant documents before generation.
+
+4. Attribution.
+Attribution helps users understand which sources support a generated answer.
+The system provides attribution links for every factual claim in the summary.
+
+5. Traceability.
+Traceability makes it possible to track how data, prompts, and model outputs were produced.
+Strong traceability is important for debugging machine learning pipelines.
+
+6. Ablation.
+An ablation study removes or changes one component to measure its contribution.
+The paper includes an ablation analysis of the retrieval module.
+
+7. Baseline.
+A baseline provides a reference point for comparing a new method.
+The new model is evaluated against several strong baselines.
+
+8. Metric.
+A metric defines how model performance is measured.
+Choosing the wrong metric can hide important failures in real-world applications.
+
+9. Objective.
+The training objective defines what the model is optimized to learn.
+Researchers modified the objective to improve instruction following.
+
+10. Constraint.
+A constraint limits the behavior or output of a system.
+Safety constraints can prevent a model from generating harmful responses.
+
+11. Distillation.
+Distillation transfers knowledge from a larger model to a smaller model.
+Model distillation can reduce inference latency while preserving accuracy.
+
+12. Calibration.
+Calibration measures whether predicted confidence matches actual correctness.
+Well-calibrated models are important in high-risk decision systems.
+
+13. Hallucination.
+Hallucination occurs when a model generates information that is unsupported or false.
+Evaluation should measure hallucination rates in open-ended generation tasks.
+
+14. Tokenization.
+Tokenization converts raw text into smaller units that a language model can process.
+Different tokenization strategies can affect model performance and cost.
+
+15. Retrieval.
+Retrieval improves answers by finding relevant external information before generation.
+The system uses retrieval to ground responses in trusted documentation.
+
+Practice task.
+Write one short paragraph about a retrieval-augmented generation system.
+Use grounding, attribution, calibration, hallucination, and distillation.

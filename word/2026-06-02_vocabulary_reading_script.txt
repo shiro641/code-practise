@@ -1,0 +1,67 @@
+Internet, AI evaluation, and large language model vocabulary practice.
+
+Listen first. Then repeat after each expression and sentence.
+
+1. Result.
+A result is the direct output of an evaluation, such as a score, success rate, or failure rate.
+Readers should distinguish the result from the claim it is used to support.
+
+2. Interpretation.
+Interpretation explains what an evaluation result means and how far the evidence can reasonably go.
+Careful interpretation prevents readers from overextending a narrow benchmark result.
+
+3. Assessment.
+Assessment means a broader judgment based on tests, evidence, review, and analysis.
+A safety assessment may combine evaluations, expert review, and deployment evidence.
+
+4. Specify.
+Specify means to state something clearly and precisely.
+Evaluation reports should specify the tested system, budget, and validity checks.
+
+5. Explicitly.
+Explicitly means directly and clearly stated, rather than implied.
+Useful reports explicitly describe the claim being tested and the evidence behind the result.
+
+6. Account for.
+Account for means to include a factor in the analysis or adjust for its effect.
+Evaluators should account for contamination before interpreting high scores.
+
+7. Distort results.
+Distort results means to make results misleading, either higher or lower than the true signal.
+Broken problems, refusals, and reward hacking can distort results.
+
+8. Inflate scores.
+Inflate scores means to make scores appear higher than they should be.
+Contamination can inflate scores by rewarding memorization instead of generalization.
+
+9. Understate risk.
+Understate risk means to make a risk appear smaller or less serious than it really is.
+Weak safeguard testing can understate risk by ignoring realistic attacker resources.
+
+10. Reasoning traces.
+Reasoning traces are intermediate records of a model's thinking or planning process.
+Reasoning traces can help evaluators detect evaluation awareness or sandbagging.
+
+11. Specify which claim.
+Specify which claim means to clearly identify the exact conclusion an evaluation is designed to test.
+The evaluation setup should specify which claim it is designed to test.
+
+12. Reveal model capabilities.
+Reveal model capabilities means to show what a model can do under appropriate elicitation.
+Strong elicitation can reveal model capabilities that a weak prompt would miss.
+
+13. Validity checks for contamination and reward hacking.
+Validity checks for contamination and reward hacking examine whether scores reflect genuine performance.
+A good evaluation report should include validity checks for contamination and reward hacking.
+
+14. Measured success rate.
+Measured success rate is the observed percentage of tasks completed successfully under a specific setup.
+Changing the harness may materially affect the measured success rate.
+
+15. Deliver real-world utility.
+Deliver real-world utility means to produce practical value in real scenarios, not only high benchmark scores.
+The model delivers real-world utility by completing long-horizon coding tasks reliably.
+
+Practice task.
+Translate five Chinese sentences into English.
+Use interpretation, account for, distort results, understate risk, and reasoning traces.
