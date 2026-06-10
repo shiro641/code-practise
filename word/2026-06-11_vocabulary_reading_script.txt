@@ -1,0 +1,53 @@
+June 11, 2026. Daily AI English practice.
+
+Vocabulary and expressions.
+
+1. validly support. The evidence may support the claim, but only within the limits of the evaluation setup. A trustworthy report explains what the results validly support.
+
+2. measured capability ceiling. A score under one setup is not always a measured capability ceiling. Better elicitation may reveal stronger performance.
+
+3. safeguard testing. Safeguard testing checks whether safety controls remain effective under realistic attacks. Weak testing can understate risk.
+
+4. account for. The analysis should account for the resources available to realistic attackers. If it does not account for the harness, the conclusion may be misleading.
+
+5. realistic attackers. A relevant threat model describes realistic attackers, not unlimited attackers. Realistic attackers may still have tools, time, and custom workflows.
+
+6. validity checks. Evaluation reports should pair headline scores with validity checks. Validity checks help readers judge whether the score reflects intended behavior.
+
+7. distorted by known hazards. A benchmark result can be distorted by known hazards such as contamination or reward hacking. The report should explain how those hazards were handled.
+
+8. unsupported claims. A model that makes fewer unsupported claims is more useful in professional workflows. Unsupported claims should be surfaced and corrected early.
+
+9. surface uncertainty. Good analysis should surface uncertainty rather than hide it. Users need to know when the evidence is incomplete.
+
+10. background process. A background process can curate memory from chat history. The process should avoid stale, incorrect, or irrelevant information.
+
+Review expressions.
+
+11. forward-looking statements. Forward-looking statements describe expectations about future events. They are not guarantees of future performance.
+
+12. speak only as of the date hereof. These statements speak only as of the date hereof. The phrase limits the statement to the current document date.
+
+13. except as required by law. Except as required by law, the company disclaims any obligation to update the statement. This phrase creates a legal exception.
+
+14. disclaim any obligation to update. The company may disclaim any obligation to update forward-looking statements. This means it says it has no duty to revise them later.
+
+15. on a user's behalf. Information agents can monitor information on a user's behalf. They can send updates and links that help the user dive deeper and take action.
+
+English-to-Chinese practice sentences.
+
+OAI-NVDA-006. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+GOOG-AI-MAY26-004. Information agents in Search can monitor information on a user's behalf, send detailed updates, and provide links that let the user dive deeper and take action.
+
+OAI-MEM-003. Dreaming uses a background process to curate memory from chat history so the model can provide fresher and more relevant context.
+
+OAI-NVDA-004. OpenAI will work with NVIDIA as a preferred strategic compute and networking partner for its AI factory growth plans.
+
+AI-HB-V2-006. Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings that the user configures for a specific workflow.
+
+Chinese-to-English practice.
+
+Target expression: overinterpret, validly support, complete proof.
+
+Do not overinterpret limited evidence as complete proof. A good evaluation report should explain what its results validly support.
