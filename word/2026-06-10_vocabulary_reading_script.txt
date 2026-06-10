@@ -1,0 +1,79 @@
+2026-06-10 AI English Reading Practice
+
+scaffolding.
+Scaffolding can significantly change how well an agent performs on a complex task.
+The evaluation should describe what scaffolding was provided to the tested system.
+
+trajectory.
+Longer trajectories make it harder to identify where the agent made a mistake.
+The evaluator inspected the model's trajectory instead of only checking the final answer.
+
+capability elicitation.
+Strong capability elicitation can reveal behaviors that weak prompts fail to expose.
+Poor capability elicitation may understate what the model can actually do.
+
+robustness.
+Robustness testing checks whether the model still performs well under distribution shift.
+A robust agent should recover from tool errors without losing task context.
+
+threat model.
+The threat model should specify what kinds of adversaries the system is designed to resist.
+Without a realistic threat model, safeguard testing may understate risk.
+
+adversary model.
+A relevant adversary model should account for the resources available to real attackers.
+Changing the adversary model can materially affect the measured success rate.
+
+red teaming.
+Red teaming helps uncover failure modes before a model is deployed.
+The team used red teaming to evaluate whether safeguards could be bypassed.
+
+jailbreak.
+A jailbreak can cause the model to ignore safety instructions.
+Universal jailbreaks are especially concerning because they may transfer across tasks.
+
+severity.
+The report classified each failure by severity and likelihood.
+A low-frequency failure can still matter if its severity is high.
+
+overinterpret.
+Readers may overinterpret benchmark scores when the tested system is not clearly described.
+Evaluation reports should avoid overinterpreting narrow results as broad evidence of safety.
+
+strategic partnership.
+The strategic partnership expands the compute capacity available for model training.
+A strategic partnership can accelerate infrastructure deployment.
+
+staleness.
+Memory staleness can cause incorrect recommendations.
+The system should detect staleness when user preferences change over time.
+
+acceptance criteria.
+The agent should verify all acceptance criteria before submitting the result.
+Ambiguous acceptance criteria make autonomous workflows harder to evaluate.
+
+personalized.
+Personalized systems adapt automatically based on user behavior.
+A personalized assistant can remember how a user prefers technical explanations.
+
+at infrastructure scale.
+AI services must operate reliably at infrastructure scale.
+At infrastructure scale, energy constraints can become a central bottleneck.
+
+Long sentence translation practice.
+
+This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world's most advanced AI infrastructure.
+
+These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+Information agents in Search can monitor information on a user's behalf, send detailed updates, and provide links that let the user dive deeper and take action.
+
+Search can build generative UI and interactive visuals tailored to a user's questions, including custom experiences such as dashboards or mini apps for ongoing tasks.
+
+When a company unveils a new product capability, readers should distinguish whether the feature is merely debuting in a limited preview or fully launching for all users.
+
+Chinese to English target expression.
+
+overinterpret.
+
+Readers may overinterpret benchmark scores when the evaluation setup is not clearly described.

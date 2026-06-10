@@ -1,0 +1,23 @@
+{
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.codeLens": false,
+  "editor.hover.enabled": "off",
+  "editor.inlayHints.enabled": "off",
+  "editor.inlineSuggest.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "other": "off",
+    "strings": "off"
+  },
+  "editor.snippetSuggestions": "none",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabCompletion": "off",
+  "editor.wordBasedSuggestions": "off",
+  "github.copilot.enable": {
+    "*": false
+  },
+  "javascript.suggest.enabled": false,
+  "typescript.suggest.enabled": false
+}

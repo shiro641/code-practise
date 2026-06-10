@@ -272,8 +272,11 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world's most advanced AI infrastructure.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-10
+Last score: 72
+Average score: 72
+Error tags: modifier; terminology; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on complements, broad network of collaborators, focused on building.
 
 ID: OAI-NVDA-006
@@ -282,8 +285,11 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-10
+Last score: 58
+Average score: 58
+Error tags: terminology; logic; main clause; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on forward-looking statements, guarantees of future performance, speak only as of, disclaims any obligation.
 
 ID: GOOG-AI-MAY26-001
@@ -328,8 +334,11 @@ Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-ma
 Sentence: Information agents in Search can monitor information on a user's behalf, send detailed updates, and provide links that let the user dive deeper and take action.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-10
+Last score: 74
+Average score: 74
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on information agents, on your behalf, dive deeper, take action.
 
 ID: GOOG-AI-MAY26-005
@@ -338,8 +347,11 @@ Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-ma
 Sentence: Search can build generative UI and interactive visuals tailored to a user's questions, including custom experiences such as dashboards or mini apps for ongoing tasks.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-10
+Last score: 76
+Average score: 76
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on generative UI, interactive visuals, tailored to, ongoing tasks.
 
 ID: GOOG-AI-MAY26-006
@@ -407,8 +419,11 @@ Source: /Users/bytedance/Downloads/AI_English_Handbook_v2.pdf
 Sentence: When a company unveils a new product capability, readers should distinguish whether the feature is merely debuting in a limited preview or fully launching for all users.
 Factors: Advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-10
+Last score: 84
+Average score: 84
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from user-provided handbook; focus on unveil, debut, launch.
 
 ID: AI-HB-V2-006

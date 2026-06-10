@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09",
+  "updatedAt": "2026-06-10",
   "level": {
     "label": "初级偏上",
     "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
@@ -45,6 +45,15 @@
       "source": "https://chatgpt.com/share/6a275751-1d40-8330-a581-b7cc82cf0756",
       "solutionFile": "problems/004-longest-palindromic-subsequence/solution.ts",
       "notes": "状态定义、遍历顺序和转移正确；额外处理长度为 2 的区间是安全写法。"
+    },
+    {
+      "id": "005",
+      "title": "零钱兑换 II",
+      "type": "完全背包 / 组合计数",
+      "status": "completed",
+      "source": "daily-practice-2026-06-10",
+      "solutionFile": "problems/005-coin-change-ii/solution.ts",
+      "notes": "代码正确；能识别完全背包和正序遍历复用当前硬币状态。后续继续强化外层硬币遍历如何避免排列重复统计。"
     }
   ]
 }
