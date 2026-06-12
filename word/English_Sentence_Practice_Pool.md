@@ -262,8 +262,11 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: OpenAI will work with NVIDIA as a preferred strategic compute and networking partner for its AI factory growth plans.
 Factors: Professional terminology; fixed phrase
 Difficulty: 3
-Practice count: 0
-Last practiced: Never
+Practice count: 2
+Last practiced: 2026-06-12
+Last score: 78
+Average score: 70
+Error tags: main clause; word choice; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on preferred strategic compute and networking partner, AI factory growth plans.
 
 ID: OAI-NVDA-005
@@ -272,11 +275,11 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world's most advanced AI infrastructure.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-10
-Last score: 72
-Average score: 72
-Error tags: modifier; terminology; Chinese naturalness
+Practice count: 3
+Last practiced: 2026-06-12
+Last score: 80
+Average score: 73
+Error tags: modifier; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on complements, broad network of collaborators, focused on building.
 
 ID: OAI-NVDA-006
@@ -285,11 +288,11 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-10
+Practice count: 3
+Last practiced: 2026-06-12
 Last score: 58
-Average score: 58
-Error tags: terminology; logic; main clause; Chinese naturalness
+Average score: 56
+Error tags: terminology; logic; word choice; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on forward-looking statements, guarantees of future performance, speak only as of, disclaims any obligation.
 
 ID: GOOG-AI-MAY26-001
@@ -334,11 +337,11 @@ Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-ma
 Sentence: Information agents in Search can monitor information on a user's behalf, send detailed updates, and provide links that let the user dive deeper and take action.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-10
-Last score: 74
-Average score: 74
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 2
+Last practiced: 2026-06-11
+Last score: 78
+Average score: 76
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on information agents, on your behalf, dive deeper, take action.
 
 ID: GOOG-AI-MAY26-005
@@ -347,10 +350,10 @@ Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-ma
 Sentence: Search can build generative UI and interactive visuals tailored to a user's questions, including custom experiences such as dashboards or mini apps for ongoing tasks.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-10
-Last score: 76
-Average score: 76
+Practice count: 3
+Last practiced: 2026-06-12
+Last score: 74
+Average score: 75
 Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on generative UI, interactive visuals, tailored to, ongoing tasks.
 
@@ -370,8 +373,11 @@ Source: /Users/bytedance/Downloads/AI_English_Handbook_v2.pdf
 Sentence: Semantic search is valuable because it can retrieve results based on meaning rather than keywords, which makes it more useful when users describe the same concept in different ways.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-12
+Last score: 86
+Average score: 86
+Error tags: Chinese naturalness
 Notes: Practice sentence adapted from user-provided handbook; focus on semantic search, meaning rather than keywords.
 
 ID: AI-HB-V2-002

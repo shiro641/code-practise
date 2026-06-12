@@ -1,0 +1,77 @@
+2026-06-12 AI English Reading Practice
+
+forward-looking statements.
+Forward-looking statements are not guarantees of future performance.
+The report includes forward-looking statements about infrastructure deployment.
+
+disclaims any obligation.
+The company disclaims any obligation to update the statement unless required by law.
+NVIDIA disclaims any obligation to revise forward-looking statements after the release date.
+
+speak only as of.
+These statements speak only as of the date of publication.
+Evaluation results speak only as of the tested system and setup.
+
+preferred strategic partner.
+OpenAI described NVIDIA as a preferred strategic compute and networking partner.
+A preferred strategic partner can provide dedicated infrastructure and technical support.
+
+complements.
+This partnership complements the work already underway with other collaborators.
+The new evaluation complements existing benchmarks rather than replacing them.
+
+broad network of collaborators.
+The project depends on a broad network of collaborators across cloud, hardware, and research.
+A broad network of collaborators can accelerate infrastructure deployment.
+
+focused on building.
+The team is focused on building reliable AI infrastructure.
+The partnership is focused on building systems that can operate at scale.
+
+semantic search.
+Semantic search retrieves results based on meaning rather than exact keywords.
+Semantic search is useful when users describe the same concept in different ways.
+
+syntax.
+Syntax describes the form or structure of language rather than its meaning.
+The parser checks syntax before the model interprets semantic intent.
+
+prioritize.
+The team should prioritize high-risk failures before optimizing minor metrics.
+An agent must prioritize user constraints when planning a workflow.
+
+optimize.
+Engineers optimize latency, cost, and reliability for production systems.
+The model was optimized for instruction following rather than raw benchmark scores.
+
+reactive.
+A reactive assistant waits for the user to ask for the next step.
+Reactive monitoring may miss failures that proactive checks could catch earlier.
+
+debut.
+The feature will debut in a limited preview before a wider launch.
+Several AI tools debuted during the product event.
+
+launch.
+The company plans to launch the feature for enterprise users next quarter.
+A successful launch requires documentation, monitoring, and rollback plans.
+
+custom experiences.
+Search can create custom experiences such as dashboards or mini apps.
+Custom experiences should be tailored to the user's ongoing task.
+
+Long sentence translation practice.
+
+OpenAI will work with NVIDIA as a preferred strategic compute and networking partner for its AI factory growth plans.
+
+This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world's most advanced AI infrastructure.
+
+These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+Search can build generative UI and interactive visuals tailored to a user's questions, including custom experiences such as dashboards or mini apps for ongoing tasks.
+
+Semantic search is valuable because it can retrieve results based on meaning rather than keywords, which makes it more useful when users describe the same concept in different ways.
+
+Chinese to English target expression.
+
+Forward-looking statements are not guarantees of future performance and speak only as of the date of publication.

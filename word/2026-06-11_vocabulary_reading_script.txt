@@ -1,53 +1,77 @@
-June 11, 2026. Daily AI English practice.
+2026-06-11 AI English Reading Practice
 
-Vocabulary and expressions.
+ultimately.
+Ultimately, user value determines whether an AI product succeeds.
+The benchmark is useful, but ultimately it must reflect real-world utility.
 
-1. validly support. The evidence may support the claim, but only within the limits of the evaluation setup. A trustworthy report explains what the results validly support.
+precisely.
+The assistant should be precisely tailored to the user's workflow.
+This failure matters precisely because it affects high-stakes decisions.
 
-2. measured capability ceiling. A score under one setup is not always a measured capability ceiling. Better elicitation may reveal stronger performance.
+obeys.
+The model obeys system instructions even when the user prompt conflicts with them.
+A reliable agent obeys tool constraints instead of inventing unsupported actions.
 
-3. safeguard testing. Safeguard testing checks whether safety controls remain effective under realistic attacks. Weak testing can understate risk.
+infrastructure.
+AI infrastructure includes compute, storage, networking, and deployment systems.
+Better infrastructure can reduce latency and improve model availability.
 
-4. account for. The analysis should account for the resources available to realistic attackers. If it does not account for the harness, the conclusion may be misleading.
+energy.
+Energy demand is becoming a major constraint for large AI data centers.
+Energy efficiency matters when models are served to millions of users.
 
-5. realistic attackers. A relevant threat model describes realistic attackers, not unlimited attackers. Realistic attackers may still have tools, time, and custom workflows.
+revenue.
+AI startups often grow revenue before they become profitable.
+Enterprise adoption can turn model capabilities into recurring revenue.
 
-6. validity checks. Evaluation reports should pair headline scores with validity checks. Validity checks help readers judge whether the score reflects intended behavior.
+critical.
+Reliability is critical for AI products in regulated industries.
+Clear evaluation criteria are critical for trustworthy benchmark results.
 
-7. distorted by known hazards. A benchmark result can be distorted by known hazards such as contamination or reward hacking. The report should explain how those hazards were handled.
+dedicated.
+A dedicated team maintains the evaluation platform.
+Some workloads require dedicated hardware for predictable performance.
 
-8. unsupported claims. A model that makes fewer unsupported claims is more useful in professional workflows. Unsupported claims should be surfaced and corrected early.
+widgets.
+Search can generate interactive widgets for specific user questions.
+The dashboard includes widgets for latency, cost, and error rates.
 
-9. surface uncertainty. Good analysis should surface uncertainty rather than hide it. Users need to know when the evidence is incomplete.
+pulse.
+The team uses telemetry to keep a pulse on system health.
+A good observability platform gives engineers a real-time pulse on production.
 
-10. background process. A background process can curate memory from chat history. The process should avoid stale, incorrect, or irrelevant information.
+representing millions of GPUs.
+The deployment uses NVIDIA systems representing millions of GPUs.
+Infrastructure representing millions of GPUs requires careful energy planning.
 
-Review expressions.
+letter of intent for a strategic partnership.
+The companies announced a letter of intent for a strategic partnership.
+A letter of intent can define the scope of future infrastructure deployment.
 
-11. forward-looking statements. Forward-looking statements describe expectations about future events. They are not guarantees of future performance.
+on the path to deploying superintelligence.
+The company described the infrastructure plan as part of the path to deploying superintelligence.
+Safety evaluations become more important on the path to deploying superintelligence.
 
-12. speak only as of the date hereof. These statements speak only as of the date hereof. The phrase limits the statement to the current document date.
+networking capacity.
+Networking capacity can limit the performance of distributed training.
+Large AI clusters require high networking capacity between accelerators.
 
-13. except as required by law. Except as required by law, the company disclaims any obligation to update the statement. This phrase creates a legal exception.
+critical limits on growth.
+Energy constraints can become critical limits on growth for AI infrastructure.
+Networking capacity and dedicated hardware may become critical limits on growth.
 
-14. disclaim any obligation to update. The company may disclaim any obligation to update forward-looking statements. This means it says it has no duty to revise them later.
+Long sentence translation practice.
 
-15. on a user's behalf. Information agents can monitor information on a user's behalf. They can send updates and links that help the user dive deeper and take action.
+OpenAI will work with NVIDIA as a preferred strategic compute and networking partner for its AI factory growth plans.
 
-English-to-Chinese practice sentences.
+This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world's most advanced AI infrastructure.
 
-OAI-NVDA-006. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
 
-GOOG-AI-MAY26-004. Information agents in Search can monitor information on a user's behalf, send detailed updates, and provide links that let the user dive deeper and take action.
+Information agents in Search can monitor information on a user's behalf, send detailed updates, and provide links that let the user dive deeper and take action.
 
-OAI-MEM-003. Dreaming uses a background process to curate memory from chat history so the model can provide fresher and more relevant context.
+Search can build generative UI and interactive visuals tailored to a user's questions, including custom experiences such as dashboards or mini apps for ongoing tasks.
 
-OAI-NVDA-004. OpenAI will work with NVIDIA as a preferred strategic compute and networking partner for its AI factory growth plans.
+Chinese to English target expression.
 
-AI-HB-V2-006. Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings that the user configures for a specific workflow.
-
-Chinese-to-English practice.
-
-Target expression: overinterpret, validly support, complete proof.
-
-Do not overinterpret limited evidence as complete proof. A good evaluation report should explain what its results validly support.
+Personalized systems adapt automatically based on user behavior, while customized systems usually depend on explicit settings configured by the user for a specific workflow.
