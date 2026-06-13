@@ -14,24 +14,28 @@
 - 用户针对某个知识点反复追问时，在“追问次数”中累加，并提高该知识点后续复习/再讲解优先级。
 - 本周没学完的 `planned` 或 `pending` 条目，会自动流转到下一周学习计划。
 - 每日推送必须包含：知识点具体说明、例子、一道简单练习题。
+- 每次推送只能引入一个新的 Rust 学习目标；示例代码里的其他 Rust 语法必须默认是已学过的，或退回到更基础的前置知识点。
 
 ## 当前状态
 
-- 最近完成日期: 2026-06-08
-- 当前待完成: 2026-06-09
-- 当前最早 pending: trait 里的 `impl Future + Send`
+- 最近完成日期: 2026-06-13
+- 当前待完成: 无
+- 当前最早 pending: 无
 - 当前周计划文件: `weekly-plan.md`
 - 问题与回答日志: `question-log.md`
+- 学习路线模式: 循序渐进，从基础语法重新开始
 
 ## 知识点记录
 
 | 日期 | 知识点 | 状态 | 优先级 | 追问次数 | 来源代码 | 完成日期 | 备注 |
 |---|---|---|---:|---:|---|---|---|
-| 2026-06-09 | trait 里的 `impl Future + Send` | pending | 95 | 0 | `/Users/bytedance/Desktop/codecli/codex-rs/rmcp-client/src/stdio_server_launcher.rs` |  | 已推送，尚未确认学完 |
-| 2026-06-10 | `ok_or_else` 和 `?` 的组合 | pending | 90 | 0 | `/Users/bytedance/Desktop/codecli/codex-rs/lmstudio/src/client.rs` |  | 在新规则建立前已推送 |
-| 2026-06-12 | ownership 与 move 的基本规则 | planned | 100 | 0 | 自包含示例 |  | 基础、高频，等待 pending 完成后推送 |
-| 2026-06-12 | 借用与引用 `&T` / `&mut T` | planned | 99 | 0 | 自包含示例 |  | 基础、高频，等待 pending 完成后推送 |
-| 2026-06-12 | `Option` / `Result` 的基础错误处理 | planned | 98 | 0 | 自包含示例 |  | 基础、高频，等待 pending 完成后推送 |
+| 2026-06-13 | ownership 与 move 的基本规则 | done | 107 | 7 | 自包含示例 | 2026-06-13 | 已完成；从头开始的第一个知识点；追问过 `println!`、`{}`、Rust 基础类型、Copy/move 区别、`&str` 是否 Copy、重新赋值是否影响原变量、`&mut` 和 `Copy` 不是 `.copy()` 方法 |
+| 2026-06-12 | 借用与引用 `&T` | planned | 99 | 0 | 自包含示例 |  | 下一个知识点；需要详细讲借用，先只讲不可变借用 |
+| 2026-06-12 | 可变借用 `&mut T` | backlog | 98 | 0 | 自包含示例 |  | 需要先完成不可变借用 `&T` |
+| 2026-06-12 | `Option` 的 `Some` / `None` | backlog | 97 | 0 | 自包含示例 |  | 已接触但未系统学习 |
+| 2026-06-12 | `Result` 与 `?` 基础 | backlog | 88 | 0 | 自包含示例 |  | 需要先学习 `Option`、函数返回值和错误处理基础 |
+| 2026-06-12 | `ok_or_else` 和 `?` 的组合 | backlog | 70 | 0 | `/Users/bytedance/Desktop/codecli/codex-rs/lmstudio/src/client.rs` |  | 旧 pending 已移除；等 `Option` / `Result` 基础完成后再学 |
+| 2026-06-12 | trait 里的 `impl Future + Send` | backlog | 50 | 2 | `/Users/bytedance/Desktop/codecli/codex-rs/rmcp-client/src/stdio_server_launcher.rs` |  | 旧 pending 已移除；涉及 trait、async、Future、Send、生命周期，暂缓 |
 
 ## 优先级规则
 
@@ -42,3 +46,4 @@
 - 依赖关系：能帮助理解后续知识点的内容优先。
 - 追问次数：用户每追问一次相关知识点，给该知识点或其前置知识点提高优先级。
 - 流转规则：上一周没学完的 `pending` 和 `planned` 自动排到下一周前面。
+- 循序渐进：如果某个知识点示例需要多个未学过概念，必须先拆分前置知识，不允许直接推送高级主题。

@@ -183,8 +183,11 @@ Source: https://openai.com/index/chatgpt-memory-dreaming/
 Sentence: Dreaming uses a background process to curate memory from chat history so the model can provide fresher and more relevant context.
 Factors: Professional terminology; advanced expression; fixed phrase
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-13
+Last score: 72
+Average score: 72
+Error tags: terminology; logic; word choice
 Notes: Practice sentence adapted from OpenAI article; focus on background process, curate memory, fresher and more relevant context.
 
 ID: OAI-MEM-004
@@ -275,8 +278,8 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world's most advanced AI infrastructure.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 3
-Last practiced: 2026-06-12
+Practice count: 4
+Last practiced: 2026-06-13
 Last score: 80
 Average score: 73
 Error tags: modifier; Chinese naturalness
@@ -288,13 +291,12 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 3
-Last practiced: 2026-06-12
-Last score: 58
-Average score: 56
-Error tags: terminology; logic; word choice; Chinese naturalness
+Practice count: 4
+Last practiced: 2026-06-13
+Last score: 64
+Average score: 58
+Error tags: logic; word choice; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on forward-looking statements, guarantees of future performance, speak only as of, disclaims any obligation.
-
 ID: GOOG-AI-MAY26-001
 Article: The latest AI news we announced in May 2026
 Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
@@ -350,21 +352,23 @@ Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-ma
 Sentence: Search can build generative UI and interactive visuals tailored to a user's questions, including custom experiences such as dashboards or mini apps for ongoing tasks.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 3
-Last practiced: 2026-06-12
-Last score: 74
-Average score: 75
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 4
+Last practiced: 2026-06-13
+Last score: 82
+Average score: 77
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on generative UI, interactive visuals, tailored to, ongoing tasks.
-
 ID: GOOG-AI-MAY26-006
 Article: The latest AI news we announced in May 2026
 Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
 Sentence: By combining Project Genie with Street View, Google introduced an experimental way to simulate and explore highly realistic, interactive 3D environments of real-world places from the browser.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-13
+Last score: 76
+Average score: 76
+Error tags: terminology; modifier; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on combining, simulate and explore, interactive 3D environments, real-world places.
 
 ID: AI-HB-V2-001
@@ -438,6 +442,69 @@ Source: /Users/bytedance/Downloads/AI_English_Handbook_v2.pdf
 Sentence: Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings that the user configures for a specific workflow.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
+Practice count: 1
+Last practiced: 2026-06-13
+Last score: 70
+Average score: 70
+Error tags: terminology; grammar; word choice
+Notes: Practice sentence adapted from user-provided handbook; focus on personalized vs customized, while as contrast.
+
+ID: ANT-FABLE5-001
+Article: Claude Fable 5 and Claude Mythos 5
+Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+Sentence: Fable 5 is presented as a Mythos-class model made available for general use, with safeguards that route some high-risk requests to a less capable but safer fallback model.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
 Practice count: 0
 Last practiced: Never
-Notes: Practice sentence adapted from user-provided handbook; focus on personalized vs customized, while as contrast.
+Notes: Practice sentence adapted from Anthropic article; focus on Mythos-class model, general use, safeguards, fallback model.
+
+ID: ANT-FABLE5-002
+Article: Claude Fable 5 and Claude Mythos 5
+Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+Sentence: In long-horizon software engineering tasks, the model is described as compressing work that previously required weeks or months into much shorter autonomous execution windows.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on long-horizon software engineering, compress work, autonomous execution.
+
+ID: ANT-FABLE5-003
+Article: Claude Fable 5 and Claude Mythos 5
+Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+Sentence: The safeguards are intentionally tuned conservatively, which means they may catch some benign requests while reducing the risk of misuse in cybersecurity, biology, chemistry, and distillation.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on conservatively tuned safeguards, benign requests, misuse, distillation.
+
+ID: ANT-FABLE5-004
+Article: Claude Fable 5 and Claude Mythos 5
+Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+Sentence: A trusted access program can allow selected organizations to use stronger model capabilities with certain safeguards lifted, while preserving stricter protections for general users.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on trusted access program, safeguards lifted, general users.
+
+ID: ANT-FABLE5-005
+Article: Claude Fable 5 and Claude Mythos 5
+Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+Sentence: Persistent file-based memory can improve performance on long-running tasks by allowing the model to preserve notes, refine strategies, and reuse context across many steps.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on persistent file-based memory, long-running tasks, preserve notes, reuse context.
+
+ID: ANT-FABLE5-006
+Article: Claude Fable 5 and Claude Mythos 5
+Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+Sentence: The model's life-sciences examples highlight both the potential benefits of advanced reasoning systems and the dual-use risks that arise when similar capabilities are available to malicious actors.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on life sciences, advanced reasoning systems, dual-use risks, malicious actors.

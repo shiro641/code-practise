@@ -1,0 +1,77 @@
+2026-06-13 AI English Reading Practice
+
+background process.
+Dreaming uses a background process to curate memory from chat history.
+A background process can refresh context without interrupting the user.
+
+curate memory.
+The system curates memory so future conversations start with more relevant context.
+Memory should be curated to avoid stale, incorrect, or irrelevant information.
+
+fresher context.
+Fresher context helps the model avoid relying on outdated assumptions.
+The assistant can provide fresher context when memory is updated over time.
+
+relevant context.
+Relevant context improves answers without forcing the user to repeat old details.
+The model should preserve relevant context and discard unrelated information.
+
+multimodal input.
+The model can process multimodal input such as images, audio, video, and text.
+Multimodal input allows users to describe a problem with more than words.
+
+grounded in real-world knowledge.
+The generated video should be grounded in real-world knowledge.
+Answers grounded in real-world knowledge are easier for users to verify.
+
+simulate and explore.
+The tool lets users simulate and explore interactive 3D environments.
+Researchers can simulate and explore different scenarios before deployment.
+
+interactive 3D environments.
+Interactive 3D environments can help users inspect real-world places from the browser.
+Visual tools may generate interactive 3D environments for planning tasks.
+
+personalized systems.
+Personalized systems adapt automatically to user behavior.
+Personalized systems can make repeated workflows faster and more useful.
+
+customized systems.
+Customized systems depend on explicit settings configured by the user.
+Customized systems are useful when a workflow needs precise manual control.
+
+explicit settings.
+Customized tools often rely on explicit settings for a specific workflow.
+Explicit settings make system behavior easier to inspect and adjust.
+
+forward-looking statements.
+Forward-looking statements are not guarantees of future performance.
+These forward-looking statements speak only as of the date hereof.
+
+future events or circumstances.
+The company may update the statement to reflect future events or circumstances.
+Forward-looking statements may become inaccurate as future events or circumstances change.
+
+generative UI.
+Search can build generative UI tailored to a user's questions.
+Generative UI can turn a query into an interactive tool.
+
+custom experiences.
+Search can create custom experiences such as dashboards or mini apps.
+Custom experiences should match the user's ongoing task.
+
+Long sentence translation practice.
+
+These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+Search can build generative UI and interactive visuals tailored to a user's questions, including custom experiences such as dashboards or mini apps for ongoing tasks.
+
+By combining Project Genie with Street View, Google introduced an experimental way to simulate and explore highly realistic, interactive 3D environments of real-world places from the browser.
+
+Dreaming uses a background process to curate memory from chat history so the model can provide fresher and more relevant context.
+
+Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings that the user configures for a specific workflow.
+
+Chinese to English target expression.
+
+Dreaming uses a background process to curate memory from chat history so the model can provide fresher and more relevant context.

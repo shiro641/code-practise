@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10",
+  "updatedAt": "2026-06-13",
   "level": {
     "label": "初级偏上",
     "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
@@ -54,6 +54,15 @@
       "source": "daily-practice-2026-06-10",
       "solutionFile": "problems/005-coin-change-ii/solution.ts",
       "notes": "代码正确；能识别完全背包和正序遍历复用当前硬币状态。后续继续强化外层硬币遍历如何避免排列重复统计。"
+    },
+    {
+      "id": "006",
+      "title": "最佳买卖股票时机含冷冻期",
+      "type": "股票状态机 DP",
+      "status": "completed",
+      "source": "daily-practice-2026-06-13",
+      "solutionFile": "problems/006-best-time-to-buy-and-sell-stock-with-cooldown/solution.ts",
+      "notes": "代码逻辑正确；初始化和冷冻期转移都通过。需继续压实的点是：dp[i - 2][0] - prices[i] 表示第 i 天买入时的合法来源是第 i - 2 天结束后未持有，而不是第 i - 2 天买入。"
     }
   ]
 }
