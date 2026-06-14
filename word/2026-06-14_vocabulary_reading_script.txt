@@ -1,0 +1,77 @@
+2026-06-14 AI English Reading Practice
+
+Mythos-class model.
+Fable 5 is presented as a Mythos-class model made available for general use.
+A Mythos-class model may expose stronger capabilities under stricter safeguards.
+
+general use.
+The model was adapted for general use with additional safety controls.
+Systems intended for general use need safeguards that cover a wide range of users.
+
+safeguards.
+Safeguards can reduce the risk of misuse in high-risk domains.
+The team added safeguards before making the model available to more users.
+
+fallback model.
+Some high-risk requests are routed to a less capable but safer fallback model.
+A fallback model can preserve safety when the primary model is too capable for a sensitive request.
+
+long-horizon software engineering.
+Long-horizon software engineering tasks require planning, memory, and repeated verification.
+The model performed better on long-horizon software engineering work than earlier systems.
+
+autonomous execution.
+Autonomous execution windows allow an agent to make progress without constant user input.
+Long tasks often require autonomous execution with checkpoints and verification.
+
+tuned conservatively.
+The safeguards are tuned conservatively to reduce misuse.
+A conservatively tuned classifier may catch some benign requests.
+
+benign requests.
+Some benign requests may be blocked when safety filters are tuned conservatively.
+The evaluation should distinguish benign requests from genuinely harmful ones.
+
+misuse.
+The system is designed to reduce the risk of misuse in cybersecurity and biology.
+Misuse risk increases when powerful capabilities are available without safeguards.
+
+trusted access program.
+A trusted access program can give selected organizations stronger model capabilities.
+Trusted access programs require clear rules, monitoring, and accountability.
+
+safeguards lifted.
+Certain safeguards may be lifted for trusted users under controlled conditions.
+If safeguards are lifted, the provider should monitor how the model is used.
+
+stricter protections.
+General users may remain under stricter protections than trusted organizations.
+Stricter protections can reduce risk while preserving access for common use cases.
+
+forward-looking statements.
+Forward-looking statements are not guarantees of future performance.
+These forward-looking statements speak only as of the date hereof.
+
+curate memory.
+The system curates memory from chat history to provide fresher context.
+Curated memory should preserve useful facts and discard irrelevant details.
+
+explicit settings.
+Customized systems often depend on explicit settings configured by the user.
+Explicit settings make a workflow easier to inspect and adjust.
+
+Long sentence translation practice.
+
+These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+Fable 5 is presented as a Mythos-class model made available for general use, with safeguards that route some high-risk requests to a less capable but safer fallback model.
+
+In long-horizon software engineering tasks, the model is described as compressing work that previously required weeks or months into much shorter autonomous execution windows.
+
+The safeguards are intentionally tuned conservatively, which means they may catch some benign requests while reducing the risk of misuse in cybersecurity, biology, chemistry, and distillation.
+
+A trusted access program can allow selected organizations to use stronger model capabilities with certain safeguards lifted, while preserving stricter protections for general users.
+
+Chinese to English target expression.
+
+The safeguards are tuned conservatively, which means they may catch some benign requests while reducing the risk of misuse.

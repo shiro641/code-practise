@@ -291,10 +291,10 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 4
-Last practiced: 2026-06-13
-Last score: 64
-Average score: 58
+Practice count: 5
+Last practiced: 2026-06-14
+Last score: 66
+Average score: 60
 Error tags: logic; word choice; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on forward-looking statements, guarantees of future performance, speak only as of, disclaims any obligation.
 ID: GOOG-AI-MAY26-001
@@ -455,40 +455,48 @@ Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: Fable 5 is presented as a Mythos-class model made available for general use, with safeguards that route some high-risk requests to a less capable but safer fallback model.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-14
+Last score: 80
+Average score: 80
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on Mythos-class model, general use, safeguards, fallback model.
-
 ID: ANT-FABLE5-002
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: In long-horizon software engineering tasks, the model is described as compressing work that previously required weeks or months into much shorter autonomous execution windows.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-14
+Last score: 86
+Average score: 86
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on long-horizon software engineering, compress work, autonomous execution.
-
 ID: ANT-FABLE5-003
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: The safeguards are intentionally tuned conservatively, which means they may catch some benign requests while reducing the risk of misuse in cybersecurity, biology, chemistry, and distillation.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-14
+Last score: 86
+Average score: 86
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on conservatively tuned safeguards, benign requests, misuse, distillation.
-
 ID: ANT-FABLE5-004
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: A trusted access program can allow selected organizations to use stronger model capabilities with certain safeguards lifted, while preserving stricter protections for general users.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-14
+Last score: 76
+Average score: 76
+Error tags: terminology; modifier; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on trusted access program, safeguards lifted, general users.
-
 ID: ANT-FABLE5-005
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
@@ -508,3 +516,63 @@ Difficulty: 5
 Practice count: 0
 Last practiced: Never
 Notes: Practice sentence adapted from Anthropic article; focus on life sciences, advanced reasoning systems, dual-use risks, malicious actors.
+
+ID: ANT-FABLE-ACCESS-001
+Article: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+Source: https://www.anthropic.com/news/fable-mythos-access
+Sentence: The directive required Anthropic to suspend access to Fable 5 and Mythos 5 for all customers in order to ensure compliance with export control requirements.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on directive, suspend access, ensure compliance, export control requirements.
+
+ID: ANT-FABLE-ACCESS-002
+Article: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+Source: https://www.anthropic.com/news/fable-mythos-access
+Sentence: Anthropic stated that the reported bypass appeared to be a narrow, non-universal jailbreak rather than a broadly effective method for disabling the model's safeguards.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on bypass, narrow jailbreak, non-universal jailbreak, safeguards.
+
+ID: ANT-FABLE-ACCESS-003
+Article: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+Source: https://www.anthropic.com/news/fable-mythos-access
+Sentence: The company argued that perfect jailbreak resistance is not currently possible, so it adopted a defense-in-depth strategy that combines narrow failure modes with monitoring and rapid shutdown.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on jailbreak resistance, defense-in-depth strategy, monitoring, rapid shutdown.
+
+ID: ANT-FABLE-ACCESS-004
+Article: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+Source: https://www.anthropic.com/news/fable-mythos-access
+Sentence: Thirty-day retention of customer data was described as a costly policy change that allows Anthropic to research, detect, and mitigate jailbreak attempts.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on data retention, policy change, research and mitigate jailbreaks.
+
+ID: ANT-FABLE-ACCESS-005
+Article: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+Source: https://www.anthropic.com/news/fable-mythos-access
+Sentence: Anthropic disagreed that a narrow potential jailbreak should be sufficient cause for recalling a commercial model deployed to hundreds of millions of people.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on potential jailbreak, sufficient cause, recalling a commercial model, deployed to users.
+
+ID: ANT-FABLE-ACCESS-006
+Article: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+Source: https://www.anthropic.com/news/fable-mythos-access
+Sentence: Anthropic said that unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from Anthropic article; focus on unsafe deployments, statutory process, technically grounded, clear technical evidence.
