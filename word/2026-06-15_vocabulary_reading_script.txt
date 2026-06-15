@@ -1,0 +1,81 @@
+2026-06-15 Vocabulary Reading, American English
+
+Part A. Vocabulary and Expressions.
+
+1. directive.
+Example one. The directive required the company to suspend access until compliance concerns were resolved.
+Example two. A regulatory directive can materially affect how an AI system is deployed across regions.
+
+2. suspend access.
+Example one. The provider may suspend access if a service is being used in a way that violates safety requirements.
+Example two. Researchers asked the platform to suspend access to the experimental model during the investigation.
+
+3. ensure compliance.
+Example one. The team added audit logs to ensure compliance with internal governance policies.
+Example two. AI vendors must ensure compliance with export control requirements before releasing advanced models.
+
+4. export control requirements.
+Example one. Export control requirements can limit who is allowed to access frontier AI capabilities.
+Example two. The deployment plan was revised to account for export control requirements in several markets.
+
+5. bypass.
+Example one. Attackers may try to bypass safeguards by reframing a harmful request as a harmless task.
+Example two. The evaluation checks whether the model can bypass policy filters under adversarial prompting.
+
+6. non-universal jailbreak.
+Example one. A non-universal jailbreak works only in a narrow setting and does not generalize across tasks.
+Example two. The report described the issue as a non-universal jailbreak rather than a complete safeguard failure.
+
+7. jailbreak resistance.
+Example one. Perfect jailbreak resistance is difficult because users can always search for new prompting strategies.
+Example two. Strong jailbreak resistance requires testing against realistic adversarial behavior.
+
+8. defense-in-depth strategy.
+Example one. The company adopted a defense-in-depth strategy that combines model safeguards, monitoring, and rapid shutdown.
+Example two. A defense-in-depth strategy reduces risk by layering multiple protections instead of relying on one control.
+
+9. failure modes.
+Example one. Evaluation reports should describe the model's main failure modes, not just its benchmark scores.
+Example two. Narrow failure modes are easier to monitor and mitigate than broad, unpredictable failures.
+
+10. monitoring.
+Example one. Continuous monitoring helps teams detect misuse patterns after a model is deployed.
+Example two. Monitoring should be paired with clear escalation paths when high-risk behavior appears.
+
+11. rapid shutdown.
+Example one. A rapid shutdown process allows the provider to disable a risky feature before harm spreads.
+Example two. The deployment plan included rapid shutdown procedures for severe safety incidents.
+
+12. persistent file-based memory.
+Example one. Persistent file-based memory allows an agent to preserve notes across long-running software tasks.
+Example two. The model used persistent file-based memory to reuse context from previous debugging steps.
+
+13. reuse context.
+Example one. Memory helps the assistant reuse context instead of asking the user to repeat project details.
+Example two. Agents can reuse context from earlier steps to maintain consistency across a multi-stage workflow.
+
+14. dual-use risks.
+Example one. Advanced biology tools can create dual-use risks because the same capability may support research or misuse.
+Example two. Safety evaluations should account for dual-use risks when models become more capable.
+
+15. malicious actors.
+Example one. Malicious actors may exploit open-ended tools to automate harmful workflows.
+Example two. The threat model should consider what malicious actors can do with realistic resources.
+
+Part B. Long Sentence Translation Practice.
+
+1. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+2. Persistent file-based memory can improve performance on long-running tasks by allowing the model to preserve notes, refine strategies, and reuse context across many steps.
+
+3. The model's life-sciences examples highlight both the potential benefits of advanced reasoning systems and the dual-use risks that arise when similar capabilities are available to malicious actors.
+
+4. The directive required Anthropic to suspend access to Fable 5 and Mythos 5 for all customers in order to ensure compliance with export control requirements.
+
+5. The company argued that perfect jailbreak resistance is not currently possible, so it adopted a defense-in-depth strategy that combines narrow failure modes with monitoring and rapid shutdown.
+
+Part C. Chinese to English Practice.
+
+Target expressions. defense-in-depth strategy, monitoring, rapid shutdown.
+
+Model sentence. The company argued that perfect jailbreak resistance is not currently possible, so it adopted a defense-in-depth strategy that combines narrow failure modes with monitoring and rapid shutdown.

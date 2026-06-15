@@ -291,12 +291,13 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 5
-Last practiced: 2026-06-14
-Last score: 66
-Average score: 60
-Error tags: logic; word choice; Chinese naturalness
+Practice count: 6
+Last practiced: 2026-06-15
+Last score: 76
+Average score: 63
+Error tags: logic; fixed phrase; word choice; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on forward-looking statements, guarantees of future performance, speak only as of, disclaims any obligation.
+
 ID: GOOG-AI-MAY26-001
 Article: The latest AI news we announced in May 2026
 Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
@@ -358,6 +359,7 @@ Last score: 82
 Average score: 77
 Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on generative UI, interactive visuals, tailored to, ongoing tasks.
+
 ID: GOOG-AI-MAY26-006
 Article: The latest AI news we announced in May 2026
 Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
@@ -461,6 +463,7 @@ Last score: 80
 Average score: 80
 Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on Mythos-class model, general use, safeguards, fallback model.
+
 ID: ANT-FABLE5-002
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
@@ -473,6 +476,7 @@ Last score: 86
 Average score: 86
 Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on long-horizon software engineering, compress work, autonomous execution.
+
 ID: ANT-FABLE5-003
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
@@ -485,6 +489,7 @@ Last score: 86
 Average score: 86
 Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on conservatively tuned safeguards, benign requests, misuse, distillation.
+
 ID: ANT-FABLE5-004
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
@@ -497,14 +502,18 @@ Last score: 76
 Average score: 76
 Error tags: terminology; modifier; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on trusted access program, safeguards lifted, general users.
+
 ID: ANT-FABLE5-005
 Article: Claude Fable 5 and Claude Mythos 5
 Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: Persistent file-based memory can improve performance on long-running tasks by allowing the model to preserve notes, refine strategies, and reuse context across many steps.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-15
+Last score: 90
+Average score: 90
+Error tags: Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on persistent file-based memory, long-running tasks, preserve notes, reuse context.
 
 ID: ANT-FABLE5-006
@@ -513,8 +522,11 @@ Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: The model's life-sciences examples highlight both the potential benefits of advanced reasoning systems and the dual-use risks that arise when similar capabilities are available to malicious actors.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-15
+Last score: 68
+Average score: 68
+Error tags: terminology; logic; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on life sciences, advanced reasoning systems, dual-use risks, malicious actors.
 
 ID: ANT-FABLE-ACCESS-001
@@ -523,8 +535,11 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: The directive required Anthropic to suspend access to Fable 5 and Mythos 5 for all customers in order to ensure compliance with export control requirements.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-15
+Last score: 86
+Average score: 86
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on directive, suspend access, ensure compliance, export control requirements.
 
 ID: ANT-FABLE-ACCESS-002
@@ -543,8 +558,11 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: The company argued that perfect jailbreak resistance is not currently possible, so it adopted a defense-in-depth strategy that combines narrow failure modes with monitoring and rapid shutdown.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-15
+Last score: 72
+Average score: 72
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on jailbreak resistance, defense-in-depth strategy, monitoring, rapid shutdown.
 
 ID: ANT-FABLE-ACCESS-004

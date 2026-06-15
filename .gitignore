@@ -1,3 +1,14 @@
 # Generated vocabulary audio files
 word/*_vocabulary_reading_american.m4a
 word/*_vocabulary_reading_american.aiff
+
+# macOS
+.DS_Store
+
+# Rust build artifacts
+target/
+**/target/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
