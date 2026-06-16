@@ -1,0 +1,81 @@
+2026-06-16 Vocabulary Reading, American English
+
+Part A. Vocabulary and Expressions.
+
+1. reported bypass.
+Example one. The reported bypass appeared to work only in a narrow set of prompts.
+Example two. Security teams should verify whether a reported bypass is reproducible before changing deployment policy.
+
+2. broadly effective.
+Example one. A broadly effective attack would work across many tasks, users, and model settings.
+Example two. The issue was serious, but it was not a broadly effective method for disabling safeguards.
+
+3. disable safeguards.
+Example one. The evaluation tested whether adversarial prompts could disable safeguards in high-risk domains.
+Example two. A narrow exploit should not be treated as proof that users can disable safeguards reliably.
+
+4. thirty-day retention.
+Example one. Thirty-day retention of customer data can help researchers detect and investigate jailbreak attempts.
+Example two. The policy introduced thirty-day retention for safety analysis while raising privacy and cost concerns.
+
+5. customer data.
+Example one. Providers must handle customer data according to clear retention and deletion policies.
+Example two. Customer data may be used for safety monitoring only under strict access controls.
+
+6. mitigate jailbreak attempts.
+Example one. The team used monitoring signals to detect and mitigate jailbreak attempts before they spread.
+Example two. Safety researchers need realistic traffic data to mitigate jailbreak attempts in deployed systems.
+
+7. technically grounded.
+Example one. A technically grounded decision should rely on clear evidence about how the system actually behaves.
+Example two. Regulators need technically grounded analysis before requiring a model to be withdrawn.
+
+8. statutory process.
+Example one. A statutory process can define when and how regulators may block unsafe deployments.
+Example two. The company argued that such decisions should follow a fair statutory process.
+
+9. clear technical evidence.
+Example one. A claim about model risk should be supported by clear technical evidence.
+Example two. Without clear technical evidence, it is hard to justify recalling a deployed commercial model.
+
+10. unsafe deployment.
+Example one. An unsafe deployment can expose users to risks that were not visible in offline evaluations.
+Example two. Safety reviews should identify whether a model release would count as an unsafe deployment.
+
+11. forward-looking statements.
+Example one. Forward-looking statements describe expectations about future events rather than current facts.
+Example two. Investors should not treat forward-looking statements as guarantees of future performance.
+
+12. speak only as of the date hereof.
+Example one. The statement speaks only as of the date hereof and may become outdated as circumstances change.
+Example two. Legal notices often say that forward-looking statements speak only as of the date hereof.
+
+13. life-sciences examples.
+Example one. The model's life-sciences examples show how advanced reasoning can support complex research tasks.
+Example two. Life-sciences examples also raise questions about dual-use risks and access controls.
+
+14. dual-use risks.
+Example one. Dual-use risks arise when the same capability can support beneficial research or harmful misuse.
+Example two. Evaluators should consider dual-use risks before expanding access to advanced model capabilities.
+
+15. defense-in-depth strategy.
+Example one. A defense-in-depth strategy combines safeguards, monitoring, and rapid shutdown rather than relying on a single control.
+Example two. The company used a defense-in-depth strategy to reduce the impact of narrow failure modes.
+
+Part B. Long Sentence Translation Practice.
+
+1. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+2. The model's life-sciences examples highlight both the potential benefits of advanced reasoning systems and the dual-use risks that arise when similar capabilities are available to malicious actors.
+
+3. Anthropic stated that the reported bypass appeared to be a narrow, non-universal jailbreak rather than a broadly effective method for disabling the model's safeguards.
+
+4. Thirty-day retention of customer data was described as a costly policy change that allows Anthropic to research, detect, and mitigate jailbreak attempts.
+
+5. Anthropic said that unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.
+
+Part C. Chinese to English Practice.
+
+Target expressions. technically grounded statutory process, clear technical evidence.
+
+Model sentence. Unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.

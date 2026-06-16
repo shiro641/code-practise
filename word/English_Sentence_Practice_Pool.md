@@ -291,11 +291,11 @@ Source: /Users/bytedance/Downloads/OpenAIan.pdf
 Sentence: These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 6
-Last practiced: 2026-06-15
-Last score: 76
-Average score: 63
-Error tags: logic; fixed phrase; word choice; Chinese naturalness
+Practice count: 7
+Last practiced: 2026-06-16
+Last score: 84
+Average score: 66
+Error tags: word choice; Chinese naturalness
 Notes: Source sentence from user-provided PDF; focus on forward-looking statements, guarantees of future performance, speak only as of, disclaims any obligation.
 
 ID: GOOG-AI-MAY26-001
@@ -522,11 +522,11 @@ Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: The model's life-sciences examples highlight both the potential benefits of advanced reasoning systems and the dual-use risks that arise when similar capabilities are available to malicious actors.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-15
-Last score: 68
-Average score: 68
-Error tags: terminology; logic; Chinese naturalness
+Practice count: 2
+Last practiced: 2026-06-16
+Last score: 72
+Average score: 70
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on life sciences, advanced reasoning systems, dual-use risks, malicious actors.
 
 ID: ANT-FABLE-ACCESS-001
@@ -548,8 +548,11 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: Anthropic stated that the reported bypass appeared to be a narrow, non-universal jailbreak rather than a broadly effective method for disabling the model's safeguards.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-16
+Last score: 78
+Average score: 78
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on bypass, narrow jailbreak, non-universal jailbreak, safeguards.
 
 ID: ANT-FABLE-ACCESS-003
@@ -571,8 +574,11 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: Thirty-day retention of customer data was described as a costly policy change that allows Anthropic to research, detect, and mitigate jailbreak attempts.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-16
+Last score: 76
+Average score: 76
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on data retention, policy change, research and mitigate jailbreaks.
 
 ID: ANT-FABLE-ACCESS-005
@@ -591,6 +597,69 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: Anthropic said that unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-16
+Last score: 74
+Average score: 74
+Error tags: terminology; main clause; Chinese naturalness
+Notes: Practice sentence adapted from Anthropic article; focus on unsafe deployments, statutory process, technically grounded, clear technical evidence.
+
+ID: OAI-PARTNER-001
+Article: Introducing the OpenAI Partner Network
+Source: https://openai.com/index/introducing-openai-partner-network/
+Sentence: In enterprise AI adoption, the limiting factor is shifting from model capability to whether organizations can repeatedly identify valuable use cases, redesign workflows, integrate with existing systems, and drive change management at scale.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
 Practice count: 0
 Last practiced: Never
-Notes: Practice sentence adapted from Anthropic article; focus on unsafe deployments, statutory process, technically grounded, clear technical evidence.
+Notes: Practice sentence adapted from OpenAI article; focus on enterprise AI adoption, limiting factor, use cases, workflow redesign, systems integration, change management at scale.
+
+ID: OAI-PARTNER-002
+Article: Introducing the OpenAI Partner Network
+Source: https://openai.com/index/introducing-openai-partner-network/
+Sentence: Turning frontier models into measurable enterprise impact requires trusted partners with industry expertise, delivery capacity, and customer relationships that can support deployment beyond the pilot stage.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on frontier models, measurable enterprise impact, trusted partners, delivery capacity, beyond pilots.
+
+ID: OAI-PARTNER-003
+Article: Introducing the OpenAI Partner Network
+Source: https://openai.com/index/introducing-openai-partner-network/
+Sentence: Enterprise AI transformation requires not only access to frontier models but also secure integration with company data, workflow redesign, responsible deployment, and adoption support for new ways of working.
+Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
+Difficulty: 4
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on enterprise transformation, secure integration, responsible deployment, adoption support.
+
+ID: OAI-PARTNER-004
+Article: Introducing the OpenAI Partner Network
+Source: https://openai.com/index/introducing-openai-partner-network/
+Sentence: Partner tiers and specializations can help customers identify organizations with proven capabilities in areas such as Codex, cybersecurity, and agents while giving partners a clearer path to build expertise.
+Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
+Difficulty: 4
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on partner tiers, specializations, proven capabilities, build expertise.
+
+ID: OAI-PARTNER-005
+Article: Introducing the OpenAI Partner Network
+Source: https://openai.com/index/introducing-openai-partner-network/
+Sentence: The Forward Deployed Experts program is designed to help qualified partner practitioners align with OpenAI's deployment teams when complex customer needs require deeper support.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on Forward Deployed Experts, qualified practitioners, deployment teams, complex customer needs.
+
+ID: OAI-PARTNER-006
+Article: Introducing the OpenAI Partner Network
+Source: https://openai.com/index/introducing-openai-partner-network/
+Sentence: An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on ecosystem-led approach, complementary strengths, operating-model redesign, data modernization, industry-specific solutions, change management.

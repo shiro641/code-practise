@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14",
+  "updatedAt": "2026-06-15",
   "level": {
     "label": "初级偏上",
     "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
@@ -72,6 +72,15 @@
       "source": "daily-practice-2026-06-14",
       "solutionFile": "problems/007-unique-paths-ii/solution.ts",
       "notes": "状态定义、转移、遍历顺序和边界处理都正确。后续继续强化第一行/第一列在遇到障碍后为何保持为 0 的口头表达。"
+    },
+    {
+      "id": "008",
+      "title": "目标和",
+      "type": "0-1 背包变体 / 子集和计数",
+      "status": "completed",
+      "source": "daily-practice-2026-06-15",
+      "solutionFile": "problems/008-target-sum/solution.ts",
+      "notes": "核心建模正确：能把 +/- 选择转化为子集和计数。转移、倒序遍历和 dp[0] 初始化都正确；需继续强化对容量公式 (sum + target) / 2 的推导表达。"
     }
   ]
 }
