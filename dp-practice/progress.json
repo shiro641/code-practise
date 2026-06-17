@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15",
+  "updatedAt": "2026-06-17",
   "level": {
     "label": "初级偏上",
     "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
@@ -81,6 +81,24 @@
       "source": "daily-practice-2026-06-15",
       "solutionFile": "problems/008-target-sum/solution.ts",
       "notes": "核心建模正确：能把 +/- 选择转化为子集和计数。转移、倒序遍历和 dp[0] 初始化都正确；需继续强化对容量公式 (sum + target) / 2 的推导表达。"
+    },
+    {
+      "id": "009",
+      "title": "一和零",
+      "type": "0-1 背包变体 / 双维容量最值",
+      "status": "completed",
+      "source": "daily-practice-2026-06-16",
+      "solutionFile": "problems/009-ones-and-zeroes/solution.ts",
+      "notes": "核心建模正确：能识别这是双维容量的 0-1 背包最值问题。状态定义、双重倒序遍历和转移都正确；后续继续强化“二维初始化为 0 表示什么”以及为什么正序会误变成完全背包。"
+    },
+    {
+      "id": "010",
+      "title": "预测赢家",
+      "type": "区间 DP / 博弈型分差 DP",
+      "status": "completed",
+      "source": "daily-practice-2026-06-17",
+      "solutionFile": "problems/010-predict-the-winner/solution.ts",
+      "notes": "核心建模正确：能把题目识别成区间上的博弈型 DP，并用“当前先手相对后手的最大分差”来定义状态。转移、遍历顺序和单点初始化都正确；修正返回条件为 >= 0 后通过。"
     }
   ]
 }

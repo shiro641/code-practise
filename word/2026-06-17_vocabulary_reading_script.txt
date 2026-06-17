@@ -1,0 +1,81 @@
+2026-06-17 Vocabulary Reading, American English
+
+Part A. Vocabulary and Expressions.
+
+1. enterprise AI adoption.
+Example one. Enterprise AI adoption depends on workflow redesign, security review, and employee training.
+Example two. Many companies move from experiments to enterprise AI adoption only after they find repeatable use cases.
+
+2. limiting factor.
+Example one. The limiting factor is no longer model capability alone, but the organization's ability to deploy AI effectively.
+Example two. In many AI projects, data access becomes the limiting factor before model performance does.
+
+3. use case.
+Example one. A valuable use case should connect model capability to a real business workflow.
+Example two. Teams should prioritize use cases that can produce measurable impact within a clear time frame.
+
+4. workflow redesign.
+Example one. Workflow redesign is often required before AI tools can create meaningful productivity gains.
+Example two. The partner helped the customer redesign workflows around agentic systems rather than simple chat interfaces.
+
+5. systems integration.
+Example one. Systems integration connects AI tools with databases, internal applications, and existing security controls.
+Example two. Without strong systems integration, even a powerful model may remain isolated from daily operations.
+
+6. change management at scale.
+Example one. Change management at scale helps thousands of employees adopt new AI-enabled workflows.
+Example two. Successful AI transformation requires change management at scale, not just a technical proof of concept.
+
+7. measurable enterprise impact.
+Example one. Leaders want AI projects to produce measurable enterprise impact rather than isolated demos.
+Example two. The deployment team defined metrics for measuring enterprise impact before expanding the pilot.
+
+8. trusted partners.
+Example one. Trusted partners can help customers translate frontier models into production systems.
+Example two. Enterprises often rely on trusted partners when AI deployments affect critical workflows.
+
+9. delivery capacity.
+Example one. Delivery capacity matters because large customers need support across many teams and regions.
+Example two. A partner with strong delivery capacity can move successful pilots into broader deployment.
+
+10. beyond the pilot stage.
+Example one. Many AI projects struggle to move beyond the pilot stage because integration and adoption are hard.
+Example two. The program is designed to help customers scale successful prototypes beyond the pilot stage.
+
+11. partner tiers.
+Example one. Partner tiers help customers understand a partner's level of experience and specialization.
+Example two. The network uses partner tiers to recognize organizations with proven deployment capabilities.
+
+12. specializations.
+Example one. Specializations can show whether a partner has expertise in Codex, agents, or cybersecurity.
+Example two. Customers may choose partners based on specializations that match their deployment needs.
+
+13. Forward Deployed Experts.
+Example one. Forward Deployed Experts work close to customer environments when deployments require deeper support.
+Example two. The program helps qualified partner practitioners align with OpenAI's deployment teams.
+
+14. ecosystem-led approach.
+Example one. An ecosystem-led approach allows multiple partners to contribute different strengths to enterprise AI projects.
+Example two. OpenAI can scale customer support through an ecosystem-led approach rather than a single delivery channel.
+
+15. complementary strengths.
+Example one. Partners contribute complementary strengths in strategy, integration, security, and change management.
+Example two. A strong partner ecosystem combines complementary strengths across industries and regions.
+
+Part B. Long Sentence Translation Practice.
+
+1. In enterprise AI adoption, the limiting factor is shifting from model capability to whether organizations can repeatedly identify valuable use cases, redesign workflows, integrate with existing systems, and drive change management at scale.
+
+2. Turning frontier models into measurable enterprise impact requires trusted partners with industry expertise, delivery capacity, and customer relationships that can support deployment beyond the pilot stage.
+
+3. The Forward Deployed Experts program is designed to help qualified partner practitioners align with OpenAI's deployment teams when complex customer needs require deeper support.
+
+4. An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
+
+5. Anthropic said that unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.
+
+Part C. Chinese to English Practice.
+
+Target expressions. enterprise AI adoption, workflow redesign, change management at scale.
+
+Model sentence. Enterprise AI adoption requires workflow redesign and change management at scale, not just access to more capable models.

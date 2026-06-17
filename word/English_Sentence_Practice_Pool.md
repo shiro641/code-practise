@@ -597,10 +597,10 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: Anthropic said that unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-16
-Last score: 74
-Average score: 74
+Practice count: 2
+Last practiced: 2026-06-17
+Last score: 76
+Average score: 75
 Error tags: terminology; main clause; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on unsafe deployments, statutory process, technically grounded, clear technical evidence.
 
@@ -610,8 +610,11 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: In enterprise AI adoption, the limiting factor is shifting from model capability to whether organizations can repeatedly identify valuable use cases, redesign workflows, integrate with existing systems, and drive change management at scale.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-17
+Last score: 82
+Average score: 82
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on enterprise AI adoption, limiting factor, use cases, workflow redesign, systems integration, change management at scale.
 
 ID: OAI-PARTNER-002
@@ -620,8 +623,11 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: Turning frontier models into measurable enterprise impact requires trusted partners with industry expertise, delivery capacity, and customer relationships that can support deployment beyond the pilot stage.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 2
+Last practiced: 2026-06-18
+Last score: 70
+Average score: 70
+Error tags: main clause; terminology; modifier; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on frontier models, measurable enterprise impact, trusted partners, delivery capacity, beyond pilots.
 
 ID: OAI-PARTNER-003
@@ -630,8 +636,8 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: Enterprise AI transformation requires not only access to frontier models but also secure integration with company data, workflow redesign, responsible deployment, and adoption support for new ways of working.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-18
 Notes: Practice sentence adapted from OpenAI article; focus on enterprise transformation, secure integration, responsible deployment, adoption support.
 
 ID: OAI-PARTNER-004
@@ -640,8 +646,8 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: Partner tiers and specializations can help customers identify organizations with proven capabilities in areas such as Codex, cybersecurity, and agents while giving partners a clearer path to build expertise.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-18
 Notes: Practice sentence adapted from OpenAI article; focus on partner tiers, specializations, proven capabilities, build expertise.
 
 ID: OAI-PARTNER-005
@@ -650,8 +656,11 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: The Forward Deployed Experts program is designed to help qualified partner practitioners align with OpenAI's deployment teams when complex customer needs require deeper support.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 2
+Last practiced: 2026-06-18
+Last score: 68
+Average score: 68
+Error tags: terminology; main clause; modifier; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on Forward Deployed Experts, qualified practitioners, deployment teams, complex customer needs.
 
 ID: OAI-PARTNER-006
@@ -660,6 +669,9 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 2
+Last practiced: 2026-06-18
+Last score: 64
+Average score: 64
+Error tags: terminology; modifier; logic; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on ecosystem-led approach, complementary strengths, operating-model redesign, data modernization, industry-specific solutions, change management.

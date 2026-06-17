@@ -1,0 +1,81 @@
+2026-06-18 Vocabulary Reading, American English
+
+Part A. Vocabulary and Expressions.
+
+1. enterprise AI transformation.
+Example one. Enterprise AI transformation requires new workflows, governance, and adoption support across the organization.
+Example two. The company treated enterprise AI transformation as an operating change, not just a software rollout.
+
+2. frontier models.
+Example one. Frontier models can reason across complex tasks, but enterprises still need systems that make them useful in production.
+Example two. Access to frontier models is only one part of successful AI deployment.
+
+3. secure integration.
+Example one. Secure integration with company data is necessary before AI tools can support sensitive workflows.
+Example two. The deployment plan prioritized secure integration with identity, logging, and data access controls.
+
+4. company data.
+Example one. Models need controlled access to company data to answer domain-specific questions.
+Example two. Governance policies define how company data can be used in AI systems.
+
+5. responsible deployment.
+Example one. Responsible deployment includes safety reviews, monitoring, user training, and clear escalation paths.
+Example two. The partner helped the customer move from a demo to responsible deployment in production.
+
+6. adoption support.
+Example one. Adoption support helps employees change how they work with AI tools.
+Example two. Without adoption support, a technically successful AI product may fail to change daily behavior.
+
+7. new ways of working.
+Example one. AI systems often require new ways of working rather than small changes to old processes.
+Example two. Training programs should help teams understand new ways of working with agents.
+
+8. proven capabilities.
+Example one. Customers look for partners with proven capabilities in integration, security, and change management.
+Example two. Partner tiers can signal proven capabilities in specific technical domains.
+
+9. build expertise.
+Example one. Partners need time and repeated deployments to build expertise in enterprise AI.
+Example two. The program gives partners a clearer path to build expertise around Codex and agents.
+
+10. industry expertise.
+Example one. Industry expertise helps partners map model capabilities to real business problems.
+Example two. A healthcare AI project requires both technical knowledge and industry expertise.
+
+11. delivery capacity.
+Example one. Delivery capacity determines whether a partner can support multiple large customers at the same time.
+Example two. Strong delivery capacity helps teams move successful pilots into broad deployment.
+
+12. qualified partner practitioners.
+Example one. Qualified partner practitioners can work with deployment teams on complex customer needs.
+Example two. The program trains qualified partner practitioners to support advanced AI rollouts.
+
+13. operating-model redesign.
+Example one. Operating-model redesign changes roles, decision rights, and workflows around AI-enabled work.
+Example two. Enterprise AI adoption may require operating-model redesign before productivity gains appear.
+
+14. data modernization.
+Example one. Data modernization makes enterprise data easier to access, govern, and use in AI applications.
+Example two. Many organizations need data modernization before they can integrate frontier models safely.
+
+15. industry-specific solutions.
+Example one. Industry-specific solutions adapt AI capabilities to the workflows and constraints of a particular sector.
+Example two. Partners can package industry-specific solutions for finance, healthcare, manufacturing, and retail.
+
+Part B. Long Sentence Translation Practice.
+
+1. Turning frontier models into measurable enterprise impact requires trusted partners with industry expertise, delivery capacity, and customer relationships that can support deployment beyond the pilot stage.
+
+2. Enterprise AI transformation requires not only access to frontier models but also secure integration with company data, workflow redesign, responsible deployment, and adoption support for new ways of working.
+
+3. Partner tiers and specializations can help customers identify organizations with proven capabilities in areas such as Codex, cybersecurity, and agents while giving partners a clearer path to build expertise.
+
+4. The Forward Deployed Experts program is designed to help qualified partner practitioners align with OpenAI's deployment teams when complex customer needs require deeper support.
+
+5. An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
+
+Part C. Chinese to English Practice.
+
+Target expressions. secure integration, responsible deployment, adoption support.
+
+Model sentence. Enterprise AI transformation requires secure integration, responsible deployment, and adoption support for new ways of working.
