@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17",
+  "updatedAt": "2026-06-21",
   "level": {
     "label": "初级偏上",
     "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
@@ -99,6 +99,42 @@
       "source": "daily-practice-2026-06-17",
       "solutionFile": "problems/010-predict-the-winner/solution.ts",
       "notes": "核心建模正确：能把题目识别成区间上的博弈型 DP，并用“当前先手相对后手的最大分差”来定义状态。转移、遍历顺序和单点初始化都正确；修正返回条件为 >= 0 后通过。"
+    },
+    {
+      "id": "011",
+      "title": "零钱兑换",
+      "type": "完全背包 / 最值型",
+      "status": "completed",
+      "source": "daily-practice-2026-06-18",
+      "solutionFile": null,
+      "notes": "核心建模正确：能识别这是完全背包最值问题，并写出一维正序转移。后续继续要求自己先口头说明 dp[j] 的含义、为什么正序遍历，以及这题与“零钱兑换 II”的“方案数”语义区别。"
+    },
+    {
+      "id": "012",
+      "title": "买卖股票的最佳时机 II",
+      "type": "股票状态机 DP / 无限次交易",
+      "status": "completed",
+      "source": "daily-practice-2026-06-19",
+      "solutionFile": null,
+      "notes": "核心建模正确：能把题目识别成两状态股票 DP，卖出和买入转移都正确。后续继续要求自己先明确写出 dp[i][0] / dp[i][1] 的语义，再给代码；同时对比这题与“含冷冻期”在买入来源上的区别。"
+    },
+    {
+      "id": "013",
+      "title": "买卖股票的最佳时机含手续费",
+      "type": "股票状态机 DP / 无限次交易含手续费",
+      "status": "completed",
+      "source": "daily-practice-2026-06-20",
+      "solutionFile": null,
+      "notes": "核心建模正确：能继续把题目识别成两状态股票 DP，并正确把手续费记到卖出转移里。后续继续要求自己先明确写出状态定义、转移、遍历顺序和边界条件，再贴代码；同时压实“买入扣费”和“卖出扣费”等价的原因。"
+    },
+    {
+      "id": "014",
+      "title": "完全平方数",
+      "type": "完全背包 / 最值型",
+      "status": "completed",
+      "source": "daily-practice-2026-06-21",
+      "solutionFile": "problems/014-perfect-squares/solution.py",
+      "notes": "核心建模正确：能把题目识别成完全背包最值型，并写出一维正序转移。后续继续要求自己先口头说明 dp[j] 的含义、为什么必须正序遍历，以及注意不要把 0 当作可选物品放进平方数列表。"
     }
   ]
 }

@@ -1,0 +1,81 @@
+2026-06-19 Vocabulary Reading, American English
+
+Part A. Vocabulary and Expressions.
+
+1. measurable impact.
+Example one. A deployment should be evaluated by measurable impact, not just by model quality.
+Example two. The team defined metrics to show measurable impact after the pilot.
+
+2. customer relationships.
+Example one. Strong customer relationships help partners support deployment beyond the pilot stage.
+Example two. Enterprise AI programs often depend on customer relationships as much as technical expertise.
+
+3. secure integration with company data.
+Example one. Secure integration with company data allows AI systems to support sensitive internal workflows.
+Example two. Without secure integration with company data, the model cannot reliably answer domain-specific questions.
+
+4. adoption support for new ways of working.
+Example one. Adoption support for new ways of working helps employees use AI in real workflows.
+Example two. Training and documentation are part of adoption support for new ways of working.
+
+5. global workforce change management.
+Example one. Global workforce change management helps large organizations adopt new AI-enabled processes.
+Example two. Enterprise AI programs need global workforce change management when teams operate across regions.
+
+6. recall a commercial model.
+Example one. A narrow issue may not be sufficient cause to recall a commercial model.
+Example two. Regulators should require clear technical evidence before asking a company to recall a commercial model.
+
+7. sufficient cause.
+Example one. A single bug is not always sufficient cause for blocking a deployment.
+Example two. The report argued that a narrow jailbreak was not sufficient cause for recalling the model.
+
+8. deployed to hundreds of millions.
+Example one. A model deployed to hundreds of millions of users requires careful safety monitoring.
+Example two. Recalls become more complex when a commercial model is deployed to hundreds of millions of people.
+
+9. life-sciences examples.
+Example one. Life-sciences examples can show both the benefits and risks of advanced reasoning systems.
+Example two. The evaluation used life-sciences examples to study dual-use risks.
+
+10. malicious actors.
+Example one. Malicious actors may misuse capabilities that were originally designed for beneficial research.
+Example two. A threat model should account for malicious actors with realistic resources.
+
+11. perfect jailbreak resistance.
+Example one. Perfect jailbreak resistance is not currently possible for deployed AI systems.
+Example two. Teams should combine safeguards and monitoring instead of assuming perfect jailbreak resistance.
+
+12. narrow failure modes.
+Example one. Narrow failure modes are easier to detect and mitigate than broad, unpredictable failures.
+Example two. A defense-in-depth strategy can reduce the impact of narrow failure modes.
+
+13. monitoring and rapid shutdown.
+Example one. Monitoring and rapid shutdown can limit harm when safeguards fail.
+Example two. The deployment plan paired model safeguards with monitoring and rapid shutdown.
+
+14. data modernization.
+Example one. Data modernization prepares enterprise data for safe and useful AI integration.
+Example two. Without data modernization, teams may struggle to connect frontier models to internal systems.
+
+15. operating-model redesign.
+Example one. Operating-model redesign changes how roles, workflows, and decisions are organized.
+Example two. AI adoption often requires operating-model redesign, not just tool installation.
+
+Part B. Long Sentence Translation Practice.
+
+1. Enterprise AI transformation requires not only access to frontier models but also secure integration with company data, workflow redesign, responsible deployment, and adoption support for new ways of working.
+
+2. An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
+
+3. The model's life-sciences examples highlight both the potential benefits of advanced reasoning systems and the dual-use risks that arise when similar capabilities are available to malicious actors.
+
+4. The company argued that perfect jailbreak resistance is not currently possible, so it adopted a defense-in-depth strategy that combines narrow failure modes with monitoring and rapid shutdown.
+
+5. Anthropic disagreed that a narrow potential jailbreak should be sufficient cause for recalling a commercial model deployed to hundreds of millions of people.
+
+Part C. Chinese to English Practice.
+
+Target expressions. sufficient cause, recall a commercial model, clear technical evidence.
+
+Model sentence. A narrow potential jailbreak should not be sufficient cause to recall a commercial model without clear technical evidence.

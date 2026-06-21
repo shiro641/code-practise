@@ -16,7 +16,8 @@
   "editor.tabCompletion": "off",
   "editor.wordBasedSuggestions": "off",
   "github.copilot.enable": {
-    "*": false
+    "*": false,
+    "python": true
   },
   "javascript.suggest.enabled": false,
   "typescript.suggest.enabled": false

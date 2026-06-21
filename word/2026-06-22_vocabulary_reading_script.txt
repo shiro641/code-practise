@@ -1,0 +1,92 @@
+June twenty second, vocabulary reading.
+
+deployment simulation.
+A test setup that simulates how a system behaves in realistic deployment conditions.
+Deployment simulation can reveal risks before a model is released to users.
+The team used deployment simulation to study failures in product-like workflows.
+
+pre-deployment evaluation.
+An evaluation performed before a model or system is deployed.
+Pre-deployment evaluations should test more than isolated model responses.
+A strong pre-deployment evaluation includes tools, policies, and user interactions.
+
+product-like environment.
+A testing environment that resembles a real product setting.
+The model behaved differently in a product-like environment than in a simple chat test.
+Product-like environments help evaluators observe realistic failure modes.
+
+surrounding workflow.
+The broader process around the model, including tools, policies, interfaces, and user actions.
+The surrounding workflow can shape how the model responds.
+Evaluators should test the surrounding workflow, not just the model output.
+
+higher-fidelity simulation.
+A simulation that more closely matches real deployment conditions.
+Higher-fidelity simulations can surface risks that static benchmarks miss.
+The team built a higher-fidelity simulation with realistic tasks and feedback loops.
+
+model in isolation.
+A model tested separately from its tools, interface, users, and operating context.
+Testing the model in isolation may miss system-level failures.
+Deployment simulation evaluates the full system rather than the model in isolation.
+
+full system.
+The model plus its tools, policies, interface, memory, user interactions, and operational context.
+A full system evaluation can reveal risks that model-only tests miss.
+Deployment decisions should account for the full system.
+
+feedback loop.
+A cycle where outputs influence later inputs, behavior, or decisions.
+Feedback loops can make small errors grow over time.
+The simulation captured how user feedback loops changed model behavior.
+
+static benchmark.
+A fixed evaluation dataset or test that does not simulate interactive deployment conditions.
+Static benchmarks are useful but may miss failures in real workflows.
+The model scored well on static benchmarks but failed in deployment simulation.
+
+system-level failure.
+A failure caused by interactions among components rather than by the model alone.
+Tool errors and policy gaps can create system-level failures.
+Deployment simulation is useful for finding system-level failures.
+
+safeguard testing.
+Testing whether safety controls work against realistic misuse or attack attempts.
+Safeguard testing should account for resources available to realistic attackers.
+Weak safeguard testing can understate whether an attack can succeed.
+
+account for realistic attacker resources.
+To include the resources available to realistic attackers in an evaluation or analysis.
+The threat model should account for realistic attacker resources.
+If tests ignore realistic attacker resources, they may understate risk.
+
+headline scores.
+The main scores highlighted in an evaluation report.
+Headline scores should be paired with validity checks.
+Readers should not overinterpret headline scores without understanding the setup.
+
+validity checks.
+Checks that determine whether evaluation results actually support the intended claim.
+Validity checks can reveal contamination, reward hacking, or broken tasks.
+Evaluation reports should include validity checks alongside headline scores.
+
+lower-bound estimate.
+An estimate that shows at least this level, while the true capability may be higher.
+If performance improves with more budget, the score may be a lower-bound estimate.
+A lower-bound estimate should not be treated as a capability ceiling.
+
+English to Chinese practice sentences.
+
+Pre-deployment evaluations become more informative when they test not only isolated model responses but also the surrounding workflow, tools, policies, and user interactions.
+
+Because users, policies, interfaces, and tool outputs can all shape model behavior, deployment simulations should account for the full system rather than the model in isolation.
+
+For agentic systems, deployment simulation can capture multi-step trajectories in which planning, tool use, memory, and user feedback jointly determine whether the system succeeds safely.
+
+Safeguard testing can understate whether an attack can succeed when it fails to account for the resources and custom harnesses available to realistic attackers.
+
+Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior or are distorted by known hazards.
+
+Chinese to English target expression.
+Target expression: headline scores, validity checks.
+Sample sentence: Evaluation reports should pair headline scores with validity checks so readers can avoid overinterpreting narrow results.

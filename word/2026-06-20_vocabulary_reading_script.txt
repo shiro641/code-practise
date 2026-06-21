@@ -1,0 +1,81 @@
+2026-06-20 Vocabulary Reading, American English
+
+Part A. Vocabulary and Expressions.
+
+1. personalized systems.
+Example one. Personalized systems adapt automatically to user behavior over time.
+Example two. Personalized systems become more useful when they remember stable preferences.
+
+2. customized systems.
+Example one. Customized systems usually depend on explicit settings configured by the user.
+Example two. A customized workflow may work well for one team but fail for another team.
+
+3. explicit settings.
+Example one. Explicit settings make user preferences easier to inspect and change.
+Example two. The system should not rely on stale assumptions when explicit settings have changed.
+
+4. background process.
+Example one. A background process can update memory without interrupting the active conversation.
+Example two. Dreaming uses a background process to curate memory from chat history.
+
+5. curate memory.
+Example one. The assistant needs to curate memory so outdated facts do not affect future recommendations.
+Example two. A memory system should curate memory rather than store every detail forever.
+
+6. fresher and more relevant context.
+Example one. Better memory can give the model fresher and more relevant context.
+Example two. Teams need fresher and more relevant context when projects run for months.
+
+7. multimodal input.
+Example one. Multimodal input allows a model to process text, images, audio, and video together.
+Example two. Multimodal input can help users describe tasks that are hard to express in text alone.
+
+8. grounded in real-world knowledge.
+Example one. Generated videos should be grounded in real-world knowledge when accuracy matters.
+Example two. A response grounded in real-world knowledge is less likely to invent unrealistic details.
+
+9. high-quality videos.
+Example one. The model can generate high-quality videos from multimodal prompts.
+Example two. High-quality videos require both visual consistency and accurate world knowledge.
+
+10. partner tiers.
+Example one. Partner tiers help customers compare partner experience and deployment capability.
+Example two. A clear partner tier can signal whether an organization has proven implementation experience.
+
+11. specializations.
+Example one. Specializations show where a partner has deep experience, such as Codex or cybersecurity.
+Example two. Customers can choose partners whose specializations match their deployment needs.
+
+12. proven capabilities.
+Example one. Proven capabilities are stronger evidence than generic marketing claims.
+Example two. The partner network highlights organizations with proven capabilities in specific areas.
+
+13. sufficient cause.
+Example one. A narrow issue may not be sufficient cause for recalling a commercial model.
+Example two. Clear technical evidence is needed before treating a risk as sufficient cause for major action.
+
+14. recall a commercial model.
+Example one. It is difficult to recall a commercial model after it has been deployed at large scale.
+Example two. Regulators should require technical evidence before asking a company to recall a commercial model.
+
+15. clear technical evidence.
+Example one. Clear technical evidence helps distinguish a narrow failure from a systemic risk.
+Example two. Safety decisions should be based on clear technical evidence rather than speculation.
+
+Part B. Long Sentence Translation Practice.
+
+1. Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings that the user configures for a specific workflow.
+
+2. Dreaming uses a background process to curate memory from chat history so the model can provide fresher and more relevant context.
+
+3. Gemini Omni is described as a model that can combine images, audio, video, and text as input and generate high-quality videos grounded in real-world knowledge.
+
+4. Anthropic disagreed that a narrow potential jailbreak should be sufficient cause for recalling a commercial model deployed to hundreds of millions of people.
+
+5. Partner tiers and specializations can help customers identify organizations with proven capabilities in areas such as Codex, cybersecurity, and agents while giving partners a clearer path to build expertise.
+
+Part C. Chinese to English Practice.
+
+Target expressions. personalized systems, customized systems, explicit settings.
+
+Model sentence. Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings configured by the user.

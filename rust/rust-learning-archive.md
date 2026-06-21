@@ -28,12 +28,113 @@ PersonalOS 仓库：`/Users/zhangjie/Desktop/daily-routine`
 
 ## 当前状态
 
-- 最近完成日期：2026-06-08
-- 当前待完成：2026-06-09
-- 最早 pending：`trait 里的 impl Future + Send`
-- 另一个 pending：`ok_or_else 和 ? 的组合`
+- 最近完成日期：2026-06-22
+- 当前待完成：无
+- 最早 pending：无
+- 本周计划：当前流转周已完成前 2 项，下一次每日推送将继续第 3 项 `Result` 与 `?` 基础。
 
 ## 时间线
+
+### 2026-06-22：推进手动传播错误这一步
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在 `pending`。
+- `weekly-plan.md` 当前周仍有 4 个剩余 `planned`，其中最高优先级且前置已满足的是“返回 `Result` 的函数里手动传播错误”。
+
+处理决定：
+
+- 按每日卡片 workflow，不引入新链路，直接从本周 `planned` 中提升最靠前且 ready 的条目。
+- 将“返回 `Result` 的函数里手动传播错误”标记为新的 `pending`。
+- 今日教学继续围绕 `Result` 返回值展开，先把 `?` 背后的手动 `match` / `return Err(...)` 看清，再进入 `?`。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为“返回 `Result` 的函数里手动传播错误”。
+- `weekly-plan.md` 已将该知识点从 `planned` 更新为 `pending`。
+
+完成确认：
+
+- 用户已回复“学完了”，已将“返回 `Result` 的函数里手动传播错误”从 `pending` 更新为 `done`，完成日期 2026-06-22。
+- 已按项目规则执行 PersonalOS 同步命令，`每日学习 Rust 常用语法` 已记录到 2026-06-22。
+
+### 2026-06-21：补上 `?` 之前的函数返回值前置课
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在 `pending`。
+- `weekly-plan.md` 里本周前 7 个条目均已 `done`，没有剩余可直接发送的 `planned`。
+
+处理决定：
+
+- 不直接推送 `Result` 与 `?` 基础，因为它仍会把“函数返回 `Result`”和“`?` 提前返回错误”绑在同一天。
+- 继续按低概念密度拆分，先新增 `函数返回 Result<T, E>` 作为今日单一目标。
+- 将该条目标记为 `pending`，等用户学完后，再进入 `?` 相关语法。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为 `函数返回 Result<T, E>`。
+- `weekly-plan.md` 已将该知识点追加为本周第 8 项，并标记为 `pending`。
+
+完成确认：
+
+- 用户已回复“学完了”，已将 `函数返回 Result<T, E>` 从 `pending` 更新为 `done`，完成日期 2026-06-21。
+- 已按项目规则执行 PersonalOS 同步命令，`每日学习 Rust 常用语法` 已记录到 2026-06-21。
+
+### 2026-06-20：推进 `match` 处理 `Result`
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在 `pending`。
+- `weekly-plan.md` 里本周前 6 个条目均已 `done`，没有剩余可直接发送的 `planned`。
+
+处理决定：
+
+- 不直接推送 `Result` 与 `?` 基础，因为它仍同时包含“手动处理分支”和“错误传播语法”两个目标。
+- 继续按低概念密度拆分，先新增 `用 match 处理 Result 的 Ok / Err` 作为今日单一目标。
+- 将该条目标记为 `pending`，等用户学完后，再进入 `?` 相关语法。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为 `用 match 处理 Result 的 Ok / Err`。
+- `weekly-plan.md` 已将该知识点追加为本周第 7 项，并标记为 `pending`。
+
+完成确认：
+
+- 用户已回复“学完了”，已将 `用 match 处理 Result 的 Ok / Err` 从 `pending` 更新为 `done`，完成日期 2026-06-20。
+- 已按项目规则执行 PersonalOS 同步命令，`每日学习 Rust 常用语法` 已记录到 2026-06-20。
+
+### 2026-06-19：拆分 `Result` 前置课并推送
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在 `pending`。
+- `weekly-plan.md` 当前周的原 5 个条目均已 `done`，没有可直接晋升的 `planned`。
+
+处理决定：
+
+- 不直接推送原 backlog `Result` 与 `?` 基础，因为它把 `Result` 结构和 `?` 错误传播绑在同一天，概念密度过高。
+- 先拆出更基础的 `Result` 的 `Ok` / `Err` 作为单独一课，并加入本周计划。
+- 将该条目标记为 `pending`，等待用户学完后再进入后续错误处理语法。
+
+状态更新：
+
+- 用户已确认“学完了”，已将 `Result` 的 `Ok` / `Err` 从 `pending` 更新为 `done`，完成日期 2026-06-19。
+
+用户总结与校正：
+
+- `Result` 用来表示成功 / 失败；`Option` 用来表示有值 / 无值。
+- `String` 是拥有字符串数据的类型，通常拥有堆上的字符串内容，不只是“管理一个引用”。
+- `str` 是字符串内容本体，通常不单独裸用；`&str` 是对字符串内容的引用，变量本身通常在栈上，指向的数据可能在静态区，也可能在堆上。
+- `&'static str` 是生命周期为 `'static` 的 `&str`，常见于字符串字面量。
+- `&String` 是对 `String` 的引用；很多时候 Rust 会让 `&String` 自动当成 `&str` 用，但它们不是同一种类型。
+- 可以通过 `as_str()` 从 `String` 借出 `&str`；这个 `&str` 不能活得比原来的 `String` 更久，原 `String` 销毁后，借出的 `&str` 不能继续存活。
+
+PersonalOS 同步：
+
+- 已确认当前线程具备 `/Users/zhangjie` 下目标文件写权限。
+- 已通过 `personal-execution-skill` 的完成流程同步 PersonalOS：`/Users/zhangjie/Desktop/daily-routine/dailies/2026-06-19.md` 今日 Habit 已勾选，`今日复盘 -> 收获` 已写入 Rust 学习总结。
+- 已同步 `/Users/zhangjie/Desktop/daily-routine/state/habits.md`、`logs/execution-log.md` 和 `state/stats.md` 中的完成记录。
 
 ### 2026-06-07：创建自动化与 habit
 

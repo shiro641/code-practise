@@ -83,8 +83,11 @@ Source: https://openai.com/index/trustworthy-third-party-evaluations-foundations
 Sentence: If performance continues to improve as budget increases, the score should be interpreted as performance under that setup rather than as a measured capability ceiling.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-04
+Practice count: 2
+Last practiced: 2026-06-21
+Last score: 84
+Average score: 84
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from the article; focus on interpreted as, budget, setup, measured capability ceiling.
 
 ID: OAI-TTE-004
@@ -93,8 +96,11 @@ Source: https://openai.com/index/trustworthy-third-party-evaluations-foundations
 Sentence: Safeguard testing can understate whether an attack can succeed when it fails to account for the resources and custom harnesses available to realistic attackers.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-04
+Practice count: 3
+Last practiced: 2026-06-22
+Last score: 84
+Average score: 75
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from the article; focus on safeguard testing, understate, account for, realistic attackers.
 
 ID: OAI-TTE-005
@@ -103,8 +109,11 @@ Source: https://openai.com/index/trustworthy-third-party-evaluations-foundations
 Sentence: Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior or are distorted by known hazards.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-04
+Practice count: 3
+Last practiced: 2026-06-22
+Last score: 76
+Average score: 72
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from the article; focus on headline scores, validity checks, intended behavior, distorted by known hazards.
 
 ID: ANT-OPUS48-001
@@ -143,8 +152,11 @@ Source: https://www.anthropic.com/news/claude-opus-4-8
 Sentence: A model that is less likely to make unsupported claims can be more useful in professional workflows where users need uncertainty to be surfaced rather than hidden.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-04
+Practice count: 2
+Last practiced: 2026-06-21
+Last score: 84
+Average score: 84
+Error tags: main clause; Chinese naturalness
 Notes: Practice sentence adapted from the article; focus on unsupported claims, professional workflows, uncertainty, surfaced rather than hidden.
 
 ID: ANT-OPUS48-005
@@ -183,11 +195,11 @@ Source: https://openai.com/index/chatgpt-memory-dreaming/
 Sentence: Dreaming uses a background process to curate memory from chat history so the model can provide fresher and more relevant context.
 Factors: Professional terminology; advanced expression; fixed phrase
 Difficulty: 4
-Practice count: 1
-Last practiced: 2026-06-13
-Last score: 72
-Average score: 72
-Error tags: terminology; logic; word choice
+Practice count: 2
+Last practiced: 2026-06-20
+Last score: 78
+Average score: 75
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on background process, curate memory, fresher and more relevant context.
 
 ID: OAI-MEM-004
@@ -317,8 +329,11 @@ Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-ma
 Sentence: Gemini Omni is described as a model that can combine images, audio, video, and text as input and generate high-quality videos grounded in real-world knowledge.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-20
+Last score: 80
+Average score: 80
+Error tags: main clause; word choice; Chinese naturalness
 Notes: Practice sentence adapted from Google article; focus on multimodal input, grounded in real-world knowledge.
 
 ID: GOOG-AI-MAY26-003
@@ -418,10 +433,10 @@ Source: /Users/bytedance/Downloads/AI_English_Handbook_v2.pdf
 Sentence: AI infrastructure must operate reliably at infrastructure scale, where energy constraints, networking capacity, and dedicated hardware can become critical limits on growth.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-09
-Last score: 75
-Average score: 75
+Practice count: 2
+Last practiced: 2026-06-21
+Last score: 78
+Average score: 77
 Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from user-provided handbook; focus on infrastructure scale, energy constraints, dedicated hardware, critical limits.
 
@@ -444,11 +459,11 @@ Source: /Users/bytedance/Downloads/AI_English_Handbook_v2.pdf
 Sentence: Personalized systems adapt automatically to user behavior, while customized systems usually depend on explicit settings that the user configures for a specific workflow.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 1
-Last practiced: 2026-06-13
-Last score: 70
-Average score: 70
-Error tags: terminology; grammar; word choice
+Practice count: 2
+Last practiced: 2026-06-20
+Last score: 86
+Average score: 78
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from user-provided handbook; focus on personalized vs customized, while as contrast.
 
 ID: ANT-FABLE5-001
@@ -522,11 +537,11 @@ Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 Sentence: The model's life-sciences examples highlight both the potential benefits of advanced reasoning systems and the dual-use risks that arise when similar capabilities are available to malicious actors.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 2
-Last practiced: 2026-06-16
-Last score: 72
-Average score: 70
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 3
+Last practiced: 2026-06-19
+Last score: 82
+Average score: 74
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on life sciences, advanced reasoning systems, dual-use risks, malicious actors.
 
 ID: ANT-FABLE-ACCESS-001
@@ -561,11 +576,11 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: The company argued that perfect jailbreak resistance is not currently possible, so it adopted a defense-in-depth strategy that combines narrow failure modes with monitoring and rapid shutdown.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-15
-Last score: 72
-Average score: 72
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 2
+Last practiced: 2026-06-19
+Last score: 80
+Average score: 76
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on jailbreak resistance, defense-in-depth strategy, monitoring, rapid shutdown.
 
 ID: ANT-FABLE-ACCESS-004
@@ -587,8 +602,11 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: Anthropic disagreed that a narrow potential jailbreak should be sufficient cause for recalling a commercial model deployed to hundreds of millions of people.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 2
+Last practiced: 2026-06-20
+Last score: 82
+Average score: 80
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on potential jailbreak, sufficient cause, recalling a commercial model, deployed to users.
 
 ID: ANT-FABLE-ACCESS-006
@@ -625,9 +643,9 @@ Factors: Professional terminology; advanced expression; fixed phrase; long or sy
 Difficulty: 5
 Practice count: 2
 Last practiced: 2026-06-18
-Last score: 70
-Average score: 70
-Error tags: main clause; terminology; modifier; Chinese naturalness
+Last score: 82
+Average score: 76
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on frontier models, measurable enterprise impact, trusted partners, delivery capacity, beyond pilots.
 
 ID: OAI-PARTNER-003
@@ -636,8 +654,11 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: Enterprise AI transformation requires not only access to frontier models but also secure integration with company data, workflow redesign, responsible deployment, and adoption support for new ways of working.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 1
-Last practiced: 2026-06-18
+Practice count: 2
+Last practiced: 2026-06-19
+Last score: 84
+Average score: 78
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on enterprise transformation, secure integration, responsible deployment, adoption support.
 
 ID: OAI-PARTNER-004
@@ -646,8 +667,11 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: Partner tiers and specializations can help customers identify organizations with proven capabilities in areas such as Codex, cybersecurity, and agents while giving partners a clearer path to build expertise.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 1
-Last practiced: 2026-06-18
+Practice count: 2
+Last practiced: 2026-06-20
+Last score: 86
+Average score: 83
+Error tags: word choice; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on partner tiers, specializations, proven capabilities, build expertise.
 
 ID: OAI-PARTNER-005
@@ -658,9 +682,9 @@ Factors: Professional terminology; advanced expression; fixed phrase; long or sy
 Difficulty: 5
 Practice count: 2
 Last practiced: 2026-06-18
-Last score: 68
-Average score: 68
-Error tags: terminology; main clause; modifier; Chinese naturalness
+Last score: 82
+Average score: 75
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on Forward Deployed Experts, qualified practitioners, deployment teams, complex customer needs.
 
 ID: OAI-PARTNER-006
@@ -669,9 +693,78 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 2
-Last practiced: 2026-06-18
-Last score: 64
-Average score: 64
-Error tags: terminology; modifier; logic; Chinese naturalness
+Practice count: 3
+Last practiced: 2026-06-19
+Last score: 80
+Average score: 71
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on ecosystem-led approach, complementary strengths, operating-model redesign, data modernization, industry-specific solutions, change management.
+
+ID: OAI-DEPLOY-SIM-001
+Article: Introducing deployment simulation
+Source: https://openai.com/index/deployment-simulation/
+Sentence: Deployment simulation can help teams study how a model behaves in realistic product-like environments before the system is released to users.
+Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
+Difficulty: 4
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on deployment simulation, realistic product-like environments, before release.
+
+ID: OAI-DEPLOY-SIM-002
+Article: Introducing deployment simulation
+Source: https://openai.com/index/deployment-simulation/
+Sentence: Pre-deployment evaluations become more informative when they test not only isolated model responses but also the surrounding workflow, tools, policies, and user interactions.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-22
+Last score: 82
+Average score: 82
+Error tags: word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on pre-deployment evaluations, isolated responses, surrounding workflow, tools, policies, user interactions.
+
+ID: OAI-DEPLOY-SIM-003
+Article: Introducing deployment simulation
+Source: https://openai.com/index/deployment-simulation/
+Sentence: A simulation that mirrors real deployment conditions can reveal failures that would be missed by static benchmarks or simplified chat-based tests.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on mirror real deployment conditions, reveal failures, static benchmarks, simplified tests.
+
+ID: OAI-DEPLOY-SIM-004
+Article: Introducing deployment simulation
+Source: https://openai.com/index/deployment-simulation/
+Sentence: Because users, policies, interfaces, and tool outputs can all shape model behavior, deployment simulations should account for the full system rather than the model in isolation.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-22
+Last score: 88
+Average score: 88
+Error tags: word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on account for the full system, model behavior, model in isolation.
+
+ID: OAI-DEPLOY-SIM-005
+Article: Introducing deployment simulation
+Source: https://openai.com/index/deployment-simulation/
+Sentence: Higher-fidelity simulations are useful for surfacing risks that emerge only after a model interacts with realistic tasks, constraints, and feedback loops over time.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced: Never
+Notes: Practice sentence adapted from OpenAI article; focus on higher-fidelity simulations, surface risks, realistic tasks, constraints, feedback loops.
+
+ID: OAI-DEPLOY-SIM-006
+Article: Introducing deployment simulation
+Source: https://openai.com/index/deployment-simulation/
+Sentence: For agentic systems, deployment simulation can capture multi-step trajectories in which planning, tool use, memory, and user feedback jointly determine whether the system succeeds safely.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-22
+Last score: 76
+Average score: 76
+Error tags: terminology; modifier; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on agentic systems, multi-step trajectories, planning, tool use, memory, user feedback, succeeds safely.

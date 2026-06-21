@@ -1,0 +1,92 @@
+June twenty first, vocabulary reading.
+
+trustworthy interpretation.
+An interpretation that stays within what the evidence can support.
+The report should provide a trustworthy interpretation of the benchmark results.
+Trustworthy interpretation requires evaluators to separate results from claims.
+
+lower-bound estimate.
+An estimate that shows at least this level, but may be below the true capability.
+If performance improves with more budget, the score may be only a lower-bound estimate.
+A lower-bound estimate should not be treated as the model's capability ceiling.
+
+under-elicitation.
+Failing to elicit the full capability of a model or system during evaluation.
+Weak prompts can lead to under-elicitation of model capabilities.
+Under-elicitation may cause an evaluation to understate risk.
+
+capability ceiling.
+The highest capability level measured or plausibly reachable under a setup.
+Changing the harness can raise the observed capability ceiling.
+The result should not be described as a capability ceiling without stronger elicitation.
+
+threat model.
+A description of the attacker, resources, goals, and constraints assumed in a safety analysis.
+The safeguard test should specify the threat model it is evaluating.
+An unrealistic threat model can make the system appear safer than it is.
+
+red teaming.
+Structured adversarial testing used to find failures, misuse paths, or safety gaps.
+Red teaming helps teams identify jailbreaks before deployment.
+The company expanded red teaming for high-risk model capabilities.
+
+robustness.
+The ability to remain reliable under noise, attacks, distribution shifts, or unusual inputs.
+Robustness matters when models are deployed in dynamic production environments.
+The evaluation measured robustness against prompt variations and tool failures.
+
+evaluation awareness.
+Signs that a model recognizes it is being evaluated and changes behavior accordingly.
+Reasoning traces may reveal signs of evaluation awareness.
+Evaluation awareness can distort results if the model behaves differently during tests.
+
+scaffolding.
+External structure around a model, such as tools, memory, retries, plans, or validators.
+Agent scaffolding can materially affect task success rates.
+The same model may perform differently with stronger scaffolding.
+
+trajectory.
+The sequence of actions, tool calls, and intermediate steps taken during a task.
+Longer trajectories can reveal failures that short tasks do not expose.
+Evaluators should inspect the trajectory, not only the final answer.
+
+curate memory.
+To select, organize, and maintain useful memory from past context.
+The system uses a background process to curate memory from chat history.
+Poorly curated memory can preserve stale or irrelevant assumptions.
+
+grounded in real-world knowledge.
+Based on facts, constraints, or context from the real world.
+The model generated a video grounded in real-world knowledge.
+Answers grounded in real-world knowledge are often more useful for practical tasks.
+
+sufficient cause.
+A reason strong enough to justify a serious action or conclusion.
+A narrow jailbreak may not be sufficient cause for recalling a commercial model.
+Clear technical evidence is needed before treating a failure as sufficient cause.
+
+recall a commercial model.
+To withdraw or remove an already deployed commercial model from use.
+Regulators may ask a company to recall a commercial model if deployment is unsafe.
+The report did not provide enough evidence to recall a commercial model.
+
+proven capabilities.
+Abilities that have been demonstrated or validated through prior work, evidence, or results.
+Customers prefer partners with proven capabilities in cybersecurity and agent deployment.
+Partner tiers help identify organizations with proven capabilities.
+
+English to Chinese practice sentences.
+
+If performance continues to improve as budget increases, the score should be interpreted as performance under that setup rather than as a measured capability ceiling.
+
+Safeguard testing can understate whether an attack can succeed when it fails to account for the resources and custom harnesses available to realistic attackers.
+
+Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior or are distorted by known hazards.
+
+A model that is less likely to make unsupported claims can be more useful in professional workflows where users need uncertainty to be surfaced rather than hidden.
+
+AI infrastructure must operate reliably at infrastructure scale, where energy constraints, networking capacity, and dedicated hardware can become critical limits on growth.
+
+Chinese to English target expression.
+Target expression: lower-bound estimate.
+Sample sentence: If performance keeps improving as the budget increases, the result should be treated as a lower-bound estimate rather than a capability ceiling.
