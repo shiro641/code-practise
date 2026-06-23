@@ -1,0 +1,92 @@
+June twenty third, vocabulary reading.
+
+harness engineering.
+The practice of designing the environment, tools, interfaces, and feedback loops that allow agents to work reliably.
+Harness engineering turns agent reliability into an environment design problem.
+Teams use harness engineering to make agent work easier to observe and validate.
+
+specifying intent.
+Clearly describing the goal, constraints, and expected behavior of a task or system.
+Specifying intent helps agents choose the right actions without guessing.
+Good prompts are not enough when the surrounding system fails to specify intent.
+
+feedback loop.
+A cycle in which outputs are inspected and used to improve later behavior.
+Feedback loops help agents learn from tests, logs, and review comments.
+A reliable harness gives the agent a feedback loop it can inspect and act on.
+
+underspecified environment.
+An environment that lacks the tools, structure, or information needed for reliable progress.
+An underspecified environment can make a capable model look unreliable.
+When agents fail repeatedly, the environment may be underspecified rather than the model incapable.
+
+legible.
+Easy for a human or agent to read, inspect, and reason about.
+Logs and traces should be legible to the agent.
+Making system behavior legible reduces the cost of debugging.
+
+system of record.
+The authoritative source where important information is stored and maintained.
+Repository documentation can serve as the system of record for agent instructions.
+A stable system of record helps agents avoid relying on stale context.
+
+source of truth.
+The trusted place where the correct version of information lives.
+The design document is the source of truth for architectural decisions.
+Agents need clear sources of truth when project knowledge changes.
+
+mechanical invariants.
+Rules or checks that are enforced automatically and keep a system within desired constraints.
+Mechanical invariants can preserve architecture even when agents ship quickly.
+Tests and linters can encode mechanical invariants for a codebase.
+
+drift.
+Gradual movement away from the intended design, behavior, or quality standard.
+Without strong invariants, fast changes can lead to architectural drift.
+Review workflows help detect drift before it becomes long-term decay.
+
+long-term decay.
+The gradual degradation of code quality, architecture, or maintainability over time.
+Speed should not be allowed to turn into long-term decay.
+Mechanical checks can reduce the risk of long-term decay.
+
+development loop.
+The repeated cycle of planning, coding, testing, reviewing, fixing, and shipping.
+More of the development loop can be encoded into tools and validation.
+Agents become more useful when they can operate across the development loop.
+
+quality assurance.
+The process of checking whether software meets expected behavior and quality standards.
+Quality assurance becomes faster when agents can inspect logs and traces.
+The harness turned quality assurance from a human bottleneck into an agent feedback loop.
+
+validity checks.
+Checks that determine whether evaluation results actually support the intended claim.
+Evaluation reports should pair headline scores with validity checks.
+Validity checks can reveal whether results are distorted by known hazards.
+
+multi-step trajectories.
+Sequences of actions, tool calls, and intermediate decisions across a task.
+Agent evaluations should inspect multi-step trajectories, not only final answers.
+Planning, tool use, memory, and feedback shape multi-step trajectories.
+
+headline scores.
+The main scores highlighted in an evaluation report.
+Headline scores can be misleading without validity checks.
+Readers should avoid overinterpreting headline scores from narrow evaluations.
+
+English to Chinese practice sentences.
+
+Harness engineering shifts the engineer's role from writing every line of code to designing environments, specifying intent, and building feedback loops that allow agents to do reliable work.
+
+Making applications, logs, metrics, and traces legible to Codex turns quality assurance from a human bottleneck into a feedback loop the agent can inspect and act on.
+
+Treating repository knowledge as the system of record gives agents a small stable entry point while preserving deeper sources of truth in structured, versioned documentation.
+
+Architecture and taste can be enforced through mechanical invariants, allowing agents to ship quickly without letting speed turn into drift or long-term decay.
+
+As more of the development loop is encoded into testing, validation, review, feedback handling, and recovery, an agent can drive larger parts of the software lifecycle end to end.
+
+Chinese to English target expression.
+Target expression: validity checks, headline scores.
+Sample sentence: Evaluation reports should pair headline scores with validity checks so readers can judge whether the results support the intended claim.

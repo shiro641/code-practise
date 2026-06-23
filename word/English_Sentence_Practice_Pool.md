@@ -729,8 +729,11 @@ Source: https://openai.com/index/deployment-simulation/
 Sentence: A simulation that mirrors real deployment conditions can reveal failures that would be missed by static benchmarks or simplified chat-based tests.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-24
+Last score: 80
+Average score: 80
+Error tags: main clause; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on mirror real deployment conditions, reveal failures, static benchmarks, simplified tests.
 
 ID: OAI-DEPLOY-SIM-004
@@ -752,8 +755,11 @@ Source: https://openai.com/index/deployment-simulation/
 Sentence: Higher-fidelity simulations are useful for surfacing risks that emerge only after a model interacts with realistic tasks, constraints, and feedback loops over time.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-24
+Last score: 78
+Average score: 78
+Error tags: terminology; modifier; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on higher-fidelity simulations, surface risks, realistic tasks, constraints, feedback loops.
 
 ID: OAI-DEPLOY-SIM-006
@@ -768,3 +774,81 @@ Last score: 76
 Average score: 76
 Error tags: terminology; modifier; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on agentic systems, multi-step trajectories, planning, tool use, memory, user feedback, succeeds safely.
+
+ID: OAI-HARNESS-001
+Article: Harness engineering: leveraging Codex in an agent-first world
+Source: https://openai.com/index/harness-engineering/
+Sentence: Harness engineering shifts the engineer's role from writing every line of code to designing environments, specifying intent, and building feedback loops that allow agents to do reliable work.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-23
+Last score: 86
+Average score: 86
+Error tags: word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on harness engineering, specifying intent, feedback loops, reliable agent work.
+
+ID: OAI-HARNESS-002
+Article: Harness engineering: leveraging Codex in an agent-first world
+Source: https://openai.com/index/harness-engineering/
+Sentence: When an agent lacks the tools, abstractions, and internal structure needed to make progress, the environment is underspecified rather than the model simply being incapable.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-24
+Last score: 72
+Average score: 72
+Error tags: terminology; word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on underspecified environment, tools, abstractions, internal structure, model capability.
+
+ID: OAI-HARNESS-003
+Article: Harness engineering: leveraging Codex in an agent-first world
+Source: https://openai.com/index/harness-engineering/
+Sentence: Making applications, logs, metrics, and traces legible to Codex turns quality assurance from a human bottleneck into a feedback loop the agent can inspect and act on.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 2
+Last practiced: 2026-06-24
+Last score: 78
+Average score: 72
+Error tags: terminology; word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on application legibility, logs, metrics, traces, QA bottleneck, feedback loop.
+
+ID: OAI-HARNESS-004
+Article: Harness engineering: leveraging Codex in an agent-first world
+Source: https://openai.com/index/harness-engineering/
+Sentence: Treating repository knowledge as the system of record gives agents a small stable entry point while preserving deeper sources of truth in structured, versioned documentation.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 2
+Last practiced: 2026-06-24
+Last score: 76
+Average score: 72
+Error tags: terminology; word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on system of record, stable entry point, sources of truth, structured versioned documentation.
+
+ID: OAI-HARNESS-005
+Article: Harness engineering: leveraging Codex in an agent-first world
+Source: https://openai.com/index/harness-engineering/
+Sentence: Architecture and taste can be enforced through mechanical invariants, allowing agents to ship quickly without letting speed turn into drift or long-term decay.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-23
+Last score: 78
+Average score: 78
+Error tags: terminology; word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on architecture, taste, mechanical invariants, drift, long-term decay.
+
+ID: OAI-HARNESS-006
+Article: Harness engineering: leveraging Codex in an agent-first world
+Source: https://openai.com/index/harness-engineering/
+Sentence: As more of the development loop is encoded into testing, validation, review, feedback handling, and recovery, an agent can drive larger parts of the software lifecycle end to end.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-23
+Last score: 76
+Average score: 76
+Error tags: terminology; word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on development loop, testing, validation, review, feedback handling, recovery, software lifecycle.

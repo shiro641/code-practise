@@ -1,0 +1,92 @@
+June twenty fourth, vocabulary reading.
+
+abstraction.
+A simplified interface or concept that hides implementation details.
+Good abstractions help agents work with complex systems reliably.
+The harness exposed stable abstractions instead of raw internal details.
+
+internal structure.
+The organization inside a system that supports reliable progress.
+Agents need internal structure when tasks span many steps.
+Weak internal structure can make an otherwise capable model fail.
+
+underspecified environment.
+An environment that lacks the tools, context, or structure needed for reliable work.
+The agent failed because the environment was underspecified.
+An underspecified environment can be mistaken for weak model capability.
+
+legible to Codex.
+Readable and understandable by Codex, so it can inspect and act on information.
+Logs, metrics, and traces should be legible to Codex.
+Making system behavior legible to Codex reduces human bottlenecks.
+
+human bottleneck.
+A point where progress depends too heavily on human inspection or action.
+Manual quality assurance can become a human bottleneck.
+A good feedback loop reduces the human bottleneck in agent workflows.
+
+inspect and act on.
+To examine information and take useful action based on it.
+The agent can inspect logs and act on failing tests.
+A legible harness gives Codex signals it can inspect and act on.
+
+repository knowledge.
+Knowledge stored in or derived from a code repository, including docs, conventions, and structure.
+Repository knowledge should be organized so agents can find it quickly.
+Treating repository knowledge as the system of record gives agents a stable entry point.
+
+system of record.
+The authoritative place where important information is stored and maintained.
+The repository can serve as the system of record for project knowledge.
+A system of record prevents agents from relying on stale assumptions.
+
+structured documentation.
+Documentation organized in a predictable format that is easy to search, maintain, and validate.
+Structured documentation helps agents recover deeper sources of truth.
+The team moved architecture decisions into structured documentation.
+
+versioned documentation.
+Documentation tracked with versions, usually alongside code changes.
+Versioned documentation lets agents see how project knowledge changes over time.
+Structured, versioned documentation is a stronger source of truth than scattered notes.
+
+static benchmark.
+A fixed test that does not simulate interactive deployment conditions.
+Static benchmarks may miss failures that appear in realistic workflows.
+A model can score well on static benchmarks and still fail in deployment simulation.
+
+real deployment conditions.
+The conditions a system faces when used in production by real users.
+A useful simulation should mirror real deployment conditions.
+Testing under real deployment conditions can reveal product-level failures.
+
+higher-fidelity simulation.
+A simulation that more closely matches real usage, tasks, constraints, and feedback loops.
+Higher-fidelity simulations can surface risks that simple tests miss.
+The team used a higher-fidelity simulation to evaluate long-running workflows.
+
+surface risks.
+To reveal risks that were previously hidden or hard to observe.
+Deployment simulations can surface risks before release.
+Longer agent trajectories may surface risks in planning and tool use.
+
+feedback handling.
+The process of receiving, interpreting, and responding to feedback.
+Feedback handling can be encoded into the development loop.
+Agents become more useful when they can perform feedback handling and recovery.
+
+English to Chinese practice sentences.
+
+When an agent lacks the tools, abstractions, and internal structure needed to make progress, the environment is underspecified rather than the model simply being incapable.
+
+Making applications, logs, metrics, and traces legible to Codex turns quality assurance from a human bottleneck into a feedback loop the agent can inspect and act on.
+
+Treating repository knowledge as the system of record gives agents a small stable entry point while preserving deeper sources of truth in structured, versioned documentation.
+
+A simulation that mirrors real deployment conditions can reveal failures that would be missed by static benchmarks or simplified chat-based tests.
+
+Higher-fidelity simulations are useful for surfacing risks that emerge only after a model interacts with realistic tasks, constraints, and feedback loops over time.
+
+Chinese to English target expression.
+Target expression: legible to Codex, system of record.
+Sample sentence: Repository documentation should be legible to Codex and serve as the system of record for project knowledge.

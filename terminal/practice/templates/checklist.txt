@@ -1,0 +1,5 @@
+- open terminal
+- check current directory
+- run one command
+- inspect the result
+

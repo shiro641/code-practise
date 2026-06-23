@@ -28,12 +28,63 @@ PersonalOS 仓库：`/Users/zhangjie/Desktop/daily-routine`
 
 ## 当前状态
 
-- 最近完成日期：2026-06-22
+- 最近完成日期：2026-06-24
 - 当前待完成：无
 - 最早 pending：无
-- 本周计划：当前流转周已完成前 2 项，下一次每日推送将继续第 3 项 `Result` 与 `?` 基础。
+- 本周计划：当前流转周前 4 项已完成；下一次每日推送会在没有 `pending` 的前提下继续第 5 项 `ok_or` 基础。
+
+### 2026-06-24：切回 `Option` 分支处理
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在旧的 `pending`。
+- `weekly-plan.md` 当前周剩余 `planned` 中，最高优先级且前置已满足的是“用 `match` 处理 `Option` 的 `Some` / `None`”。
+
+处理决定：
+
+- 按每日卡片 workflow，从本周 `planned` 中提升最靠前且 ready 的条目。
+- 将“用 `match` 处理 `Option` 的 `Some` / `None`”标记为新的 `pending`。
+- 今日只引入一个目标：看懂 `Option` 如何通过 `match` 分成 `Some(...)` 和 `None` 两种情况分别处理，为后面的 `ok_or` 做准备。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为“用 `match` 处理 `Option` 的 `Some` / `None`”。
+- `weekly-plan.md` 已将该知识点从 `planned` 更新为 `pending`。
+
+完成确认：
+
+- 用户已回复“学完了”，已将“用 `match` 处理 `Option` 的 `Some` / `None`”从 `pending` 更新为 `done`，完成日期 2026-06-24。
+- 已按项目规则执行 PersonalOS habit 同步命令，记录 `每日学习 Rust 常用语法` 在 2026-06-24 完成。
+
+今日收获：
+
+- `Option` 可以通过 `match` 明确拆成 `Some(...)` 和 `None` 两种情况分别处理。
+- 后续学习 `ok_or` 时，可以把它理解成“把 `None` 这条分支改造成一个 `Err(...)`”。
 
 ## 时间线
+
+### 2026-06-23：完成 `Result` 与 `?` 基础
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在旧的 `pending`。
+- `weekly-plan.md` 当前周剩余 `planned` 中，最高优先级且前置已满足的是 `Result` 与 `?` 基础。
+
+处理决定：
+
+- 按每日卡片 workflow，将 `Result` 与 `?` 基础 从 `planned` 提升为新的 `pending`。
+- 今日只引入一个目标：理解 `?` 在返回 `Result` 的函数里如何把 `Err` 自动向外传递。
+- 围绕用户追问，补清了三层判断：`?` 和手写 `match` 的关系、`main` 里能否使用 `?`、`main` 返回 `Err` 时程序会如何结束。
+
+完成确认：
+
+- 用户已回复“记完了”，已将 `Result` 与 `?` 基础 从 `pending` 更新为 `done`，完成日期 2026-06-23。
+- 已按项目规则执行 PersonalOS habit 同步命令，记录 `每日学习 Rust 常用语法` 在 2026-06-23 完成。
+
+今日收获：
+
+- `?`：在返回为 `Result` 的函数中，可以通过 `?` 自动把 `Err` 结果向外传递。
+- 最外层 `main` 如果遇到 `Err`，会把失败结果交出去，并结束程序。
 
 ### 2026-06-22：推进手动传播错误这一步
 
