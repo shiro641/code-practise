@@ -1,0 +1,7 @@
+2026-06-25 09:00:01 INFO server started
+2026-06-25 09:01:12 WARN disk usage high
+2026-06-25 09:02:30 ERROR failed to connect database
+2026-06-25 09:03:44 INFO retry database connection
+2026-06-25 09:04:10 ERROR timeout when calling payment service
+2026-06-25 09:05:20 INFO request completed
+2026-06-25 09:06:01 WARN slow response detected

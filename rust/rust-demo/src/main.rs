@@ -1,30 +1,15 @@
-fn flag_test(flag: bool) -> Result<&'static str, &'static str> {
-    if flag {
-        return Ok("yes");
-    }
-    Err("No")
+fn test_ok_or(flag:bool)->Result<&'static str, &'static str>{
+    let test = match flag {
+        true=>Some("success"),
+        false=>None
+    };
+
+    test.ok_or("err")
 }
 
-fn get_flag(flag: bool) -> Result<&'static str, &'static str> {
-    let ans = flag_test(flag)?;
-    Ok(ans)
-}
-
-fn test_match(has_match: Option<bool>) -> Result<&'static str, &'static str> {
-    match has_match {
-        Some(msg) => {
-            println!("{} success", msg);
-            return Ok("success");
-        }
-        None => {
-            println!("fail");
-        }
-    }
-    Err("fail")
-}
 
 fn main() -> Result<(), &'static str> {
-    let res = test_match(None)?;
+    let res = test_ok_or(true)?;
     println!("{:?}", res);
     Ok(())
 }

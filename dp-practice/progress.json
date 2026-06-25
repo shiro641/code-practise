@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23",
+  "updatedAt": "2026-06-25",
   "level": {
     "label": "初级偏上",
     "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
@@ -153,6 +153,24 @@
       "source": "daily-practice-2026-06-23",
       "solutionFile": null,
       "notes": "最终建模正确：能区分这题统计的是排列数而不是组合数，并明确应采用“外层枚举目标和、内层枚举可选数字”的顺序。状态定义 dp[j] 为和为 j 的排列数量，转移为 dp[j] += dp[j - num]；后续继续要求自己先完整写出四件事：状态定义、转移、遍历顺序、边界条件。"
+    },
+    {
+      "id": "017",
+      "title": "买卖股票的最佳时机 III",
+      "type": "股票状态机 DP / 最多两笔交易",
+      "status": "completed",
+      "source": "daily-practice-2026-06-24",
+      "solutionFile": null,
+      "notes": "最终建模正确：将状态严格定义为“第 i 天结束时、持有/未持有股票、且恰好卖出 k 次时的最大利润”。初始化时把不可达状态设为 -inf，并明确只有卖出才会增加卖出次数；同时修正了 `dp[i][1][2]` 必须始终不可达的问题。后续可继续练习把该三维状态压缩成 `hold1 / sold1 / hold2 / sold2` 四状态写法。"
+    },
+    {
+      "id": "018",
+      "title": "回文子串",
+      "type": "区间 DP / 回文判断计数",
+      "status": "completed",
+      "source": "daily-practice-2026-06-25",
+      "solutionFile": "problems/018-palindromic-substrings/solution.py",
+      "notes": "按你当前规则以代码正确性为主评审后通过。区间 DP 建模正确：`dp[i][j]` 表示子串 `s[i..j]` 是否回文，长度为 2 单独判断，其余依赖 `dp[i + 1][j - 1]`；倒序枚举 `i`、正序枚举 `j` 的遍历顺序正确。额外边界 case 如 `a`、`aa`、`ab`、`abba` 均通过。后续继续强化这题与“最长回文子序列”的区别。"
     }
   ]
 }

@@ -1,0 +1,97 @@
+2026-06-25 AI English practice.
+
+1. entry point.
+An entry point is a stable place where a system, tool, or agent starts interacting with a larger workflow.
+The repository README gives Codex a clear entry point into the project.
+A small entry point is useful when deeper knowledge lives in structured documentation.
+
+2. source of truth.
+A source of truth is the authoritative place where reliable information should be stored and checked.
+The design document should remain the source of truth for product behavior.
+If multiple files disagree, the team needs to decide which one is the source of truth.
+
+3. invariants.
+Invariants are rules or properties that should remain true even as the system changes.
+Tests can enforce invariants that preserve existing behavior during refactoring.
+Mechanical invariants reduce the chance that fast iteration turns into long-term decay.
+
+4. recovery.
+Recovery means returning a system, workflow, or agent to a good state after an error.
+The harness should define how the agent performs recovery after a failed command.
+Good recovery paths make long-running agent tasks safer and easier to debug.
+
+5. validation.
+Validation is the process of checking whether a result, system, or assumption satisfies the required criteria.
+The team added validation steps before allowing the agent to submit a final patch.
+Evaluation reports should include validation checks that support their claims.
+
+6. review.
+Review means inspecting work for correctness, quality, risk, or fit with requirements.
+Code review can catch subtle regressions before they reach production.
+Agent workflows become more reliable when review is part of the development loop.
+
+7. lifecycle.
+A lifecycle is the full sequence of stages through which a product, system, or process moves.
+An agent can support more of the software lifecycle when testing and recovery are encoded into the workflow.
+Security teams should consider the full lifecycle of a deployed AI system.
+
+8. end to end.
+End to end means covering the entire process from beginning to final outcome.
+The team tested the retrieval pipeline end to end before launching it.
+An end-to-end evaluation can reveal failures that isolated benchmarks miss.
+
+9. product-like environment.
+A product-like environment is a test environment that resembles the real product experience.
+Deployment simulation studies model behavior in realistic product-like environments.
+A product-like environment can expose issues that simple chat tests do not reveal.
+
+10. release.
+A release is the act of making a product, model, or feature available to users.
+The team ran pre-deployment evaluations before the model release.
+A staged release can reduce risk when a new agent workflow is introduced.
+
+11. underspecified environment.
+An underspecified environment lacks the tools, abstractions, or structure needed for an agent to work reliably.
+The model was not incapable; the environment was underspecified.
+An underspecified environment can make a capable agent look unreliable.
+
+12. legible to Codex.
+If information is legible to Codex, it is structured clearly enough for Codex to inspect, reason about, and act on it.
+Logs and traces should be legible to Codex during debugging.
+Making project documents legible to Codex turns knowledge into usable context.
+
+13. system of record.
+A system of record is the official place where important project knowledge is maintained.
+Repository documentation can serve as the system of record for project decisions.
+Treating scattered notes as the system of record can create confusion over time.
+
+14. higher-fidelity simulation.
+A higher-fidelity simulation more closely matches real-world deployment conditions.
+Higher-fidelity simulations can surface risks that static benchmarks miss.
+The evaluation used a higher-fidelity simulation with tools, policies, and user feedback.
+
+15. feedback loop.
+A feedback loop is a process where outputs, observations, or errors are fed back into future action.
+Clear metrics create a feedback loop that the agent can inspect and act on.
+Human review can become part of a feedback loop for improving agent behavior.
+
+English-to-Chinese sentence practice.
+
+Sentence 1. OAI-HARNESS-002. Difficulty 5. Practice count 2.
+When an agent lacks the tools, abstractions, and internal structure needed to make progress, the environment is underspecified rather than the model simply being incapable.
+
+Sentence 2. OAI-HARNESS-003. Difficulty 5. Practice count 3.
+Making applications, logs, metrics, and traces legible to Codex turns quality assurance from a human bottleneck into a feedback loop the agent can inspect and act on.
+
+Sentence 3. OAI-HARNESS-004. Difficulty 5. Practice count 3.
+Treating repository knowledge as the system of record gives agents a small stable entry point while preserving deeper sources of truth in structured, versioned documentation.
+
+Sentence 4. OAI-DEPLOY-SIM-001. Difficulty 4. Practice count 1.
+Deployment simulation can help teams study how a model behaves in realistic product-like environments before the system is released to users.
+
+Sentence 5. OAI-DEPLOY-SIM-006. Difficulty 5. Practice count 2.
+For agentic systems, deployment simulation can capture multi-step trajectories in which planning, tool use, memory, and user feedback jointly determine whether the system succeeds safely.
+
+Chinese-to-English target expression.
+Target expression: system of record; legible to Codex.
+Recommended model sentence: Repository documentation should be legible to Codex and serve as the system of record for project knowledge.

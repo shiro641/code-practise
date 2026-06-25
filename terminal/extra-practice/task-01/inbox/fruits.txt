@@ -1,0 +1,9 @@
+banana
+apple
+orange
+apple
+pear
+banana
+Apple
+orange
+banana

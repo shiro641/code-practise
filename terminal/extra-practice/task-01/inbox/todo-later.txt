@@ -1,0 +1,2 @@
+todo: review chmod examples
+todo: practice ps and kill

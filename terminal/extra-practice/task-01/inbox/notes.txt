@@ -1,0 +1,8 @@
+Terminal practice notes
+
+grep searches file content
+find searches file names
+
+sort does not change the original file by default
+
+chmod changes permissions

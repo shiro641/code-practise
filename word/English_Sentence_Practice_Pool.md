@@ -706,8 +706,11 @@ Source: https://openai.com/index/deployment-simulation/
 Sentence: Deployment simulation can help teams study how a model behaves in realistic product-like environments before the system is released to users.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 0
-Last practiced: Never
+Practice count: 1
+Last practiced: 2026-06-25
+Last score: 76
+Average score: 76
+Error tags: word choice; terminology; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on deployment simulation, realistic product-like environments, before release.
 
 ID: OAI-DEPLOY-SIM-002
@@ -768,11 +771,11 @@ Source: https://openai.com/index/deployment-simulation/
 Sentence: For agentic systems, deployment simulation can capture multi-step trajectories in which planning, tool use, memory, and user feedback jointly determine whether the system succeeds safely.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-22
-Last score: 76
-Average score: 76
-Error tags: terminology; modifier; Chinese naturalness
+Practice count: 2
+Last practiced: 2026-06-25
+Last score: 88
+Average score: 82
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on agentic systems, multi-step trajectories, planning, tool use, memory, user feedback, succeeds safely.
 
 ID: OAI-HARNESS-001
@@ -794,11 +797,11 @@ Source: https://openai.com/index/harness-engineering/
 Sentence: When an agent lacks the tools, abstractions, and internal structure needed to make progress, the environment is underspecified rather than the model simply being incapable.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-24
-Last score: 72
-Average score: 72
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 2
+Last practiced: 2026-06-25
+Last score: 84
+Average score: 78
+Error tags: terminology; word choice
 Notes: Practice sentence adapted from OpenAI article; focus on underspecified environment, tools, abstractions, internal structure, model capability.
 
 ID: OAI-HARNESS-003
@@ -807,11 +810,11 @@ Source: https://openai.com/index/harness-engineering/
 Sentence: Making applications, logs, metrics, and traces legible to Codex turns quality assurance from a human bottleneck into a feedback loop the agent can inspect and act on.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 2
-Last practiced: 2026-06-24
-Last score: 78
-Average score: 72
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 3
+Last practiced: 2026-06-25
+Last score: 88
+Average score: 77
+Error tags: Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on application legibility, logs, metrics, traces, QA bottleneck, feedback loop.
 
 ID: OAI-HARNESS-004
@@ -820,11 +823,11 @@ Source: https://openai.com/index/harness-engineering/
 Sentence: Treating repository knowledge as the system of record gives agents a small stable entry point while preserving deeper sources of truth in structured, versioned documentation.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 2
-Last practiced: 2026-06-24
-Last score: 76
-Average score: 72
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 3
+Last practiced: 2026-06-25
+Last score: 86
+Average score: 77
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on system of record, stable entry point, sources of truth, structured versioned documentation.
 
 ID: OAI-HARNESS-005

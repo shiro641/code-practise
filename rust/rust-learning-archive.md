@@ -31,7 +31,35 @@ PersonalOS 仓库：`/Users/zhangjie/Desktop/daily-routine`
 - 最近完成日期：2026-06-24
 - 当前待完成：无
 - 最早 pending：无
-- 本周计划：当前流转周前 4 项已完成；下一次每日推送会在没有 `pending` 的前提下继续第 5 项 `ok_or` 基础。
+- 本周计划：当前流转周前 5 项已全部完成；下一次每日推送需等待新的 `planned` 或下周计划生成。
+
+### 2026-06-25：推进 `Option` 到 `Result` 的桥接
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在旧的 `pending`。
+- `weekly-plan.md` 当前周剩余 `planned` 中，最高优先级且前置已满足的是“`Option` 转 `Result`：`ok_or` 基础”。
+
+处理决定：
+
+- 按每日卡片 workflow，从本周 `planned` 中提升最靠前且 ready 的条目。
+- 将“`Option` 转 `Result`：`ok_or` 基础”标记为新的 `pending`。
+- 今日只引入一个目标：理解 `ok_or` 会把 `Option` 里的 `Some(v)` 保留为成功值，把 `None` 改造成一个 `Err(...)`，为后续 `ok_or_else` 和 `?` 组合做前置。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为“`Option` 转 `Result`：`ok_or` 基础”。
+- `weekly-plan.md` 已将该知识点从 `planned` 更新为 `pending`。
+
+完成确认：
+
+- 用户已回复“学完了”，已将“`Option` 转 `Result`：`ok_or` 基础”从 `pending` 更新为 `done`，完成日期 2026-06-25。
+- 已按项目规则执行 PersonalOS habit 同步命令，记录 `每日学习 Rust 常用语法` 在 2026-06-25 完成。
+
+今日收获：
+
+- `ok_or` 会把 `Option` 里的 `Some(v)` 转成 `Ok(v)`，把 `None` 转成你提供的 `Err(...)`。
+- 这一步把“可能没值”和“可能报错”顺利接起来，后面就能更自然地进入 `ok_or_else`。
 
 ### 2026-06-24：切回 `Option` 分支处理
 

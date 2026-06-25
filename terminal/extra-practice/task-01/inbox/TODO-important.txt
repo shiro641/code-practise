@@ -1,0 +1,3 @@
+TODO: clean empty lines from notes
+TODO: count errors in logs
+TODO: collect Shanghai people

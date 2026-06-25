@@ -18,7 +18,7 @@
 
 ## 当前状态
 
-- 最近完成日期: 2026-06-24
+- 最近完成日期: 2026-06-25
 - 当前待完成: 无
 - 当前最早 pending: 无
 - 当前周计划文件: `weekly-plan.md`
@@ -41,9 +41,24 @@
 | 2026-06-22 | 返回 `Result` 的函数里手动传播错误 | done | 93 | 0 | 自包含示例 | 2026-06-22 | 已完成；已看清 `?` 省略掉的手动 `match` / `return Err(...)` 步骤；下一次每日推送再进入 `Result` 与 `?` 基础 |
 | 2026-06-23 | `Result` 与 `?` 基础 | done | 92 | 3 | 自包含示例 | 2026-06-23 | 2026-06-23 每日推送已发送并完成；已理解“`?` 可在返回 `Result` 的函数中自动传播 `Err`”“`main` 返回 `Err` 时会把失败结果交出去并结束程序”；已追问“是不是 match 的语法糖”“? 能不能在 main 里用”“main 返回 Err 时会怎样” |
 | 2026-06-21 | 用 `match` 处理 `Option` 的 `Some` / `None` | done | 91 | 0 | 自包含示例 | 2026-06-24 | 2026-06-24 每日推送已发送并完成；已理解 `Option` 可以通过 `match` 分成 `Some(...)` 和 `None` 两种情况分别处理，为 `ok_or` 做准备 |
-| 2026-06-21 | `Option` 转 `Result`：`ok_or` 基础 | planned | 90 | 0 | 自包含示例 |  | 为后续 `ok_or_else` 铺前置；先学立即构造错误值的更简单版本 |
+| 2026-06-21 | `Option` 转 `Result`：`ok_or` 基础 | done | 90 | 0 | 自包含示例 | 2026-06-25 | 2026-06-25 每日推送已发送并完成；已理解 `ok_or` 会把 `Some(v)` 变成 `Ok(v)`，把 `None` 变成提供的 `Err(...)`，为后续 `ok_or_else` 铺前置 |
 | 2026-06-21 | 函数参数与返回值基础 | backlog | 89 | 0 | 自包含示例 |  | 如果当前 `Result` 返回值这条线再次出现理解阻塞，再回退补这层更抽象的函数基础 |
 | 2026-06-12 | `ok_or_else` 和 `?` 的组合 | backlog | 70 | 0 | `/Users/bytedance/Desktop/codecli/codex-rs/lmstudio/src/client.rs` |  | 等 `?` 基础和 `ok_or` 基础都完成后再学，避免把懒求值和错误传播绑在同一天 |
+| 2026-06-25 | `Result` 错误类型与 `anyhow::Result` | backlog | 88 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/cli/src/main.rs` |  | Codex CLI 源码大量使用 `anyhow` 统一传播错误；在 `?` 和 `ok_or` 后学习，先不进入复杂 trait bound |
+| 2026-06-25 | `struct` 字段与配置对象 | backlog | 87 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/core/src/session/session.rs` |  | 为读懂 `Session`、`SessionConfiguration`、配置快照做准备；示例应先用普通结构体，不引入生命周期和泛型 |
+| 2026-06-25 | `enum` 表示命令和事件分支 | backlog | 86 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/cli/src/main.rs` |  | 为读懂 `Subcommand`、`Op`、`EventMsg` 做准备；承接已学的 `Option` / `Result` 分支思维 |
+| 2026-06-25 | `derive` 宏基础：`Debug`、`Clone`、`Parser` | backlog | 84 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/cli/src/main.rs` |  | Codex CLI 入口大量使用 `#[derive(...)]`；先理解“自动生成常见实现”，不展开宏内部机制 |
+| 2026-06-25 | `Vec<T>` 与 `HashMap` 基础 | backlog | 83 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/protocol/src/protocol.rs` |  | 源码里配置、历史、工具列表大量使用集合；先学最常用增删查和遍历，不进入迭代器高级组合 |
+| 2026-06-25 | `Arc<T>` 共享所有权基础 | backlog | 82 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/core/src/session/turn.rs` |  | 为读懂 `Arc<Session>` 和异步共享状态做准备；先区分 `Rc` / `Arc` 的直觉，不进入线程安全细节 |
+| 2026-06-25 | `Mutex<T>` 与共享可变状态基础 | backlog | 81 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/core/src/session/session.rs` |  | 为读懂 `Mutex<SessionState>`、`active_turn` 做准备；必须放在 `Arc<T>` 之后 |
+| 2026-06-25 | `async fn` 与 `.await` 基础 | backlog | 80 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/core/src/session/turn.rs` |  | Codex 主流程是异步驱动；先建立“等待异步结果”的心智模型，不引入 trait 里的 Future |
+| 2026-06-25 | `tokio::spawn` 和异步任务基础 | backlog | 78 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/core/src/session/mod.rs` |  | 为理解后台任务、取消、并发执行做准备；放在 `async fn` / `.await` 后 |
+| 2026-06-25 | channel：请求队列与事件队列 | backlog | 77 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/protocol/src/protocol.rs` |  | 对应 Codex 的 Submission Queue / Event Queue；需要先学 async 基础 |
+| 2026-06-25 | trait 基础：接口与实现 | backlog | 76 | 0 | 自包含示例 |  | 为后续理解客户端、工具执行器、协议抽象做准备；先用简单 trait，不引入 `impl Future + Send` |
+| 2026-06-25 | `serde` 序列化与反序列化基础 | backlog | 74 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/protocol/src/protocol.rs` |  | Codex 协议、配置和事件都依赖 JSON/TOML 编解码；先学 `Serialize` / `Deserialize` 的用途 |
+| 2026-06-25 | `clap` 命令行参数解析基础 | backlog | 72 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/cli/src/main.rs` |  | 读懂 `codex` 子命令入口的关键；放在 `derive` 和 `enum` 之后 |
+| 2026-06-25 | 终端事件循环与 TUI 基础 | backlog | 66 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/tui/src/lib.rs` |  | 为读交互 UI 做准备；依赖 enum、async、channel，暂不急于进入 |
+| 2026-06-25 | 工具调用流程：模型请求工具、程序执行、结果回传 | backlog | 64 | 0 | `/Users/zhangjie/Desktop/codexcli/codex-rs/core/src/mcp_tool_call.rs` |  | 这是读懂 Codex Agent 的关键流程；需要先具备 enum、serde、async、Result、集合基础 |
 | 2026-06-12 | trait 里的 `impl Future + Send` | backlog | 50 | 2 | `/Users/bytedance/Desktop/codecli/codex-rs/rmcp-client/src/stdio_server_launcher.rs` |  | 旧 pending 已移除；涉及 trait、async、Future、Send、生命周期，暂缓 |
 
 ## 优先级规则
