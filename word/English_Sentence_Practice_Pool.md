@@ -96,11 +96,11 @@ Source: https://openai.com/index/trustworthy-third-party-evaluations-foundations
 Sentence: Safeguard testing can understate whether an attack can succeed when it fails to account for the resources and custom harnesses available to realistic attackers.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 3
-Last practiced: 2026-06-22
-Last score: 84
+Practice count: 4
+Last practiced: 2026-07-02
+Last score: 76
 Average score: 75
-Error tags: word choice; Chinese naturalness
+Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from the article; focus on safeguard testing, understate, account for, realistic attackers.
 
 ID: OAI-TTE-005
@@ -109,10 +109,10 @@ Source: https://openai.com/index/trustworthy-third-party-evaluations-foundations
 Sentence: Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior or are distorted by known hazards.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 3
-Last practiced: 2026-06-22
-Last score: 76
-Average score: 72
+Practice count: 5
+Last practiced: 2026-06-30
+Last score: 86
+Average score: 76
 Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from the article; focus on headline scores, validity checks, intended behavior, distorted by known hazards.
 
@@ -615,11 +615,11 @@ Source: https://www.anthropic.com/news/fable-mythos-access
 Sentence: Anthropic said that unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 2
-Last practiced: 2026-06-17
-Last score: 76
-Average score: 75
-Error tags: terminology; main clause; Chinese naturalness
+Practice count: 3
+Last practiced: 2026-07-02
+Last score: 86
+Average score: 78
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from Anthropic article; focus on unsafe deployments, statutory process, technically grounded, clear technical evidence.
 
 ID: OAI-PARTNER-001
@@ -693,10 +693,10 @@ Source: https://openai.com/index/introducing-openai-partner-network/
 Sentence: An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 3
-Last practiced: 2026-06-19
-Last score: 80
-Average score: 71
+Practice count: 4
+Last practiced: 2026-07-02
+Last score: 84
+Average score: 74
 Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on ecosystem-led approach, complementary strengths, operating-model redesign, data modernization, industry-specific solutions, change management.
 
@@ -706,11 +706,11 @@ Source: https://openai.com/index/deployment-simulation/
 Sentence: Deployment simulation can help teams study how a model behaves in realistic product-like environments before the system is released to users.
 Factors: Professional terminology; fixed phrase; long or syntactically complex sentence
 Difficulty: 4
-Practice count: 1
-Last practiced: 2026-06-25
-Last score: 76
+Practice count: 3
+Last practiced: 2026-06-27
+Last score: 80
 Average score: 76
-Error tags: word choice; terminology; Chinese naturalness
+Error tags: terminology; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on deployment simulation, realistic product-like environments, before release.
 
 ID: OAI-DEPLOY-SIM-002
@@ -758,11 +758,11 @@ Source: https://openai.com/index/deployment-simulation/
 Sentence: Higher-fidelity simulations are useful for surfacing risks that emerge only after a model interacts with realistic tasks, constraints, and feedback loops over time.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-24
-Last score: 78
-Average score: 78
-Error tags: terminology; modifier; Chinese naturalness
+Practice count: 3
+Last practiced: 2026-07-01
+Last score: 82
+Average score: 79
+Error tags: modifier; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on higher-fidelity simulations, surface risks, realistic tasks, constraints, feedback loops.
 
 ID: OAI-DEPLOY-SIM-006
@@ -797,10 +797,10 @@ Source: https://openai.com/index/harness-engineering/
 Sentence: When an agent lacks the tools, abstractions, and internal structure needed to make progress, the environment is underspecified rather than the model simply being incapable.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 2
-Last practiced: 2026-06-25
-Last score: 84
-Average score: 78
+Practice count: 3
+Last practiced: 2026-07-01
+Last score: 82
+Average score: 79
 Error tags: terminology; word choice
 Notes: Practice sentence adapted from OpenAI article; focus on underspecified environment, tools, abstractions, internal structure, model capability.
 
@@ -836,11 +836,11 @@ Source: https://openai.com/index/harness-engineering/
 Sentence: Architecture and taste can be enforced through mechanical invariants, allowing agents to ship quickly without letting speed turn into drift or long-term decay.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-23
-Last score: 78
-Average score: 78
-Error tags: terminology; word choice; Chinese naturalness
+Practice count: 2
+Last practiced: 2026-06-26
+Last score: 82
+Average score: 80
+Error tags: terminology; word choice
 Notes: Practice sentence adapted from OpenAI article; focus on architecture, taste, mechanical invariants, drift, long-term decay.
 
 ID: OAI-HARNESS-006
@@ -849,9 +849,243 @@ Source: https://openai.com/index/harness-engineering/
 Sentence: As more of the development loop is encoded into testing, validation, review, feedback handling, and recovery, an agent can drive larger parts of the software lifecycle end to end.
 Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
 Difficulty: 5
-Practice count: 1
-Last practiced: 2026-06-23
-Last score: 76
-Average score: 76
+Practice count: 2
+Last practiced: 2026-06-26
+Last score: 80
+Average score: 78
 Error tags: terminology; word choice; Chinese naturalness
 Notes: Practice sentence adapted from OpenAI article; focus on development loop, testing, validation, review, feedback handling, recovery, software lifecycle.
+
+ID: ANT-CLAUDE-TAG-001
+Article: Introducing Claude Tag
+Source: https://www.anthropic.com/news/introducing-claude-tag
+Sentence: Claude Tag turns a shared Slack channel into a collaborative workspace where team members can delegate tasks to the same agent while keeping the surrounding conversation visible to everyone.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-27
+Last score: 86
+Average score: 86
+Error tags: terminology; Chinese naturalness
+Notes: Practice sentence adapted from Anthropic article; focus on shared Slack channel, collaborative workspace, delegate tasks, same agent, visible context.
+
+ID: ANT-CLAUDE-TAG-002
+Article: Introducing Claude Tag
+Source: https://www.anthropic.com/news/introducing-claude-tag
+Sentence: Because Claude can build context from the channels it is allowed to access, teams do not need to restate background information every time they ask it to continue a project.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-27
+Last score: 78
+Average score: 78
+Error tags: terminology; word choice
+Notes: Practice sentence adapted from Anthropic article; focus on build context, allowed access, restate background information, continue a project.
+
+ID: ANT-CLAUDE-TAG-003
+Article: Introducing Claude Tag
+Source: https://www.anthropic.com/news/introducing-claude-tag
+Sentence: Ambient behavior lets Claude proactively surface relevant information, follow up on quiet threads, and keep users informed about work that may otherwise stall.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 4
+Last practiced: 2026-07-02
+Last score: 82
+Average score: 75
+Error tags: terminology; word choice; Chinese naturalness
+Notes: Practice sentence adapted from Anthropic article; focus on ambient behavior, proactively surface information, follow up, quiet threads, stall.
+
+ID: ANT-CLAUDE-TAG-004
+Article: Introducing Claude Tag
+Source: https://www.anthropic.com/news/introducing-claude-tag
+Sentence: Asynchronous delegation allows users to assign work to Claude and then return to other priorities while the agent schedules subtasks and pursues the project over hours or days.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-29
+Last score: 82
+Average score: 82
+Error tags: word choice; Chinese naturalness
+Notes: Practice sentence adapted from Anthropic article; focus on asynchronous delegation, assign work, schedules subtasks, over hours or days.
+
+ID: ANT-CLAUDE-TAG-005
+Article: Introducing Claude Tag
+Source: https://www.anthropic.com/news/introducing-claude-tag
+Sentence: Administrators can scope Claude's tools, memories, and data access to specific channels so that a Claude configured for one function does not expose information to another team.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 2
+Last practiced: 2026-07-01
+Last score: 86
+Average score: 82
+Error tags: terminology; Chinese naturalness
+Notes: Practice sentence adapted from Anthropic article; focus on scope access, tools, memories, data access, specific channels, information isolation.
+
+ID: ANT-CLAUDE-TAG-006
+Article: Introducing Claude Tag
+Source: https://www.anthropic.com/news/introducing-claude-tag
+Sentence: Organization-level controls such as token-spend limits and activity logs make it easier for administrators to monitor what Claude has done and who requested each task.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 4
+Practice count: 1
+Last practiced: 2026-06-30
+Last score: 82
+Average score: 82
+Error tags: terminology; Chinese naturalness
+Notes: Practice sentence adapted from Anthropic article; focus on organization-level controls, token-spend limits, activity logs, monitor actions, task requester.
+
+ID: OAI-GPT56-SOL-001
+Article: Previewing GPT-5.6 Sol: a next-generation model
+Source: https://openai.com/index/previewing-gpt-5-6-sol/
+Sentence: OpenAI is beginning a limited preview of the GPT-5.6 series, with Sol positioned as the flagship model, Terra as a balanced model for everyday work, and Luna as a fast and affordable option.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-28
+Last score: 82
+Average score: 82
+Error tags: terminology; word choice
+Notes: Practice sentence adapted from OpenAI article; focus on limited preview, flagship model, balanced model, everyday work, fast and affordable option.
+
+ID: OAI-GPT56-SOL-002
+Article: Previewing GPT-5.6 Sol: a next-generation model
+Source: https://openai.com/index/previewing-gpt-5-6-sol/
+Sentence: GPT-5.6 introduces a max reasoning effort for deeper reasoning and an ultra mode that goes beyond a single agent by using subagents to accelerate complex work.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-28
+Last score: 82
+Average score: 82
+Error tags: terminology; word choice
+Notes: Practice sentence adapted from OpenAI article; focus on max reasoning effort, deeper reasoning, ultra mode, subagents, complex work.
+
+ID: OAI-GPT56-SOL-003
+Article: Previewing GPT-5.6 Sol: a next-generation model
+Source: https://openai.com/index/previewing-gpt-5-6-sol/
+Sentence: As models become more capable in cybersecurity, safeguards must hold up to real-world adversarial pressure while preserving access to legitimate defensive work.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 1
+Last practiced: 2026-06-28
+Last score: 86
+Average score: 86
+Error tags: terminology; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on cybersecurity capability, safeguards, real-world adversarial pressure, legitimate defensive work.
+
+ID: OAI-GPT56-SOL-004
+Article: Previewing GPT-5.6 Sol: a next-generation model
+Source: https://openai.com/index/previewing-gpt-5-6-sol/
+Sentence: The model identified bugs and exploitation primitives under the tested conditions, but did not autonomously produce a functional full-chain exploit.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 2
+Last practiced: 2026-06-30
+Last score: 82
+Average score: 79
+Error tags: terminology; word choice; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on exploitation primitives, tested conditions, autonomously produce, functional full-chain exploit.
+
+ID: OAI-GPT56-SOL-005
+Article: Previewing GPT-5.6 Sol: a next-generation model
+Source: https://openai.com/index/previewing-gpt-5-6-sol/
+Sentence: A layered safeguard stack combines model-level refusals, real-time checks, account-level signals, differentiated access, monitoring, enforcement, and continued testing.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 5
+Last practiced: 2026-07-02
+Last score: 82
+Average score: 75
+Error tags: main clause; terminology; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on layered safeguard stack, model-level refusals, real-time checks, account-level signals, differentiated access.
+
+ID: OAI-GPT56-SOL-006
+Article: Previewing GPT-5.6 Sol: a next-generation model
+Source: https://openai.com/index/previewing-gpt-5-6-sol/
+Sentence: Automated red teaming uses models to find weaknesses and test safeguards against universal jailbreaks that can work across many prompts or contexts.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 3
+Last practiced: 2026-07-01
+Last score: 84
+Average score: 78
+Error tags: terminology; modifier; Chinese naturalness
+Notes: Practice sentence adapted from OpenAI article; focus on automated red teaming, find weaknesses, test safeguards, universal jailbreaks, many prompts or contexts.
+
+ID: ANT-SONNET5-001
+Article: Introducing Claude Sonnet 5
+Source: https://www.anthropic.com/news/claude-sonnet-5
+Sentence: Claude Sonnet 5 is positioned as a more agentic Sonnet-class model that can plan, use tools such as browsers and terminals, and run autonomously at a level that previously required larger and more expensive models.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced:
+Last score:
+Average score:
+Error tags:
+Notes: Practice sentence adapted from Anthropic article; focus on agentic Sonnet-class model, plan, tool use, run autonomously, larger and more expensive models.
+
+ID: ANT-SONNET5-002
+Article: Introducing Claude Sonnet 5
+Source: https://www.anthropic.com/news/claude-sonnet-5
+Sentence: By narrowing the gap with Opus-class models while keeping lower prices, Sonnet 5 offers a wider range of cost-performance options for developers choosing effort levels across agentic search and computer-use tasks.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced:
+Last score:
+Average score:
+Error tags:
+Notes: Practice sentence adapted from Anthropic article; focus on narrow the gap, Opus-class models, cost-performance options, effort levels, agentic search, computer use.
+
+ID: ANT-SONNET5-003
+Article: Introducing Claude Sonnet 5
+Source: https://www.anthropic.com/news/claude-sonnet-5
+Sentence: Early access partners described Sonnet 5 as more capable of finishing complex tasks, checking its own output without being explicitly asked, and carrying multi-step software engineering work through to a tested result.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced:
+Last score:
+Average score:
+Error tags:
+Notes: Practice sentence adapted from Anthropic article; focus on early access partners, complex tasks, check its own output, multi-step software engineering, tested result.
+
+ID: ANT-SONNET5-004
+Article: Introducing Claude Sonnet 5
+Source: https://www.anthropic.com/news/claude-sonnet-5
+Sentence: Anthropic's pre-deployment safety evaluations found that Sonnet 5 had lower rates of hallucination, sycophancy, and other undesirable behaviors than Sonnet 4.6, while still showing somewhat higher misalignment than more capable models.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced:
+Last score:
+Average score:
+Error tags:
+Notes: Practice sentence adapted from Anthropic article; focus on pre-deployment safety evaluations, hallucination, sycophancy, undesirable behaviors, misalignment.
+
+ID: ANT-SONNET5-005
+Article: Introducing Claude Sonnet 5
+Source: https://www.anthropic.com/news/claude-sonnet-5
+Sentence: Although Sonnet 5 was not deliberately trained on cybersecurity tasks and performs substantially worse than Opus-class models on dangerous cyber evaluations, Anthropic launched it with real-time cyber safeguards enabled by default.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 5
+Practice count: 0
+Last practiced:
+Last score:
+Average score:
+Error tags:
+Notes: Practice sentence adapted from Anthropic article; focus on cybersecurity tasks, dangerous cyber evaluations, Opus-class models, real-time cyber safeguards, enabled by default.
+
+ID: ANT-SONNET5-006
+Article: Introducing Claude Sonnet 5
+Source: https://www.anthropic.com/news/claude-sonnet-5
+Sentence: Because Sonnet 5 uses an updated tokenizer that can map the same input to more tokens, Anthropic set introductory pricing so the transition would remain roughly cost-neutral for users.
+Factors: Professional terminology; advanced expression; fixed phrase; long or syntactically complex sentence
+Difficulty: 4
+Practice count: 0
+Last practiced:
+Last score:
+Average score:
+Error tags:
+Notes: Practice sentence adapted from Anthropic article; focus on updated tokenizer, map input to more tokens, introductory pricing, cost-neutral transition.

@@ -1,0 +1,85 @@
+Daily AI English practice for June thirtieth, twenty twenty-six.
+
+Vocabulary and examples.
+
+differentiated access.
+The platform uses differentiated access so high-risk capabilities are available only to verified researchers.
+Differentiated access can preserve useful defensive work while limiting misuse.
+
+model-level refusals.
+Model-level refusals block requests that clearly ask for harmful actions.
+The safeguard stack combines model-level refusals with external monitoring.
+
+real-time checks.
+Real-time checks can stop suspicious requests before the system returns a risky answer.
+The deployment pipeline added real-time checks for jailbreak attempts.
+
+account-level signals.
+Account-level signals help the system detect repeated abuse across many sessions.
+Teams should combine account-level signals with request-level monitoring.
+
+monitoring.
+Continuous monitoring helps teams notice failures that do not appear in static benchmarks.
+The monitoring system alerted engineers when misuse patterns changed.
+
+enforcement.
+Policy enforcement should be consistent across models, tools, and user accounts.
+Automated enforcement can suspend access when repeated violations are detected.
+
+continued testing.
+Continued testing is necessary because attack methods change after deployment.
+The team uses continued testing to evaluate safeguards against new jailbreaks.
+
+token-spend limits.
+Token-spend limits help administrators control the cost of long-running agent tasks.
+The workspace applied token-spend limits to prevent accidental budget overruns.
+
+activity logs.
+Activity logs make it easier to understand what an agent did and who requested each task.
+Administrators reviewed activity logs before expanding Claude's access.
+
+organization-level controls.
+Organization-level controls define which tools, memories, and data sources an agent can use.
+Strong organization-level controls reduce the risk of cross-team data leakage.
+
+exploitation primitives.
+The model identified exploitation primitives but did not complete the attack chain.
+Security researchers study exploitation primitives to understand emerging risks.
+
+functional full-chain exploit.
+A functional full-chain exploit connects multiple steps into an executable attack.
+The evaluation found no evidence that the model could autonomously produce a functional full-chain exploit.
+
+automated red teaming.
+Automated red teaming uses models to discover weaknesses at a larger scale.
+The lab used automated red teaming to test whether safeguards resisted universal jailbreaks.
+
+universal jailbreaks.
+Universal jailbreaks can work across many prompts, contexts, or model variants.
+The safeguard team tested the system against universal jailbreaks before release.
+
+validity checks.
+Validity checks help readers judge whether evaluation scores support the intended claim.
+Evaluation reports should pair headline scores with validity checks.
+
+Long sentence translation practice.
+
+Sentence one.
+The model identified bugs and exploitation primitives under the tested conditions, but did not autonomously produce a functional full-chain exploit.
+
+Sentence two.
+A layered safeguard stack combines model-level refusals, real-time checks, account-level signals, differentiated access, monitoring, enforcement, and continued testing.
+
+Sentence three.
+Automated red teaming uses models to find weaknesses and test safeguards against universal jailbreaks that can work across many prompts or contexts.
+
+Sentence four.
+Organization-level controls such as token-spend limits and activity logs make it easier for administrators to monitor what Claude has done and who requested each task.
+
+Sentence five.
+Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior or are distorted by known hazards.
+
+Chinese to English practice.
+
+Target expressions: layered safeguard stack, account-level signals, continued testing.
+Model sentence: A layered safeguard stack should combine account-level signals with continued testing to detect new risks as the system changes.

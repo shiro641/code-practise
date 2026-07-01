@@ -1,0 +1,97 @@
+2026-06-27 AI English practice.
+
+1. whichever.
+Whichever means any one that is chosen from a set of possibilities.
+Teams can connect Claude to whichever tools they approve for a project.
+The agent should use whichever data source is defined as the source of truth.
+
+2. delegate tasks.
+To delegate tasks means to assign work to another person, system, or agent.
+Team members can delegate tasks to Claude from a shared Slack channel.
+Managers should delegate tasks clearly when the workflow has many dependencies.
+
+3. chase down.
+To chase down means to track, find, or investigate something until it is resolved.
+Claude can chase down product metrics across several tools.
+The team asked the agent to chase down missing logs before the review.
+
+4. tacit knowledge.
+Tacit knowledge is background knowledge that people understand but may not write down.
+Claude can help preserve tacit knowledge that is normally scattered across conversations.
+Teams lose tacit knowledge when project context only lives in private messages.
+
+5. initiative.
+Initiative means the ability to act proactively without waiting for detailed instructions.
+An agent that takes initiative can surface issues before users ask.
+Good initiative still needs clear boundaries and review.
+
+6. ambient behavior.
+Ambient behavior is background, context-aware behavior that continues without interrupting users.
+Ambient behavior lets Claude proactively surface relevant information.
+The system should make ambient behavior useful without becoming noisy.
+
+7. asynchronously.
+Asynchronously means not requiring people or systems to wait in real time.
+Claude can work asynchronously while the user returns to other priorities.
+Asynchronously delegated tasks are useful for long-running research or coordination.
+
+8. scoped.
+Scoped means limited to a defined boundary, permission range, or context.
+Claude's memories can stay scoped to specific channels.
+Access should be scoped so one team cannot see another team's private context.
+
+9. provisioning access.
+Provisioning access means configuring or granting access to tools, channels, data, or resources.
+Administrators are responsible for provisioning access to approved tools.
+Careful provisioning access reduces the risk of accidental data exposure.
+
+10. introductory launch credit.
+An introductory launch credit is a temporary credit offered during an initial product launch.
+Eligible organizations may receive an introductory launch credit.
+Introductory launch credits can help teams try a new workflow before committing budget.
+
+11. eligible organizations.
+Eligible organizations are organizations that meet the requirements to receive access, benefits, or credits.
+Only eligible organizations can use the launch credit.
+The program defines which eligible organizations can join the early rollout.
+
+12. validity checks.
+Validity checks test whether an evaluation result supports the intended interpretation.
+Evaluation reports should pair headline scores with validity checks.
+Validity checks are not the same as simple correctness checks.
+
+13. headline scores.
+Headline scores are the main scores highlighted in an evaluation report.
+Headline scores can be misleading without enough context.
+Readers should not overinterpret headline scores without validity checks.
+
+14. intended behavior.
+Intended behavior is the behavior a system or evaluation is designed to measure or produce.
+The report should explain whether the scores reflect intended behavior.
+Known hazards can distort the measurement of intended behavior.
+
+15. product-like environment.
+A product-like environment is a test environment that resembles the real product experience.
+Deployment simulation studies model behavior in realistic product-like environments.
+A product-like environment is not the same as a production environment.
+
+English-to-Chinese sentence practice.
+
+Sentence 1. ANT-CLAUDE-TAG-001. Difficulty 5. Practice count 1.
+Claude Tag turns a shared Slack channel into a collaborative workspace where team members can delegate tasks to the same agent while keeping the surrounding conversation visible to everyone.
+
+Sentence 2. ANT-CLAUDE-TAG-002. Difficulty 5. Practice count 1.
+Because Claude can build context from the channels it is allowed to access, teams do not need to restate background information every time they ask it to continue a project.
+
+Sentence 3. ANT-CLAUDE-TAG-003. Difficulty 5. Practice count 1.
+Ambient behavior lets Claude proactively surface relevant information, follow up on quiet threads, and keep users informed about work that may otherwise stall.
+
+Sentence 4. ANT-CLAUDE-TAG-005. Difficulty 5. Practice count 1.
+Administrators can scope Claude's tools, memories, and data access to specific channels so that a Claude configured for one function does not expose information to another team.
+
+Sentence 5. OAI-DEPLOY-SIM-001. Difficulty 4. Practice count 3.
+Deployment simulation can help teams study how a model behaves in realistic product-like environments before the system is released to users.
+
+Chinese-to-English target expression.
+Target expression: delegate tasks; ambient behavior; scoped.
+Recommended model sentence: Teams can delegate tasks to Claude while keeping its memories and data access scoped to approved channels.

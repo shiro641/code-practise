@@ -1,0 +1,85 @@
+Daily AI English practice for July first, twenty twenty-six.
+
+Vocabulary and examples.
+
+scoped access.
+Scoped access limits which tools, memories, or data sources an agent can use.
+Administrators can use scoped access to prevent information from leaking across teams.
+
+provisioning access.
+Provisioning access means configuring which systems, channels, and data an agent is allowed to use.
+The team delayed provisioning access until the security review was complete.
+
+eligible organizations.
+Eligible organizations can receive early access to the new workspace features.
+The launch credit is available only to eligible organizations during the preview period.
+
+tacit knowledge.
+Tacit knowledge is important context that people know but have not written down.
+Claude can build context from channel history and recover some tacit knowledge.
+
+channel-scoped memory.
+Channel-scoped memory keeps an agent's memory limited to approved collaboration spaces.
+Channel-scoped memory reduces the risk of exposing one team's context to another team.
+
+higher-fidelity simulation.
+Higher-fidelity simulation tests a system in conditions closer to real deployment.
+Higher-fidelity simulations can surface risks that static benchmarks miss.
+
+feedback loops.
+Feedback loops shape how an agent adapts after tool use, user responses, or validation failures.
+Reliable feedback loops help teams detect and recover from system-level failures.
+
+underspecified environment.
+An underspecified environment lacks the tools, abstractions, or structure an agent needs to make progress.
+Improving the harness can turn an underspecified environment into a usable workflow.
+
+abstractions.
+Good abstractions hide unnecessary detail while preserving what the agent needs to reason and act.
+Poor abstractions can make a capable model look less useful than it really is.
+
+internal structure.
+Internal structure helps an agent organize state, intermediate artifacts, and recovery steps.
+Without internal structure, long-running tasks can become fragile.
+
+layered safeguard stack.
+A layered safeguard stack combines several defenses instead of relying on one mechanism.
+The layered safeguard stack includes refusals, real-time checks, monitoring, and continued testing.
+
+account-level signals.
+Account-level signals help detect repeated abuse that may not be obvious from a single request.
+Safeguards can combine account-level signals with request-level checks.
+
+continued testing.
+Continued testing is necessary because new jailbreak methods appear after deployment.
+The team uses continued testing to evaluate whether safeguards still work.
+
+automated red teaming.
+Automated red teaming uses models to find weaknesses and stress-test safeguards.
+The lab used automated red teaming to search for universal jailbreaks.
+
+universal jailbreaks.
+Universal jailbreaks are attacks that can work across many prompts, contexts, or model variants.
+Safeguards should be tested against universal jailbreaks before and after release.
+
+Long sentence translation practice.
+
+Sentence one.
+A layered safeguard stack combines model-level refusals, real-time checks, account-level signals, differentiated access, monitoring, enforcement, and continued testing.
+
+Sentence two.
+Automated red teaming uses models to find weaknesses and test safeguards against universal jailbreaks that can work across many prompts or contexts.
+
+Sentence three.
+Administrators can scope Claude's tools, memories, and data access to specific channels so that a Claude configured for one function does not expose information to another team.
+
+Sentence four.
+Higher-fidelity simulations are useful for surfacing risks that emerge only after a model interacts with realistic tasks, constraints, and feedback loops over time.
+
+Sentence five.
+When an agent lacks the tools, abstractions, and internal structure needed to make progress, the environment is underspecified rather than the model simply being incapable.
+
+Chinese to English practice.
+
+Target expressions: automated red teaming, universal jailbreaks, test safeguards.
+Model sentence: Automated red teaming can test safeguards against universal jailbreaks that work across many prompts or contexts.

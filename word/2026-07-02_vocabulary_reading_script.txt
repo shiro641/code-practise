@@ -1,0 +1,85 @@
+Daily AI English practice for July second, twenty twenty-six.
+
+Vocabulary and examples.
+
+transparent.
+A transparent process makes the reasoning, evidence, and decision criteria visible to reviewers.
+The company asked for a transparent review before access was suspended.
+
+fair.
+A fair evaluation applies the same standards across models, vendors, and deployment contexts.
+Unsafe deployments should be blocked through a fair and technically grounded process.
+
+technically grounded.
+A technically grounded claim is supported by clear evidence about how the system actually behaves.
+Policy decisions should be technically grounded rather than based on vague concerns.
+
+statutory process.
+A statutory process is a legal procedure defined by law or regulation.
+The company argued that deployment restrictions should follow a statutory process.
+
+clear technical evidence.
+Clear technical evidence is needed before making strong claims about model risk.
+The report lacked clear technical evidence that the bypass disabled all safeguards.
+
+ecosystem-led approach.
+An ecosystem-led approach relies on multiple partners rather than one central team.
+The partner network uses an ecosystem-led approach to scale enterprise AI adoption.
+
+complementary strengths.
+Complementary strengths are different capabilities that become more valuable when combined.
+Partners can contribute complementary strengths across strategy, data, and implementation.
+
+operating-model redesign.
+Operating-model redesign changes how an organization allocates roles, decisions, and workflows.
+AI transformation often requires operating-model redesign, not just model access.
+
+data modernization.
+Data modernization improves data systems so they can support analytics, automation, and AI.
+Many enterprises need data modernization before they can deploy AI at scale.
+
+global workforce change management.
+Global workforce change management helps employees adopt new tools and workflows across regions.
+Large AI programs require global workforce change management to move beyond pilots.
+
+layered safeguard stack.
+A layered safeguard stack combines multiple defenses instead of relying on a single mechanism.
+The layered safeguard stack includes refusals, real-time checks, monitoring, and continued testing.
+
+model-level refusals.
+Model-level refusals prevent the model from directly answering harmful requests.
+Model-level refusals are only one layer of a broader safety system.
+
+account-level signals.
+Account-level signals help detect repeated abuse that is not obvious from one request.
+The system combines account-level signals with real-time checks.
+
+ambient behavior.
+Ambient behavior lets an agent surface relevant information without waiting for a direct command.
+Claude's ambient behavior can help prevent quiet threads from stalling.
+
+continued testing.
+Continued testing is necessary because new attacks can appear after release.
+Teams use continued testing to verify that safeguards still work as the system changes.
+
+Long sentence translation practice.
+
+Sentence one.
+A layered safeguard stack combines model-level refusals, real-time checks, account-level signals, differentiated access, monitoring, enforcement, and continued testing.
+
+Sentence two.
+Anthropic said that unsafe deployments should be blocked through a transparent, fair, and technically grounded statutory process rather than through actions that lack clear technical evidence.
+
+Sentence three.
+An ecosystem-led approach allows different partners to contribute complementary strengths, from operating-model redesign and data modernization to industry-specific solutions and global workforce change management.
+
+Sentence four.
+Ambient behavior lets Claude proactively surface relevant information, follow up on quiet threads, and keep users informed about work that may otherwise stall.
+
+Sentence five.
+Safeguard testing can understate whether an attack can succeed when it fails to account for the resources and custom harnesses available to realistic attackers.
+
+Chinese to English practice.
+
+Target expressions: layered safeguard stack, model-level refusals, account-level signals, continued testing.
+Model sentence: A layered safeguard stack should combine model-level refusals, account-level signals, and continued testing to detect new risks as the system changes.

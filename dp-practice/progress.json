@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25",
+  "updatedAt": "2026-06-30",
   "level": {
     "label": "初级偏上",
     "summary": "能完成典型 0-1 背包和区间 DP 入门题，下一阶段重点训练题型识别、边界语义和状态机/完全背包。"
@@ -171,6 +171,42 @@
       "source": "daily-practice-2026-06-25",
       "solutionFile": "problems/018-palindromic-substrings/solution.py",
       "notes": "按你当前规则以代码正确性为主评审后通过。区间 DP 建模正确：`dp[i][j]` 表示子串 `s[i..j]` 是否回文，长度为 2 单独判断，其余依赖 `dp[i + 1][j - 1]`；倒序枚举 `i`、正序枚举 `j` 的遍历顺序正确。额外边界 case 如 `a`、`aa`、`ab`、`abba` 均通过。后续继续强化这题与“最长回文子序列”的区别。"
+    },
+    {
+      "id": "019",
+      "title": "三角形最小路径和",
+      "type": "二维路径 / 网格 DP（变体）",
+      "status": "completed",
+      "source": "daily-practice-2026-06-26",
+      "solutionFile": null,
+      "notes": "代码正确并通过评审。核心建模是二维路径 DP：`dp[i][j]` 表示到达第 i 行第 j 个位置的最小路径和，来源只能是上一行的 `j-1` 或 `j`。你最终采用了“矩形数组 + inf 哨兵”来隐式处理右边界，这个技巧是成立的；后续继续要求自己先完整说出状态定义、合法来源和边界条件，再决定是否用哨兵值简化实现。"
+    },
+    {
+      "id": "020",
+      "title": "石子游戏 VII",
+      "type": "区间 DP / 博弈型分差 DP",
+      "status": "completed",
+      "source": "daily-practice-2026-06-27",
+      "solutionFile": null,
+      "notes": "按你当前规则以核心算法正确性为主评审后通过。状态定义、区间 DP 遍历顺序和转移逻辑都正确；你使用了等价转移 `sum(i..j) - min(stones[i] + dp[i+1][j], stones[j] + dp[i][j-1])`，并将原先循环中的区间求和优化为滚动维护 `initSum`，因此总时间复杂度为 O(n^2)，空间复杂度为 O(n^2)。"
+    },
+    {
+      "id": "021",
+      "title": "最小路径和",
+      "type": "二维路径 / 网格 DP",
+      "status": "completed",
+      "source": "daily-practice-2026-06-28",
+      "solutionFile": null,
+      "notes": "按新规则以“代码实现和建模二者至少满足一个”为准评审后通过。你提交了完整建模：`dp[i][j]` 表示到达 `(i, j)` 的最小路径和，转移为 `min(dp[i-1][j], dp[i][j-1]) + grid[i][j]`，并明确了第一行、第一列初始化、从上到下从左到右的遍历顺序，以及时间/空间复杂度均为 O(mn)。"
+    },
+    {
+      "id": "022",
+      "title": "单词拆分",
+      "type": "序列 DP / 字符串划分",
+      "status": "pending",
+      "source": "daily-practice-2026-06-29",
+      "solutionFile": null,
+      "notes": "2026-06-29 已布置但尚未完成。后续每日练习应先继续此题，不应推送新题，直到你提交状态定义、转移、遍历顺序、边界条件以及代码或转移方程并通过评审。"
     }
   ]
 }

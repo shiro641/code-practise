@@ -12,41 +12,44 @@
 - 如果存在 `pending`，每日自动化只提醒继续学习该知识点，不推送新的知识点。
 - 推送内容必须循序渐进：每次只引入一个新 Rust 学习目标，示例代码中的其他 Rust 语法必须是已学过内容。
 
-## 当前周计划：2026-W26
+## 当前周计划：2026-W27
 
-周期：2026-06-22 至 2026-06-28
+周期：2026-06-29 至 2026-07-05
 
-本次重置日期：2026-06-21。周初先流转上周遗留的 `函数返回 Result<T, E>`，该项已于 2026-06-21 完成。2026-06-22 的每日推送从本周剩余 `planned` 中提升第 2 项“返回 `Result` 的函数里手动传播错误”为新的 `pending`，并已在同日完成。2026-06-23 的每日推送继续从当前周计划中提升第 3 项 `Result` 与 `?` 基础 为新的 `pending`，用户已于同日确认完成。2026-06-24 的每日推送从当前周计划中提升第 4 项“用 `match` 处理 `Option` 的 `Some` / `None`”为新的 `pending`，用户已于同日确认完成。2026-06-25 的每日推送在无旧 `pending` 的前提下，将第 5 项“`Option` 转 `Result`：`ok_or` 基础”提升为新的 `pending`，用户已于同日确认完成。本周总量仍控制为 5 项，不额外插入新的抽象函数课；更高级的 `ok_or_else` 和 `impl Future + Send` 继续留在 backlog。
+本次生成日期：2026-06-28。恢复状态时优先采用 `knowledge-status.md`：最近完成日期为 2026-06-27，当前没有 `pending`，`struct` 字段与配置对象已完成。因此本周不流转未完成的 `pending`，而是从 backlog 中选择 3 个前置已满足、且能直接服务 Codex CLI 入口阅读链的 ready 条目。考虑到本周主题开始从基础错误处理过渡到“类型与命令入口”，概念密度高于上周，因此本周控制为 3 项，不额外塞入 `Vec<T>`、`async` 或共享状态主题。
 
 | 顺序 | 知识点 | 状态 | 优先级 | 为什么本周学 |
 |---:|---|---|---:|---|
-| 1 | 函数返回 `Result<T, E>` | done | 94 | 上周末遗留的当前学习项，必须优先流转；先把“函数把成功/失败交给调用者”学稳 |
-| 2 | 返回 `Result` 的函数里手动传播错误 | done | 93 | 承接已完成的“函数返回 `Result`”；先手动写出 `match` 和 `return Err(...)`，后面学 `?` 才不会跳步 |
-| 3 | `Result` 与 `?` 基础 | done | 92 | 在“返回 `Result`”和“手动传播错误”都见过后，再进入 `?` 的最小用法 |
-| 4 | 用 `match` 处理 `Option` 的 `Some` / `None` | done | 91 | 本周后半段切回 `Option` 分支处理，为后续 `Option -> Result` 桥接做准备 |
-| 5 | `Option` 转 `Result`：`ok_or` 基础 | done | 90 | 为后续 `ok_or_else` 铺前置；先学立即构造错误值的更简单版本 |
+| 1 | `enum` 表示命令和事件分支 | done | 86 | `struct` 已完成后，先补“一个值可以是多种分支之一”的建模方式；它直接对应 Codex CLI 里的 `Subcommand`、`Op`、`EventMsg`，也是后续命令入口理解的最低前置 |
+| 2 | `derive` 宏基础：`Debug`、`Clone`、`Parser` | done | 84 | 入口类型上常见 `#[derive(...)]`；先只建立“编译器帮你自动生成常见实现”的直觉，不展开宏展开细节，为后续读 `Parser` 和调试输出做准备 |
+| 3 | `clap` 命令行参数解析基础 | done | 72 | 前两项完成后，就可以把 `struct` / `enum` / `derive(Parser)` 串起来，看懂 CLI 如何把命令行参数解析成 Rust 值；这会直接打通 `main.rs` 的入口阅读路径 |
 
 ## 前置关系说明
 
-- `Result` 的 `Ok` / `Err` 和“用 `match` 处理 `Result`”都已完成，所以现在可以继续推进“函数返回 `Result`”这一步。
-- 只有先理解函数能直接返回 `Result`，后面讲 `?` 时，用户才知道错误是被“提前返回”到哪里。
-- 只有先手动写过“匹配 `Result`，失败时 `return Err(...)`”，再学 `?`，用户才知道 `?` 省略掉的到底是哪一段样板代码。
-- `Option` 的 `Some` / `None` 已完成，所以本周后半段可以单独补“怎么分支处理 `Option`”，不必再引入新类型。
-- `ok_or` 依赖 `Option` 和 `Result` 两边的基础，所以放在 `Option` 分支处理之后更稳妥。
-- `ok_or_else` 还依赖闭包懒求值这层理解；在 `ok_or` 稳定前不进入本周计划。
-- `trait` 里的 `impl Future + Send` 仍然依赖 trait、async、Future、Send、生命周期，这条前置链还没建立，所以继续保留在 backlog。
+- `struct` 字段与配置对象已在 2026-06-27 完成，因此本周可以自然进入 `enum`，不需要再回退。
+- `enum` 先于 `derive`，因为需要先理解“这个类型有多个分支”，再看 `#[derive(Debug, Clone, Parser)]` 给这种类型自动补什么能力。
+- `derive` 先于 `clap`，因为 `clap` 当前阶段主要通过 `#[derive(Parser)]`、字段属性和枚举分支来建模命令行；如果先跳到 `clap`，会把“宏做什么”和“命令行解析做什么”绑在一起，概念密度过高。
+- `Vec<T>` 与 `HashMap` 虽然很常用，但不是读入口分发链的最小前置，因此继续留在 backlog，等入口链跑通后再进入。
+- `Arc<T>`、`Mutex<T>`、`async fn`、channel、`trait` 里的 `impl Future + Send` 仍然依赖更多前置概念，本周不排入计划。
 
 ## 流转说明
 
-- 上周遗留的未完成项只有 `函数返回 Result<T, E>`，已作为本周第 1 项原样流转，并已在 2026-06-21 完成。
-- 2026-06-22 的每日推送已把第 2 项“返回 `Result` 的函数里手动传播错误”从 `planned` 提升为 `pending`，用户已于同日确认完成。
-- 2026-06-23 的每日推送已把第 3 项 `Result` 与 `?` 基础 从 `planned` 提升为 `pending`，用户已于同日确认完成。
-- 2026-06-24 的每日推送已把第 4 项“用 `match` 处理 `Option` 的 `Some` / `None`”从 `planned` 提升为 `pending`，用户已于同日确认完成。
-- 2026-06-25 的每日推送已把第 5 项“`Option` 转 `Result`：`ok_or` 基础”从 `planned` 提升为 `pending`，用户已于同日确认完成。
-- 原 `planned` / `backlog` 候选里，`函数参数与返回值基础` 暂不进入本周清单；如果用户在 `Result` 返回值这一步反复卡住，再回退补这一层更抽象的函数基础。
-- `ok_or_else` 和 `?` 的组合继续留在 backlog，因为它会把懒求值闭包和错误传播绑在同一天，当前概念密度仍偏高。
-- `trait 里的 impl Future + Send` 继续留在 backlog；等 trait、async、Future、Send、生命周期这条前置链单独建立后再安排。
-- 用户此前对 `println!`、`{}`、Copy/move、`&str`、可变绑定、借用结束时机问得较多，所以本周示例仍会优先复用这些已学过的语法，不引入结构体、泛型参数约束或复杂闭包。
+- 上周结束时 `knowledge-status.md` 中没有未完成的 `pending` 或 `planned`；最近完成项是 2026-06-27 的 `struct` 字段与配置对象。
+- 旧版 `weekly-plan.md` 仍保留了“`struct` 为 `pending`”的描述，但这与 `knowledge-status.md` 当前摘要和知识点表冲突。按 state protocol，本次已以 `knowledge-status.md` 为准恢复状态，并重建本周周计划。
+- 因此本周实际流转结果是：没有遗留 `pending` 进入新周，只有从 backlog 提升的 3 个 ready 条目进入 `planned`。
+- 2026-06-28 用户补充确认昨天已学完 `struct`，因此本次 daily workflow 直接把第 1 项 `enum` 表示命令和事件分支 提升为新的 `pending`；只有在该条目确认完成后，才会继续推送第 2 项。
+- 用户已于 2026-06-28 回复“学完了”，第 1 项 `enum` 表示命令和事件分支 已从 `pending` 更新为 `done`。
+- 2026-06-29 daily workflow 已将第 2 项 `derive` 宏基础：`Debug`、`Clone`、`Parser` 从 `planned` 提升为新的 `pending`。只有在该条目确认完成后，才会继续推送第 3 项 `clap` 命令行参数解析基础。
+- 用户已于 2026-06-30 回复“记完了”，第 2 项 `derive` 宏基础：`Debug`、`Clone`、`Parser` 已从 `pending` 更新为 `done`；下一次 daily workflow 才可推进第 3 项 `clap` 命令行参数解析基础。
+- 2026-07-01 daily workflow 已将第 3 项 `clap` 命令行参数解析基础 从 `planned` 提升为新的 `pending`。只有在该条目确认完成后，才会进入下一次周计划或新的 ready 条目。
+- 用户已于 2026-07-02 回复“今天的学完了”，第 3 项 `clap` 命令行参数解析基础 已从 `pending` 更新为 `done`；本周 2026-W27 的 3 个计划条目已全部完成。
+
+## backlog 保留说明
+
+- `Vec<T>` 与 `HashMap` 基础：前置满足，但本周优先让入口建模链闭环，避免同周并行两条主线。
+- `serde` 序列化与反序列化基础：更适合放在入口链和基础集合之后，再进入协议/配置读取。
+- `Arc<T>`、`Mutex<T>`、`async fn`、`tokio::spawn`、channel：都属于异步与共享状态链，必须等类型和入口链更稳定后再排。
+- `trait 里的 impl Future + Send`：前置链仍明显不完整，继续保留在 backlog。
 
 ## 周日生成清单时的输出要求
 

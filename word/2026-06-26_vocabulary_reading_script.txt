@@ -1,0 +1,97 @@
+2026-06-26 AI English practice.
+
+1. headline score.
+A headline score is the main score highlighted in an evaluation report.
+Headline scores should be paired with validity checks.
+Readers may overinterpret headline scores when the evaluation setup is unclear.
+
+2. validity check.
+A validity check tests whether an evaluation result supports the intended interpretation.
+Validity checks can reveal whether a score is distorted by known hazards.
+Without validity checks, a benchmark result may support a weaker claim than readers assume.
+
+3. intended behavior.
+Intended behavior is the behavior a system or evaluation is designed to measure or produce.
+The report should explain whether the scores reflect intended behavior.
+Failures in the surrounding workflow can hide the model's intended behavior.
+
+4. known hazards.
+Known hazards are already understood risks, flaws, or failure modes that may distort a result.
+Evaluation reports should describe known hazards that could affect interpretation.
+Data contamination is a known hazard in benchmark-based evaluations.
+
+5. model behavior.
+Model behavior refers to how a model responds, reasons, or acts under specific conditions.
+Deployment simulation helps teams study model behavior before release.
+Tool outputs and user feedback can shape model behavior.
+
+6. before release.
+Before release means before a product, model, or system becomes available to users.
+Teams should test high-risk workflows before release.
+Pre-deployment evaluations can catch failures before release.
+
+7. surface risks.
+To surface risks means to make risks visible so teams can study or mitigate them.
+Higher-fidelity simulations can surface risks that static benchmarks miss.
+Good logs can surface risks before they affect users.
+
+8. constraints.
+Constraints are limits, requirements, or conditions that shape what a system can do.
+Realistic tasks include constraints that simple benchmarks often omit.
+The agent should obey constraints defined by the product workflow.
+
+9. over time.
+Over time means gradually or across a longer period.
+Feedback loops can change model behavior over time.
+Memory systems must avoid relying on stale assumptions over time.
+
+10. architecture.
+Architecture is the structure of a system and the way its components fit together.
+Good architecture makes agent workflows easier to inspect and recover.
+Architecture decisions should be documented in the repository.
+
+11. taste.
+Taste means engineering judgment about what is clean, coherent, and maintainable.
+Architecture and taste can be enforced through mechanical invariants.
+Code review helps preserve team taste as the system grows.
+
+12. drift.
+Drift is gradual movement away from the intended behavior, structure, or quality.
+Fast iteration can turn into drift without mechanical invariants.
+Monitoring helps detect drift in deployed systems.
+
+13. long-term decay.
+Long-term decay is gradual quality loss that accumulates over time.
+Tests and review can prevent long-term decay in agent-written code.
+Repository documentation reduces long-term decay by preserving decisions.
+
+14. development loop.
+The development loop is the repeated cycle of building, testing, reviewing, and improving software.
+More of the development loop can be encoded into agent workflows.
+Validation and recovery are important parts of the development loop.
+
+15. feedback handling.
+Feedback handling is the process of receiving, interpreting, and acting on feedback.
+Agent workflows need clear feedback handling to improve outputs.
+Feedback handling becomes more reliable when comments and test failures are legible to Codex.
+
+English-to-Chinese sentence practice.
+
+Sentence 1. OAI-TTE-005. Difficulty 5. Practice count 4.
+Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior or are distorted by known hazards.
+
+Sentence 2. OAI-DEPLOY-SIM-001. Difficulty 4. Practice count 2.
+Deployment simulation can help teams study how a model behaves in realistic product-like environments before the system is released to users.
+
+Sentence 3. OAI-DEPLOY-SIM-005. Difficulty 5. Practice count 2.
+Higher-fidelity simulations are useful for surfacing risks that emerge only after a model interacts with realistic tasks, constraints, and feedback loops over time.
+
+Sentence 4. OAI-HARNESS-005. Difficulty 5. Practice count 2.
+Architecture and taste can be enforced through mechanical invariants, allowing agents to ship quickly without letting speed turn into drift or long-term decay.
+
+Sentence 5. OAI-HARNESS-006. Difficulty 5. Practice count 2.
+As more of the development loop is encoded into testing, validation, review, feedback handling, and recovery, an agent can drive larger parts of the software lifecycle end to end.
+
+Chinese-to-English target expression.
+Target expression: headline scores; validity checks; intended behavior.
+Recommended model sentence: Evaluation reports should pair headline scores with validity checks so readers can judge whether the scores reflect intended behavior.

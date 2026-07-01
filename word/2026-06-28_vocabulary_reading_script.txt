@@ -1,0 +1,97 @@
+2026-06-28 AI English practice.
+
+1. limited preview.
+A limited preview is an early release available to a restricted group of users.
+OpenAI is beginning a limited preview of the GPT-5.6 series.
+A limited preview can help teams gather feedback before a broader rollout.
+
+2. flagship model.
+A flagship model is the most advanced or representative model in a product family.
+Sol is positioned as the flagship model in the GPT-5.6 series.
+Flagship models usually prioritize capability over cost.
+
+3. balanced model.
+A balanced model offers a practical tradeoff between capability, speed, and cost.
+Terra is described as a balanced model for everyday work.
+A balanced model may be better than a flagship model for high-volume workflows.
+
+4. max reasoning effort.
+Max reasoning effort means the model uses more computation or reasoning depth for harder tasks.
+GPT-5.6 introduces a max reasoning effort for deeper reasoning.
+Max reasoning effort is useful when correctness matters more than latency.
+
+5. ultra mode.
+Ultra mode is a higher-capability mode that can go beyond a single-agent workflow.
+Ultra mode uses subagents to accelerate complex work.
+Teams should reserve ultra mode for tasks that justify the added cost.
+
+6. subagents.
+Subagents are smaller or parallel agents that help complete parts of a larger task.
+Subagents can accelerate complex work by splitting it into parallel steps.
+An orchestrator can assign subtasks to several subagents.
+
+7. cybersecurity capability.
+Cybersecurity capability is a model's ability to reason about, test, or assist with security tasks.
+As cybersecurity capability improves, safeguards need stronger evaluation.
+Models with cybersecurity capability can support legitimate defensive work.
+
+8. real-world adversarial pressure.
+Real-world adversarial pressure means pressure from realistic attackers, misuse attempts, or hostile conditions.
+Safeguards must hold up to real-world adversarial pressure.
+Evaluations should account for real-world adversarial pressure rather than idealized tests.
+
+9. legitimate defensive work.
+Legitimate defensive work means authorized security work intended to protect systems.
+Safety policies should preserve access to legitimate defensive work.
+The model can help with legitimate defensive work such as vulnerability analysis.
+
+10. exploitation primitives.
+Exploitation primitives are basic techniques or building blocks that can be used in an exploit.
+The model identified bugs and exploitation primitives under the tested conditions.
+Recognizing exploitation primitives is not the same as producing a full-chain exploit.
+
+11. functional full-chain exploit.
+A functional full-chain exploit is a complete working exploit that chains multiple steps to achieve an attack.
+The model did not autonomously produce a functional full-chain exploit.
+Generating a functional full-chain exploit would raise serious safety concerns.
+
+12. layered safeguard stack.
+A layered safeguard stack is a set of multiple safety mechanisms that work together.
+A layered safeguard stack combines refusals, checks, monitoring, enforcement, and continued testing.
+Layered safeguards are more robust than a single refusal rule.
+
+13. differentiated access.
+Differentiated access means different users or contexts receive different levels of access.
+Differentiated access can preserve legitimate use while limiting higher-risk behavior.
+Enterprise deployments often require differentiated access controls.
+
+14. automated red teaming.
+Automated red teaming uses automated systems or models to find weaknesses in safeguards.
+Automated red teaming can test safeguards against many prompts or contexts.
+Teams use automated red teaming to improve safety before release.
+
+15. ambient behavior.
+Ambient behavior is background, context-aware behavior that continues without interrupting users.
+Ambient behavior lets Claude proactively surface relevant information.
+Good ambient behavior helps prevent important work from stalling.
+
+English-to-Chinese sentence practice.
+
+Sentence 1. OAI-GPT56-SOL-001. Difficulty 5. Practice count 1.
+OpenAI is beginning a limited preview of the GPT-5.6 series, with Sol positioned as the flagship model, Terra as a balanced model for everyday work, and Luna as a fast and affordable option.
+
+Sentence 2. OAI-GPT56-SOL-002. Difficulty 5. Practice count 1.
+GPT-5.6 introduces a max reasoning effort for deeper reasoning and an ultra mode that goes beyond a single agent by using subagents to accelerate complex work.
+
+Sentence 3. OAI-GPT56-SOL-003. Difficulty 5. Practice count 1.
+As models become more capable in cybersecurity, safeguards must hold up to real-world adversarial pressure while preserving access to legitimate defensive work.
+
+Sentence 4. OAI-GPT56-SOL-005. Difficulty 5. Practice count 1.
+A layered safeguard stack combines model-level refusals, real-time checks, account-level signals, differentiated access, monitoring, enforcement, and continued testing.
+
+Sentence 5. ANT-CLAUDE-TAG-003. Difficulty 5. Practice count 2.
+Ambient behavior lets Claude proactively surface relevant information, follow up on quiet threads, and keep users informed about work that may otherwise stall.
+
+Chinese-to-English target expression.
+Target expression: layered safeguard stack; legitimate defensive work; real-world adversarial pressure.
+Recommended model sentence: A layered safeguard stack should hold up to real-world adversarial pressure while preserving access to legitimate defensive work.

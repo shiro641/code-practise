@@ -28,10 +28,183 @@ PersonalOS 仓库：`/Users/zhangjie/Desktop/daily-routine`
 
 ## 当前状态
 
-- 最近完成日期：2026-06-24
+- 最近完成日期：2026-07-02
 - 当前待完成：无
 - 最早 pending：无
-- 本周计划：当前流转周前 5 项已全部完成；下一次每日推送需等待新的 `planned` 或下周计划生成。
+- 本周计划：2026-W27 已完成；第 1 项 `enum` 表示命令和事件分支 已于 2026-06-28 完成，第 2 项 `derive` 宏基础：`Debug`、`Clone`、`Parser` 已于 2026-06-30 完成，第 3 项 `clap` 命令行参数解析基础 已于 2026-07-02 完成。
+
+### 2026-07-02：完成 `clap` 命令行参数解析基础
+
+恢复状态结果：
+
+- `knowledge-status.md` 与 `weekly-plan.md` 一致显示当前最早 `pending` 为 `clap` 命令行参数解析基础。
+- 用户围绕这个主题连续追问了 `#[arg(long)]`、crate 名拼写、`Parser` / `arg` 找不到、attribute 由谁处理、位置参数、Cargo 参数分隔符等一整条命令行解析链。
+
+处理决定：
+
+- 按 completion workflow，只将最早的 `pending` 条目标记为 `done`，不立即推送下一个主题。
+- 将用户自己整理出的 3 条总结写入今日收获，作为这个知识点的稳定心智模型。
+- 按项目规则执行 PersonalOS habit 同步命令，记录 `每日学习 Rust 常用语法` 在 2026-07-02 完成。
+
+状态更新：
+
+- `knowledge-status.md` 已将 `clap` 命令行参数解析基础 从 `pending` 更新为 `done`，完成日期 2026-07-02。
+- `weekly-plan.md` 已将本周第 3 项状态更新为 `done`。
+
+今日收获：
+
+- `--` 是分割线；前面的参数由 Cargo 消费，后面的参数由程序自己消费。
+- 带有 `#[derive(Parser)]` 的结构体，会被拿来描述命令行参数长什么样。
+- `#[arg(long)]` 用来显式声明这个字段对应一个长参数，也就是 `--xxx` 这种形式。
+
+### 2026-07-01：推进 `clap` 命令行参数解析基础 作为今日 pending
+
+恢复状态结果：
+
+- `knowledge-status.md` 当前摘要显示没有 `pending`，最近完成日期为 2026-06-30。
+- `weekly-plan.md` 当前周 2026-W27 中唯一剩余的 ready `planned` 条目是 `clap` 命令行参数解析基础。
+
+处理决定：
+
+- 继续遵守“没有 `pending` 才推进一个 ready `planned`”的 daily card workflow。
+- 将 `clap` 命令行参数解析基础 从 `planned` 提升为新的 `pending`。
+- 今日只引入一个目标：理解 `clap` 如何结合 `struct`、`enum` 和 `#[derive(Parser)]`，把命令行参数解析成 Rust 值，为读懂 Codex CLI 入口 `main.rs` 做最小前置。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为 `clap` 命令行参数解析基础。
+- `weekly-plan.md` 已将该知识点从 `planned` 更新为 `pending`。
+
+### 2026-06-30：完成 `derive` 宏基础
+
+恢复状态结果：
+
+- `knowledge-status.md` 与 `weekly-plan.md` 一致显示当前最早 `pending` 为 `derive` 宏基础：`Debug`、`Clone`、`Parser`。
+- 用户围绕这个主题补问了两个关键点：`#[derive("Debug")]` 为什么报错，以及为什么 `derive(Clone)` 后 `let b = a` 仍然是 move 而不是自动 clone。
+
+处理决定：
+
+- 按 completion workflow，只将最早的 `pending` 条目标记为 `done`，不立即推送下一个主题。
+- 保持本周第 3 项 `clap` 命令行参数解析基础 为 `planned`，等待下一次 daily workflow 再推进。
+
+状态更新：
+
+- `knowledge-status.md` 已将 `derive` 宏基础条目从 `pending` 更新为 `done`，完成日期 2026-06-30。
+- `weekly-plan.md` 已将本周第 2 项状态更新为 `done`。
+- 已按项目规则执行 PersonalOS habit 同步命令，记录 `每日学习 Rust 常用语法` 在 2026-06-30 完成。
+
+今日收获：
+
+- `#[derive(...)]` 里要写 trait 名本身，例如 `Debug`，不能写成字符串 `"Debug"`。
+- `derive(Clone)` 只表示“允许显式 `.clone()` 复制”，不会改变赋值语句 `let b = a` 的默认 move 语义；只有实现 `Copy` 的类型才会在普通赋值时隐式复制。
+
+### 2026-06-29：推进 `derive` 宏基础作为今日 pending
+
+恢复状态结果：
+
+- `knowledge-status.md` 当前摘要显示没有 `pending`，最近完成日期为 2026-06-28。
+- `weekly-plan.md` 当前周 2026-W27 中仍有 2 个 `planned` 条目，其中最高优先级且前置已满足的是 `derive` 宏基础：`Debug`、`Clone`、`Parser`。
+
+处理决定：
+
+- 继续遵守“没有 `pending` 才推进一个 ready `planned`”的 daily card workflow。
+- 将 `derive` 宏基础：`Debug`、`Clone`、`Parser` 从 `planned` 提升为新的 `pending`。
+- 今日只引入一个目标：建立“`#[derive(...)]` 会让编译器自动为类型补上一些常见能力”的直觉，并区分 `Debug`、`Clone`、`Parser` 分别是在补什么能力，为后续读 `clap` 入口建模做准备。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为 `derive` 宏基础：`Debug`、`Clone`、`Parser`。
+- `weekly-plan.md` 已将该知识点从 `planned` 更新为 `pending`。
+
+### 2026-06-28：补记昨日完成并推进新的 daily card
+
+恢复状态结果：
+
+- 用户说明“昨天记完了，忘记说了”，表示 2026-06-27 的 `struct` 字段与配置对象已在昨日完成。
+- `knowledge-status.md` 当前知识点表已经把 `struct` 记为 `done`，完成日期为 2026-06-27；因此无需重复改写旧条目。
+- `weekly-plan.md` 当前为 2026-W27，存在 3 个 ready 的 `planned` 条目，其中最高优先级的是 `enum` 表示命令和事件分支。
+
+处理决定：
+
+- 不重复执行昨日知识点的 completion 状态迁移，只补做 PersonalOS habit 同步，确保 2026-06-27 的完成记录存在。
+- 按 daily card workflow，把本周第 1 个 ready 条目 `enum` 表示命令和事件分支 从 `planned` 提升为新的 `pending`。
+- 今日只引入一个目标：理解 `enum` 表示“一个值可能是几种分支之一”，为读懂 Codex CLI 中的 `Subcommand` 等命令分发类型铺前置。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为 `enum` 表示命令和事件分支。
+- `weekly-plan.md` 已将第 1 项 `enum` 表示命令和事件分支 从 `planned` 更新为 `pending`。
+
+源码锚点：
+
+- 参考 `/Users/zhangjie/Desktop/codexcli/codex-rs/cli/src/main.rs` 中的 `enum Subcommand { ... }`，先建立“同一个命令行入口值可以落到不同分支”的直觉，不展开 `derive` 和 `clap` 细节。
+
+完成确认：
+
+- 用户已回复“学完了”，已将 `enum` 表示命令和事件分支 从 `pending` 更新为 `done`，完成日期 2026-06-28。
+- 已按项目规则执行 PersonalOS habit 同步命令，记录 `每日学习 Rust 常用语法` 在 2026-06-28 完成。
+
+### 2026-06-28：生成 2026-W27 周计划
+
+恢复状态结果：
+
+- `knowledge-status.md` 当前摘要显示：最近完成日期为 2026-06-27，当前没有 `pending`，`struct` 字段与配置对象已完成。
+- 旧版 `weekly-plan.md` 仍写着“`struct` 为 `pending`”，但这与 `knowledge-status.md` 的当前摘要和知识点表冲突。
+
+处理决定：
+
+- 按 state protocol，以 `knowledge-status.md` 为最高优先级来源恢复当前状态，不把已完成的 `struct` 误流转到新一周。
+- 由于本周开始切入 Codex CLI 入口阅读链，且 `enum`、`derive`、`clap` 这组主题存在连续依赖，因此本周只选 3 个 ready 条目，不额外加入集合、异步或共享状态主题。
+- 将 `enum`、`derive`、`clap` 从 backlog 提升为 2026-W27 的 `planned`，顺序严格按前置关系排列。
+
+状态更新：
+
+- `knowledge-status.md` 已将 `enum`、`derive`、`clap` 更新为 `planned`。
+- `weekly-plan.md` 已重建为 2026-W27，周期为 2026-06-29 至 2026-07-05。
+
+本周路线：
+
+- 第 1 项：`enum` 表示命令和事件分支。
+- 第 2 项：`derive` 宏基础：`Debug`、`Clone`、`Parser`。
+- 第 3 项：`clap` 命令行参数解析基础。
+
+保留在 backlog：
+
+- `Vec<T>` 与 `HashMap` 基础：前置满足，但本周先保证入口链闭环。
+- `Arc<T>`、`Mutex<T>`、`async fn`、channel、`trait` 里的 `impl Future + Send`：前置链仍未齐备，暂不进入本周。
+
+### 2026-06-26：补入 `anyhow::Result` 作为今日 pending
+
+恢复状态结果：
+
+- `knowledge-status.md` 中不存在旧的 `pending`。
+- `weekly-plan.md` 当前周前 5 项均已 `done`，没有剩余 `planned` 可直接提升。
+
+处理决定：
+
+- 继续遵守“有 `pending` 不推新知识点、没有 `pending` 才推进一个 ready 条目”的 workflow。
+- 由于本周已无剩余 `planned`，按最小必要更新从 backlog 中补入一个前置已满足的 ready 条目：`Result` 错误类型与 `anyhow::Result`。
+- 今日只引入一个目标：理解 `anyhow::Result<T>` 可以把原本常写的 `Result<T, anyhow::Error>` 缩短成更易读的统一错误返回类型，为后面读 Codex CLI 的 `main.rs` 铺路。
+
+状态更新：
+
+- `knowledge-status.md` 当前待完成已更新为 `Result` 错误类型与 `anyhow::Result`。
+- `weekly-plan.md` 已将该知识点补入当前周计划并标记为 `pending`。
+
+今日收获：
+
+- 很多 Rust 工程不会在每个函数里手写很长的错误类型，而是用 `anyhow::Result<T>` 表示“成功时给你 `T`，失败时给你一个统一错误类型”。
+- 这一步仍然是 `Result` 思维的延伸，不是新的一整套错误处理体系；先看懂“为什么要统一错误类型”，后面再谈更细的错误转换。
+
+完成确认：
+
+- 用户已回复“后续学到相关内容再说吧，今天的学完了”，已将 `Result` 错误类型与 `anyhow::Result` 从 `pending` 更新为 `done`，完成日期 2026-06-26。
+- 已按项目规则执行 PersonalOS habit 同步命令，记录 `每日学习 Rust 常用语法` 在 2026-06-26 完成。
+
+用户收获：
+
+- `!` 表示宏调用。相较于普通函数，宏可以在编译期展开，做到一些普通函数不方便或做不到的事情。
+- `anyhow::anyhow!` 构造出的 `anyhow::Error` 实现了 `Display`，所以可以用 `{}` 打印。
 
 ### 2026-06-25：推进 `Option` 到 `Result` 的桥接
 
